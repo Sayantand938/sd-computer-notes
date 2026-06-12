@@ -1,6 +1,6 @@
 import { Check } from 'lucide-react';
 
-function QuestionCard({ question, index }) {
+function QuestionCard({ question, index, showAnswers }) {
     return (
         <div className="border-b border-gray-100 pb-6">
             <div className="mb-4">
@@ -26,8 +26,8 @@ function QuestionCard({ question, index }) {
                             <div className="text-sm text-black opacity-80">
                                 {optionText}
                             </div>
-                            {isCorrect && (
-                                <Check className="w-3.5 h-3.5 text-green-600" />
+                            {showAnswers && isCorrect && (
+                                <Check className="w-3.5 h-3.5 text-black opacity-60" />
                             )}
                         </div>
                     );

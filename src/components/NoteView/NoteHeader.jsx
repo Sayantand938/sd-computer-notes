@@ -18,10 +18,10 @@ function NoteHeader({ noteName, onBack, onPrint }) {
 
                 <button
                     onClick={onPrint}
-                    className="flex items-center gap-1.5 text-sm text-black opacity-60 hover:opacity-100 transition-opacity"
+                    className="text-black opacity-60 hover:opacity-100 transition-opacity p-1"
+                    title="Print"
                 >
                     <Printer className="w-4 h-4" />
-                    <span>Print</span>
                 </button>
             </div>
         </header>
