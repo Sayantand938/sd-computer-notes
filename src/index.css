@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&display=swap');
 @import "tailwindcss";
+@import "./print.css";
 
 @theme {
   --font-mono: "JetBrains Mono", monospace;
@@ -187,6 +188,21 @@ pre code {
   padding: 0;
 }
 
+/* Mermaid diagram styles */
+.mermaid {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 1.5em 0;
+  border-radius: 0.5rem;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Buttons */
 button {
   font-weight: 500 !important;
@@ -214,38 +230,4 @@ button:hover {
 .min-h-screen {
   min-height: 100vh;
   min-height: 100dvh;
-}
-
-/* Print styles */
-@media print {
-
-  header,
-  footer,
-  button {
-    display: none !important;
-  }
-
-  main {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-
-  pre {
-    background-color: #f3f4f6 !important;
-    border: 1px solid #e5e7eb !important;
-    page-break-inside: avoid;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4 {
-    page-break-after: avoid;
-  }
-
-  p,
-  li,
-  pre {
-    page-break-inside: avoid;
-  }
 }

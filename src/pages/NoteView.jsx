@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { ArrowLeft, Printer } from 'lucide-react';
+import { rehypeMermaid, MermaidBlock } from 'react-markdown-mermaid';
 
 function NoteView() {
     const location = useLocation();
@@ -48,96 +49,6 @@ function NoteView() {
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [navigate]);
 
-    const handlePrint = () => {
-        const printWindow = window.open('', '_blank');
-        const markdownContent = document.querySelector('.markdown-content');
-
-        if (markdownContent && printWindow) {
-            printWindow.document.write(`
-        <!DOCTYPE html>
-        <html>
-          <head>
-            <title>${noteName || 'Note'} - Print</title>
-            <style>
-              @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&display=swap');
-              
-              * {
-                font-family: 'JetBrains Mono', monospace !important;
-                font-weight: 500 !important;
-                color: #000000 !important;
-              }
-              
-              body {
-                padding: 2rem;
-                max-width: 800px;
-                margin: 0 auto;
-                background: white;
-              }
-              
-              h1, h2, h3, h4 {
-                font-weight: 700 !important;
-                margin-top: 1.5rem;
-                margin-bottom: 0.5rem;
-              }
-              
-              strong, b {
-                font-weight: 800 !important;
-              }
-              
-              p, li {
-                font-weight: 500 !important;
-                line-height: 1.6;
-              }
-              
-              pre {
-                background: #1a1a1a !important;
-                padding: 1rem !important;
-                border-radius: 0.5rem !important;
-                overflow-x: auto !important;
-                margin: 1rem 0 !important;
-              }
-              
-              pre code {
-                color: #e5e7eb !important;
-                font-weight: 500 !important;
-              }
-              
-              table {
-                border-collapse: collapse;
-                width: 100%;
-                margin: 1rem 0;
-              }
-              
-              th, td {
-                border: 1px solid #e5e7eb;
-                padding: 0.5rem;
-                text-align: left;
-              }
-              
-              th {
-                background: #f3f4f6;
-                font-weight: 700;
-              }
-            </style>
-          </head>
-          <body>
-            <div class="markdown-content">
-              ${markdownContent.innerHTML}
-            </div>
-            <script>
-              window.onload = () => {
-                window.print();
-                window.onafterprint = () => window.close();
-              }
-            <\/script>
-          </body>
-        </html>
-      `);
-
-            printWindow.document.close();
-        }
-    };
-
     if (!noteFile) {
         return null;
     }
@@ -159,7 +70,7 @@ function NoteView() {
                     </span>
 
                     <button
-                        onClick={handlePrint}
+                        onClick={() => window.print()}
                         className="flex items-center gap-1.5 text-sm text-black opacity-60 hover:opacity-100 transition-opacity"
                     >
                         <Printer className="w-4 h-4" />
@@ -178,7 +89,9 @@ function NoteView() {
                         <div className="markdown-content">
                             <ReactMarkdown
                                 remarkPlugins={[remarkGfm]}
+                                rehypePlugins={[[rehypeMermaid, { mermaidConfig: { theme: 'default', startOnLoad: true } }]]}
                                 components={{
+                                    MermaidBlock: MermaidBlock,
                                     code({ node, inline, className, children, ...props }) {
                                         const match = /language-(\w+)/.exec(className || '');
                                         const language = match ? match[1] : '';

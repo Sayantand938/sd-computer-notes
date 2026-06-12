@@ -1,0 +1,1172 @@
+[
+    {
+        "sl": 1,
+        "question": "An instruction is:",
+        "op1": "A set of programs",
+        "op2": "A single command given to a computer",
+        "op3": "A programming language",
+        "op4": "A software package",
+        "answer": 2
+    },
+    {
+        "sl": 2,
+        "question": "A program is:",
+        "op1": "A collection of instructions",
+        "op2": "A single instruction",
+        "op3": "A hardware device",
+        "op4": "An operating system",
+        "answer": 1
+    },
+    {
+        "sl": 3,
+        "question": "Which of the following is an example of an instruction?",
+        "op1": "PRINT 'HELLO'",
+        "op2": "MS Excel",
+        "op3": "Linux",
+        "op4": "Google Chrome",
+        "answer": 1
+    },
+    {
+        "sl": 4,
+        "question": "The main purpose of a program is to:",
+        "op1": "Store hardware",
+        "op2": "Execute a sequence of tasks",
+        "op3": "Manufacture computers",
+        "op4": "Replace memory",
+        "answer": 2
+    },
+    {
+        "sl": 5,
+        "question": "A programming language is used to:",
+        "op1": "Communicate with computers",
+        "op2": "Repair hardware",
+        "op3": "Design keyboards",
+        "op4": "Store electricity",
+        "answer": 1
+    },
+    {
+        "sl": 6,
+        "question": "Machine language is also known as:",
+        "op1": "High-level language",
+        "op2": "Assembly language",
+        "op3": "Low-level language",
+        "op4": "Procedural language",
+        "answer": 3
+    },
+    {
+        "sl": 7,
+        "question": "Which language is closest to computer hardware?",
+        "op1": "Python",
+        "op2": "Java",
+        "op3": "Machine language",
+        "op4": "BASIC",
+        "answer": 3
+    },
+    {
+        "sl": 8,
+        "question": "Machine language instructions are written in:",
+        "op1": "English words",
+        "op2": "Binary digits",
+        "op3": "Mathematical symbols",
+        "op4": "Flowcharts",
+        "answer": 2
+    },
+    {
+        "sl": 9,
+        "question": "Which of the following is a high-level language?",
+        "op1": "Binary",
+        "op2": "Assembly",
+        "op3": "Python",
+        "op4": "Machine code",
+        "answer": 3
+    },
+    {
+        "sl": 10,
+        "question": "Assembly language uses:",
+        "op1": "Mnemonics",
+        "op2": "Only binary numbers",
+        "op3": "Circuit diagrams",
+        "op4": "Hardware components",
+        "answer": 1
+    },
+    {
+        "sl": 11,
+        "question": "A translator used for assembly language is called:",
+        "op1": "Compiler",
+        "op2": "Interpreter",
+        "op3": "Assembler",
+        "op4": "Debugger",
+        "answer": 3
+    },
+    {
+        "sl": 12,
+        "question": "Which language is easier for humans to understand?",
+        "op1": "Machine language",
+        "op2": "Assembly language",
+        "op3": "High-level language",
+        "op4": "Binary language",
+        "answer": 3
+    },
+    {
+        "sl": 13,
+        "question": "C language is an example of:",
+        "op1": "Machine language",
+        "op2": "Assembly language",
+        "op3": "High-level language",
+        "op4": "Hardware language",
+        "answer": 3
+    },
+    {
+        "sl": 14,
+        "question": "Java is classified as:",
+        "op1": "High-level language",
+        "op2": "Machine language",
+        "op3": "Assembly language",
+        "op4": "Firmware",
+        "answer": 1
+    },
+    {
+        "sl": 15,
+        "question": "Which language requires the least translation before execution?",
+        "op1": "Python",
+        "op2": "Java",
+        "op3": "Machine language",
+        "op4": "C++",
+        "answer": 3
+    },
+    {
+        "sl": 16,
+        "question": "Procedural programming focuses on:",
+        "op1": "Objects",
+        "op2": "Functions and procedures",
+        "op3": "Graphics",
+        "op4": "Hardware",
+        "answer": 2
+    },
+    {
+        "sl": 17,
+        "question": "Which language mainly supports procedural programming?",
+        "op1": "C",
+        "op2": "HTML",
+        "op3": "XML",
+        "op4": "CSS",
+        "answer": 1
+    },
+    {
+        "sl": 18,
+        "question": "In procedural programming, a problem is divided into:",
+        "op1": "Objects",
+        "op2": "Modules or functions",
+        "op3": "Devices",
+        "op4": "Networks",
+        "answer": 2
+    },
+    {
+        "sl": 19,
+        "question": "Non-procedural programming is also known as:",
+        "op1": "Declarative programming",
+        "op2": "Binary programming",
+        "op3": "Machine programming",
+        "op4": "Hardware programming",
+        "answer": 1
+    },
+    {
+        "sl": 20,
+        "question": "In non-procedural programming, the programmer specifies:",
+        "op1": "How to do the task",
+        "op2": "What result is needed",
+        "op3": "The hardware details",
+        "op4": "The processor speed",
+        "answer": 2
+    },
+    {
+        "sl": 21,
+        "question": "Structured programming emphasizes:",
+        "op1": "Unrestricted GOTO statements",
+        "op2": "Clear and organized code",
+        "op3": "Hardware design",
+        "op4": "Network communication",
+        "answer": 2
+    },
+    {
+        "sl": 22,
+        "question": "Structured programming improves:",
+        "op1": "Program readability",
+        "op2": "Monitor size",
+        "op3": "Printer speed",
+        "op4": "Power supply",
+        "answer": 1
+    },
+    {
+        "sl": 23,
+        "question": "Which control structure is commonly used in structured programming?",
+        "op1": "Sequence",
+        "op2": "Selection",
+        "op3": "Iteration",
+        "op4": "All of these",
+        "answer": 4
+    },
+    {
+        "sl": 24,
+        "question": "Object-Oriented Programming is commonly abbreviated as:",
+        "op1": "OPP",
+        "op2": "OOP",
+        "op3": "OOPSY",
+        "op4": "OPT",
+        "answer": 2
+    },
+    {
+        "sl": 25,
+        "question": "OOP is based on the concept of:",
+        "op1": "Objects",
+        "op2": "Registers",
+        "op3": "Processors",
+        "op4": "Compilers",
+        "answer": 1
+    },
+    {
+        "sl": 26,
+        "question": "An object contains:",
+        "op1": "Data and methods",
+        "op2": "Only data",
+        "op3": "Only methods",
+        "op4": "Only instructions",
+        "answer": 1
+    },
+    {
+        "sl": 27,
+        "question": "A class is:",
+        "op1": "An object",
+        "op2": "A blueprint for objects",
+        "op3": "A compiler",
+        "op4": "A hardware component",
+        "answer": 2
+    },
+    {
+        "sl": 28,
+        "question": "Which language supports OOP?",
+        "op1": "C++",
+        "op2": "Java",
+        "op3": "Python",
+        "op4": "All of these",
+        "answer": 4
+    },
+    {
+        "sl": 29,
+        "question": "The process of hiding internal details is called:",
+        "op1": "Inheritance",
+        "op2": "Encapsulation",
+        "op3": "Compilation",
+        "op4": "Linking",
+        "answer": 2
+    },
+    {
+        "sl": 30,
+        "question": "Inheritance allows:",
+        "op1": "Creation of new classes from existing classes",
+        "op2": "Deletion of objects",
+        "op3": "Formatting code",
+        "op4": "Translating programs",
+        "answer": 1
+    },
+    {
+        "sl": 31,
+        "question": "Which language is machine dependent?",
+        "op1": "Python",
+        "op2": "Machine language",
+        "op3": "Java",
+        "op4": "C#",
+        "answer": 2
+    },
+    {
+        "sl": 32,
+        "question": "The symbol ADD used in assembly language is called:",
+        "op1": "Opcode mnemonic",
+        "op2": "Variable",
+        "op3": "Class",
+        "op4": "Object",
+        "answer": 1
+    },
+    {
+        "sl": 33,
+        "question": "A compiler translates:",
+        "op1": "Entire program at once",
+        "op2": "One line at a time",
+        "op3": "Only comments",
+        "op4": "Hardware signals",
+        "answer": 1
+    },
+    {
+        "sl": 34,
+        "question": "An interpreter translates:",
+        "op1": "Entire program at once",
+        "op2": "Line by line",
+        "op3": "Binary to assembly",
+        "op4": "Hardware circuits",
+        "answer": 2
+    },
+    {
+        "sl": 35,
+        "question": "Which is NOT a programming language?",
+        "op1": "Python",
+        "op2": "Java",
+        "op3": "Windows",
+        "op4": "C++",
+        "answer": 3
+    },
+    {
+        "sl": 36,
+        "question": "The language most difficult for humans to understand is:",
+        "op1": "Python",
+        "op2": "Assembly",
+        "op3": "Machine language",
+        "op4": "C",
+        "answer": 3
+    },
+    {
+        "sl": 37,
+        "question": "Which programming approach focuses on step-by-step procedures?",
+        "op1": "Object-oriented",
+        "op2": "Procedural",
+        "op3": "Declarative",
+        "op4": "Visual",
+        "answer": 2
+    },
+    {
+        "sl": 38,
+        "question": "Structured programming discourages excessive use of:",
+        "op1": "Functions",
+        "op2": "Loops",
+        "op3": "GOTO statements",
+        "op4": "Variables",
+        "answer": 3
+    },
+    {
+        "sl": 39,
+        "question": "The primary goal of OOP is:",
+        "op1": "Hardware management",
+        "op2": "Code reusability and modularity",
+        "op3": "Increasing monitor size",
+        "op4": "Reducing memory chips",
+        "answer": 2
+    },
+    {
+        "sl": 40,
+        "question": "Which one is a low-level language?",
+        "op1": "Machine language",
+        "op2": "Python",
+        "op3": "Java",
+        "op4": "Pascal",
+        "answer": 1
+    },
+    {
+        "sl": 41,
+        "question": "A set of meaningful instructions forms a:",
+        "op1": "Program",
+        "op2": "Object",
+        "op3": "Class",
+        "op4": "Network",
+        "answer": 1
+    },
+    {
+        "sl": 42,
+        "question": "The language easiest to write and debug is:",
+        "op1": "High-level language",
+        "op2": "Machine language",
+        "op3": "Assembly language",
+        "op4": "Binary language",
+        "answer": 1
+    },
+    {
+        "sl": 43,
+        "question": "Which of the following is NOT an OOP feature?",
+        "op1": "Inheritance",
+        "op2": "Encapsulation",
+        "op3": "Polymorphism",
+        "op4": "Flowcharting",
+        "answer": 4
+    },
+    {
+        "sl": 44,
+        "question": "A procedural program is generally organized around:",
+        "op1": "Functions",
+        "op2": "Objects",
+        "op3": "Classes",
+        "op4": "Tables",
+        "answer": 1
+    },
+    {
+        "sl": 45,
+        "question": "Programs are written to solve:",
+        "op1": "Problems",
+        "op2": "Networks",
+        "op3": "Viruses",
+        "op4": "Processors",
+        "answer": 1
+    },
+    {
+        "sl": 46,
+        "question": "Which language is more user-friendly?",
+        "op1": "Machine language",
+        "op2": "High-level language",
+        "op3": "Binary language",
+        "op4": "Microcode",
+        "answer": 2
+    },
+    {
+        "sl": 47,
+        "question": "The first generation programming language is:",
+        "op1": "Machine language",
+        "op2": "Assembly language",
+        "op3": "C language",
+        "op4": "Java",
+        "answer": 1
+    },
+    {
+        "sl": 48,
+        "question": "Assembly language belongs to:",
+        "op1": "Second generation",
+        "op2": "Third generation",
+        "op3": "Fourth generation",
+        "op4": "Fifth generation",
+        "answer": 1
+    },
+    {
+        "sl": 49,
+        "question": "The output of an assembler is:",
+        "op1": "Machine code",
+        "op2": "English text",
+        "op3": "Flowchart",
+        "op4": "Object diagram",
+        "answer": 1
+    },
+    {
+        "sl": 50,
+        "question": "Which is an advantage of structured programming?",
+        "op1": "Difficult maintenance",
+        "op2": "Better readability",
+        "op3": "More errors",
+        "op4": "Poor documentation",
+        "answer": 2
+    },
+    {
+        "sl": 51,
+        "question": "Which programming paradigm is based on real-world entities?",
+        "op1": "Procedural Programming",
+        "op2": "Structured Programming",
+        "op3": "Object-Oriented Programming",
+        "op4": "Assembly Programming",
+        "answer": 3
+    },
+    {
+        "sl": 52,
+        "question": "A computer executes a program by following:",
+        "op1": "Instructions",
+        "op2": "Pictures",
+        "op3": "Animations",
+        "op4": "Networks",
+        "answer": 1
+    },
+    {
+        "sl": 53,
+        "question": "Which of the following is NOT a high-level language?",
+        "op1": "Python",
+        "op2": "Java",
+        "op3": "Assembly Language",
+        "op4": "C++",
+        "answer": 3
+    },
+    {
+        "sl": 54,
+        "question": "The language directly understood by a computer is:",
+        "op1": "C",
+        "op2": "Java",
+        "op3": "Machine Language",
+        "op4": "Python",
+        "answer": 3
+    },
+    {
+        "sl": 55,
+        "question": "A program written in assembly language requires:",
+        "op1": "Compiler",
+        "op2": "Assembler",
+        "op3": "Interpreter",
+        "op4": "Editor",
+        "answer": 2
+    },
+    {
+        "sl": 56,
+        "question": "Which is a characteristic of procedural programming?",
+        "op1": "Use of classes",
+        "op2": "Use of functions",
+        "op3": "Use of objects",
+        "op4": "Use of inheritance",
+        "answer": 2
+    },
+    {
+        "sl": 57,
+        "question": "In OOP, data and methods are combined into:",
+        "op1": "Instruction",
+        "op2": "Procedure",
+        "op3": "Object",
+        "op4": "Algorithm",
+        "answer": 3
+    },
+    {
+        "sl": 58,
+        "question": "Which feature allows one class to acquire properties of another?",
+        "op1": "Encapsulation",
+        "op2": "Inheritance",
+        "op3": "Compilation",
+        "op4": "Iteration",
+        "answer": 2
+    },
+    {
+        "sl": 59,
+        "question": "The main advantage of high-level languages is:",
+        "op1": "Machine dependency",
+        "op2": "Ease of programming",
+        "op3": "Binary coding",
+        "op4": "No translation needed",
+        "answer": 2
+    },
+    {
+        "sl": 60,
+        "question": "Which programming style focuses on 'what to do' rather than 'how to do'?",
+        "op1": "Procedural",
+        "op2": "Structured",
+        "op3": "Non-procedural",
+        "op4": "Assembly",
+        "answer": 3
+    },
+    {
+        "sl": 61,
+        "question": "An example of a high-level programming language is:",
+        "op1": "Binary",
+        "op2": "Machine Code",
+        "op3": "Python",
+        "op4": "Assembly",
+        "answer": 3
+    },
+    {
+        "sl": 62,
+        "question": "Structured programming mainly helps in:",
+        "op1": "Increasing hardware cost",
+        "op2": "Writing organized programs",
+        "op3": "Reducing storage devices",
+        "op4": "Changing operating systems",
+        "answer": 2
+    },
+    {
+        "sl": 63,
+        "question": "A class can be defined as:",
+        "op1": "An instance of an object",
+        "op2": "A blueprint of objects",
+        "op3": "A hardware component",
+        "op4": "A compiler",
+        "answer": 2
+    },
+    {
+        "sl": 64,
+        "question": "Which of the following is machine dependent?",
+        "op1": "Java",
+        "op2": "Python",
+        "op3": "Machine Language",
+        "op4": "C++",
+        "answer": 3
+    },
+    {
+        "sl": 65,
+        "question": "The abbreviation OOP stands for:",
+        "op1": "Object Oriented Programming",
+        "op2": "Object Organized Process",
+        "op3": "Online Oriented Programming",
+        "op4": "Object Operating Program",
+        "answer": 1
+    },
+    {
+        "sl": 66,
+        "question": "Which language uses mnemonics like MOV and ADD?",
+        "op1": "Python",
+        "op2": "Java",
+        "op3": "Assembly Language",
+        "op4": "C++",
+        "answer": 3
+    },
+    {
+        "sl": 67,
+        "question": "A translator program is needed because:",
+        "op1": "Computers understand only machine language",
+        "op2": "Programs are too short",
+        "op3": "Computers understand English",
+        "op4": "Programs are hardware devices",
+        "answer": 1
+    },
+    {
+        "sl": 68,
+        "question": "Which of the following is an example of procedural language?",
+        "op1": "C",
+        "op2": "HTML",
+        "op3": "XML",
+        "op4": "SQL",
+        "answer": 1
+    },
+    {
+        "sl": 69,
+        "question": "The sequence of instructions in a program should be:",
+        "op1": "Random",
+        "op2": "Logical",
+        "op3": "Unorganized",
+        "op4": "Invisible",
+        "answer": 2
+    },
+    {
+        "sl": 70,
+        "question": "The concept of hiding data in OOP is called:",
+        "op1": "Inheritance",
+        "op2": "Encapsulation",
+        "op3": "Compilation",
+        "op4": "Debugging",
+        "answer": 2
+    },
+    {
+        "sl": 71,
+        "question": "Which of the following is not a feature of structured programming?",
+        "op1": "Modularity",
+        "op2": "Readability",
+        "op3": "Frequent use of GOTO",
+        "op4": "Maintainability",
+        "answer": 3
+    },
+    {
+        "sl": 72,
+        "question": "A set of related functions is often called a:",
+        "op1": "Module",
+        "op2": "Monitor",
+        "op3": "Processor",
+        "op4": "Network",
+        "answer": 1
+    },
+    {
+        "sl": 73,
+        "question": "Which programming language is platform independent to a large extent?",
+        "op1": "Machine Language",
+        "op2": "Java",
+        "op3": "Assembly",
+        "op4": "Binary",
+        "answer": 2
+    },
+    {
+        "sl": 74,
+        "question": "Object-oriented programming improves:",
+        "op1": "Code reusability",
+        "op2": "Keyboard speed",
+        "op3": "Monitor resolution",
+        "op4": "Printer quality",
+        "answer": 1
+    },
+    {
+        "sl": 75,
+        "question": "The smallest executable command in a program is called:",
+        "op1": "Instruction",
+        "op2": "Program",
+        "op3": "Class",
+        "op4": "Object",
+        "answer": 1
+    },
+    {
+        "sl": 76,
+        "question": "Which is not a programming language?",
+        "op1": "Python",
+        "op2": "Java",
+        "op3": "Windows",
+        "op4": "C",
+        "answer": 3
+    },
+    {
+        "sl": 77,
+        "question": "Machine language consists of:",
+        "op1": "English words",
+        "op2": "Binary digits",
+        "op3": "Graphics",
+        "op4": "Charts",
+        "answer": 2
+    },
+    {
+        "sl": 78,
+        "question": "A major drawback of machine language is:",
+        "op1": "Easy debugging",
+        "op2": "Difficult to understand",
+        "op3": "Machine independence",
+        "op4": "High readability",
+        "answer": 2
+    },
+    {
+        "sl": 79,
+        "question": "The use of functions helps in:",
+        "op1": "Modularity",
+        "op2": "Hardware design",
+        "op3": "Printing",
+        "op4": "Networking",
+        "answer": 1
+    },
+    {
+        "sl": 80,
+        "question": "Which of the following is a benefit of OOP?",
+        "op1": "Code duplication",
+        "op2": "Reusability",
+        "op3": "Machine dependency",
+        "op4": "Complexity",
+        "answer": 2
+    },
+    {
+        "sl": 81,
+        "question": "A procedural program is executed:",
+        "op1": "Randomly",
+        "op2": "Step by step",
+        "op3": "Backwards",
+        "op4": "Without instructions",
+        "answer": 2
+    },
+    {
+        "sl": 82,
+        "question": "Which language is closest to machine language?",
+        "op1": "Java",
+        "op2": "Python",
+        "op3": "Assembly Language",
+        "op4": "BASIC",
+        "answer": 3
+    },
+    {
+        "sl": 83,
+        "question": "An example of a procedural programming language is:",
+        "op1": "C",
+        "op2": "HTML",
+        "op3": "XML",
+        "op4": "JSON",
+        "answer": 1
+    },
+    {
+        "sl": 84,
+        "question": "Which programming approach uses classes and objects?",
+        "op1": "Procedural",
+        "op2": "Structured",
+        "op3": "Object-Oriented",
+        "op4": "Assembly",
+        "answer": 3
+    },
+    {
+        "sl": 85,
+        "question": "The process of finding and correcting errors is called:",
+        "op1": "Debugging",
+        "op2": "Encoding",
+        "op3": "Linking",
+        "op4": "Formatting",
+        "answer": 1
+    },
+    {
+        "sl": 86,
+        "question": "Programs written in high-level languages require:",
+        "op1": "Translator",
+        "op2": "Keyboard",
+        "op3": "Monitor",
+        "op4": "Scanner",
+        "answer": 1
+    },
+    {
+        "sl": 87,
+        "question": "Which of the following best defines a program?",
+        "op1": "A set of instructions",
+        "op2": "A hardware device",
+        "op3": "A network connection",
+        "op4": "A database",
+        "answer": 1
+    },
+    {
+        "sl": 88,
+        "question": "Assembly language is easier than machine language because it uses:",
+        "op1": "Binary codes",
+        "op2": "Mnemonics",
+        "op3": "Graphics",
+        "op4": "Hardware signals",
+        "answer": 2
+    },
+    {
+        "sl": 89,
+        "question": "Which feature of OOP allows one interface to have many forms?",
+        "op1": "Encapsulation",
+        "op2": "Inheritance",
+        "op3": "Polymorphism",
+        "op4": "Compilation",
+        "answer": 3
+    },
+    {
+        "sl": 90,
+        "question": "A computer program is stored in:",
+        "op1": "Memory",
+        "op2": "Keyboard",
+        "op3": "Mouse",
+        "op4": "Monitor",
+        "answer": 1
+    },
+    {
+        "sl": 91,
+        "question": "The main objective of structured programming is:",
+        "op1": "Organized coding",
+        "op2": "Increasing hardware",
+        "op3": "Removing software",
+        "op4": "Changing processors",
+        "answer": 1
+    },
+    {
+        "sl": 92,
+        "question": "Which of the following belongs to low-level languages?",
+        "op1": "Machine Language",
+        "op2": "Python",
+        "op3": "Java",
+        "op4": "Pascal",
+        "answer": 1
+    },
+    {
+        "sl": 93,
+        "question": "A programmer writes source code using:",
+        "op1": "Programming language",
+        "op2": "Hardware",
+        "op3": "Network cable",
+        "op4": "Printer",
+        "answer": 1
+    },
+    {
+        "sl": 94,
+        "question": "Which programming paradigm emphasizes modular design?",
+        "op1": "Structured Programming",
+        "op2": "Machine Language",
+        "op3": "Binary Coding",
+        "op4": "Microprogramming",
+        "answer": 1
+    },
+    {
+        "sl": 95,
+        "question": "A class is created before creating:",
+        "op1": "Objects",
+        "op2": "Functions",
+        "op3": "Instructions",
+        "op4": "Compilers",
+        "answer": 1
+    },
+    {
+        "sl": 96,
+        "question": "The language most suitable for beginners is generally:",
+        "op1": "Machine Language",
+        "op2": "Assembly Language",
+        "op3": "High-Level Language",
+        "op4": "Binary Language",
+        "answer": 3
+    },
+    {
+        "sl": 97,
+        "question": "Which of the following is NOT an advantage of OOP?",
+        "op1": "Reusability",
+        "op2": "Modularity",
+        "op3": "Code duplication",
+        "op4": "Maintainability",
+        "answer": 3
+    },
+    {
+        "sl": 98,
+        "question": "In programming, a task is completed by executing:",
+        "op1": "Instructions",
+        "op2": "Monitors",
+        "op3": "Networks",
+        "op4": "Printers",
+        "answer": 1
+    },
+    {
+        "sl": 99,
+        "question": "Which language requires an assembler for translation?",
+        "op1": "Python",
+        "op2": "Java",
+        "op3": "Assembly Language",
+        "op4": "C++",
+        "answer": 3
+    },
+    {
+        "sl": 100,
+        "question": "Which programming paradigm is most associated with classes and inheritance?",
+        "op1": "Procedural Programming",
+        "op2": "Object-Oriented Programming",
+        "op3": "Machine Programming",
+        "op4": "Assembly Programming",
+        "answer": 2
+    },
+    {
+        "sl": 101,
+        "question": "In non-procedural programming, the programmer specifies:",
+        "op1": "How to solve the problem",
+        "op2": "What result is required",
+        "op3": "Hardware details",
+        "op4": "Memory locations",
+        "answer": 2
+    },
+    {
+        "sl": 102,
+        "question": "Non-procedural programming is also called:",
+        "op1": "Declarative Programming",
+        "op2": "Structured Programming",
+        "op3": "Machine Programming",
+        "op4": "Assembly Programming",
+        "answer": 1
+    },
+    {
+        "sl": 103,
+        "question": "Which of the following is an example of a non-procedural language?",
+        "op1": "C",
+        "op2": "Pascal",
+        "op3": "SQL",
+        "op4": "Assembly",
+        "answer": 3
+    },
+    {
+        "sl": 104,
+        "question": "Which programming style focuses on describing the desired output?",
+        "op1": "Procedural",
+        "op2": "Non-Procedural",
+        "op3": "Machine",
+        "op4": "Assembly",
+        "answer": 2
+    },
+    {
+        "sl": 105,
+        "question": "Procedural programming emphasizes:",
+        "op1": "Objects",
+        "op2": "Results only",
+        "op3": "Sequence of steps",
+        "op4": "Database queries",
+        "answer": 3
+    },
+    {
+        "sl": 106,
+        "question": "Which language is commonly used for database queries?",
+        "op1": "C",
+        "op2": "Java",
+        "op3": "SQL",
+        "op4": "Assembly",
+        "answer": 3
+    },
+    {
+        "sl": 107,
+        "question": "The statement 'SELECT * FROM STUDENT' is an example of:",
+        "op1": "Procedural programming",
+        "op2": "Machine language",
+        "op3": "Non-procedural programming",
+        "op4": "Assembly language",
+        "answer": 3
+    },
+    {
+        "sl": 108,
+        "question": "Which is easier for expressing database operations?",
+        "op1": "Machine Language",
+        "op2": "Assembly Language",
+        "op3": "Non-Procedural Language",
+        "op4": "Binary Language",
+        "answer": 3
+    },
+    {
+        "sl": 109,
+        "question": "In procedural programming, program control is determined by:",
+        "op1": "The system",
+        "op2": "The programmer",
+        "op3": "The database",
+        "op4": "The compiler",
+        "answer": 2
+    },
+    {
+        "sl": 110,
+        "question": "Which programming approach generally requires fewer lines of code for database tasks?",
+        "op1": "Machine",
+        "op2": "Assembly",
+        "op3": "Non-Procedural",
+        "op4": "Binary",
+        "answer": 3
+    },
+    {
+        "sl": 111,
+        "question": "High-level languages are generally:",
+        "op1": "Machine dependent",
+        "op2": "Machine independent",
+        "op3": "Written in binary",
+        "op4": "Hardware specific",
+        "answer": 2
+    },
+    {
+        "sl": 112,
+        "question": "Which language is most portable?",
+        "op1": "Machine Language",
+        "op2": "Assembly Language",
+        "op3": "High-Level Language",
+        "op4": "Microcode",
+        "answer": 3
+    },
+    {
+        "sl": 113,
+        "question": "A disadvantage of machine language is:",
+        "op1": "Fast execution",
+        "op2": "Difficult coding",
+        "op3": "No translation required",
+        "op4": "Direct execution",
+        "answer": 2
+    },
+    {
+        "sl": 114,
+        "question": "Which language is easier to modify and maintain?",
+        "op1": "Machine Language",
+        "op2": "High-Level Language",
+        "op3": "Binary Code",
+        "op4": "Microcode",
+        "answer": 2
+    },
+    {
+        "sl": 115,
+        "question": "Machine language instructions are represented using:",
+        "op1": "English words",
+        "op2": "Mnemonics",
+        "op3": "0s and 1s",
+        "op4": "Flowcharts",
+        "answer": 3
+    },
+    {
+        "sl": 116,
+        "question": "Assembly language instructions are represented using:",
+        "op1": "Binary numbers",
+        "op2": "Mnemonics",
+        "op3": "Natural language",
+        "op4": "Graphics",
+        "answer": 2
+    },
+    {
+        "sl": 117,
+        "question": "Which is easier to understand?",
+        "op1": "Machine Language",
+        "op2": "Assembly Language",
+        "op3": "Both equally",
+        "op4": "Neither",
+        "answer": 2
+    },
+    {
+        "sl": 118,
+        "question": "The mnemonic MOV in assembly language generally means:",
+        "op1": "Multiply",
+        "op2": "Move data",
+        "op3": "Modify",
+        "op4": "Monitor",
+        "answer": 2
+    },
+    {
+        "sl": 119,
+        "question": "Assembly language is translated by:",
+        "op1": "Interpreter",
+        "op2": "Compiler",
+        "op3": "Assembler",
+        "op4": "Loader",
+        "answer": 3
+    },
+    {
+        "sl": 120,
+        "question": "Which language is more user-friendly?",
+        "op1": "Machine Language",
+        "op2": "Assembly Language",
+        "op3": "Both",
+        "op4": "Neither",
+        "answer": 2
+    },
+    {
+        "sl": 121,
+        "question": "Structured programming promotes:",
+        "op1": "Spaghetti code",
+        "op2": "Organized code",
+        "op3": "Random execution",
+        "op4": "Uncontrolled jumps",
+        "answer": 2
+    },
+    {
+        "sl": 122,
+        "question": "Which control structure is NOT part of structured programming?",
+        "op1": "Sequence",
+        "op2": "Selection",
+        "op3": "Iteration",
+        "op4": "Unlimited GOTO",
+        "answer": 4
+    },
+    {
+        "sl": 123,
+        "question": "Structured programming makes programs easier to:",
+        "op1": "Maintain",
+        "op2": "Damage",
+        "op3": "Delete",
+        "op4": "Encrypt",
+        "answer": 1
+    },
+    {
+        "sl": 124,
+        "question": "Breaking a program into smaller modules is called:",
+        "op1": "Compilation",
+        "op2": "Modularization",
+        "op3": "Debugging",
+        "op4": "Linking",
+        "answer": 2
+    },
+    {
+        "sl": 125,
+        "question": "A major objective of structured programming is:",
+        "op1": "Reduce readability",
+        "op2": "Increase complexity",
+        "op3": "Improve program quality",
+        "op4": "Increase hardware cost",
+        "answer": 3
+    },
+    {
+        "sl": 126,
+        "question": "In OOP, an object is an instance of a:",
+        "op1": "Function",
+        "op2": "Class",
+        "op3": "Compiler",
+        "op4": "Program",
+        "answer": 2
+    },
+    {
+        "sl": 127,
+        "question": "Which OOP feature improves code reuse?",
+        "op1": "Inheritance",
+        "op2": "Debugging",
+        "op3": "Compilation",
+        "op4": "Linking",
+        "answer": 1
+    },
+    {
+        "sl": 128,
+        "question": "A student object may belong to which class?",
+        "op1": "Student",
+        "op2": "Integer",
+        "op3": "Compiler",
+        "op4": "Assembler",
+        "answer": 1
+    },
+    {
+        "sl": 129,
+        "question": "Which OOP feature protects data from direct access?",
+        "op1": "Inheritance",
+        "op2": "Encapsulation",
+        "op3": "Polymorphism",
+        "op4": "Compilation",
+        "answer": 2
+    },
+    {
+        "sl": 130,
+        "question": "Which of the following best represents real-world modeling?",
+        "op1": "Machine Language",
+        "op2": "Assembly Language",
+        "op3": "Object-Oriented Programming",
+        "op4": "Binary Coding",
+        "answer": 3
+    }
+]

@@ -1,0 +1,33 @@
+{
+  "notes": [
+    {
+      "id": "c-programming",
+      "file": "c-programming.md",
+      "name": "C Programming",
+      "type": "note",
+      "order": 1
+    },
+    {
+      "id": "javascript",
+      "file": "javascript.md",
+      "name": "Javascript",
+      "type": "note",
+      "order": 2
+    }
+  ],
+  "questions": [
+    {
+      "id": "2026-06-12",
+      "file": "2026-06-12.json",
+      "name": "2026 06 12",
+      "type": "quiz",
+      "order": 1,
+      "date": "2026-06-12"
+    }
+  ],
+  "total": {
+    "notes": 2,
+    "questions": 1
+  },
+  "lastUpdated": "2026-06-12T12:54:52.184Z"
+}
