@@ -1,33 +1,32 @@
 {
-  "notes": [
+  "units": [
     {
-      "id": "c-programming",
-      "file": "c-programming.md",
-      "name": "C Programming",
-      "type": "note",
-      "order": 1
-    },
-    {
-      "id": "javascript",
-      "file": "javascript.md",
-      "name": "Javascript",
-      "type": "note",
-      "order": 2
-    }
-  ],
-  "questions": [
-    {
-      "id": "2026-06-12",
-      "file": "2026-06-12.json",
-      "name": "2026 06 12",
-      "type": "quiz",
-      "order": 1,
-      "date": "2026-06-12"
+      "id": "unit-01",
+      "name": "Unit 01",
+      "topics": [
+        {
+          "id": "001-computer-system-and-organisation",
+          "name": "001 Computer System And Organisation",
+          "notes": {
+            "file": "units/unit-01/001-computer-system-and-organisation/notes.md",
+            "name": "Study Notes"
+          },
+          "practices": [
+            {
+              "id": "practice-1",
+              "file": "units/unit-01/001-computer-system-and-organisation/practice-1.json",
+              "name": "Practice 1"
+            }
+          ]
+        }
+      ]
     }
   ],
   "total": {
-    "notes": 2,
-    "questions": 1
+    "units": 1,
+    "topics": 1,
+    "notes": 1,
+    "practices": 1
   },
-  "lastUpdated": "2026-06-12T12:54:52.184Z"
+  "lastUpdated": "2026-06-12T13:15:38.211Z"
 }

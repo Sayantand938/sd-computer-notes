@@ -14,29 +14,38 @@ function NoteView() {
 
     const [content, setContent] = useState('');
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(false);
 
     useEffect(() => {
         if (!noteFile) {
-            navigate('/');
+            setError(true);
+            setLoading(false);
             return;
         }
 
-        setLoading(true);
-        fetch(`/notes/${noteFile}`)
+        console.log('Fetching note from:', noteFile);
+
+        fetch(noteFile)
             .then(response => {
-                if (!response.ok) throw new Error('Note not found');
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
                 return response.text();
             })
             .then(text => {
+                if (text.trim().startsWith('<!doctype') || text.trim().startsWith('<html')) {
+                    throw new Error('File not found');
+                }
                 setContent(text);
                 setLoading(false);
             })
             .catch(error => {
                 console.error('Error loading note:', error);
-                setContent('# Error\n\nFailed to load the note.');
+                setContent(`# Error\n\nFailed to load the note.\n\nFile: ${noteFile}`);
+                setError(true);
                 setLoading(false);
             });
-    }, [noteFile, navigate]);
+    }, [noteFile]);
 
     useEffect(() => {
         const handleKeyDown = (e) => {
@@ -49,8 +58,12 @@ function NoteView() {
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [navigate]);
 
-    if (!noteFile) {
-        return null;
+    if (loading) {
+        return (
+            <div className="min-h-screen bg-white font-mono flex items-center justify-center">
+                <div className="text-black opacity-60 text-sm">loading...</div>
+            </div>
+        );
     }
 
     return (
@@ -80,50 +93,44 @@ function NoteView() {
             </header>
 
             <main className="pt-14 pb-16">
-                {loading ? (
-                    <div className="flex justify-center items-center h-64 text-black opacity-60 text-sm">
-                        loading...
-                    </div>
-                ) : (
-                    <div className="max-w-2xl mx-auto px-6">
-                        <div className="markdown-content">
-                            <ReactMarkdown
-                                remarkPlugins={[remarkGfm]}
-                                rehypePlugins={[[rehypeMermaid, { mermaidConfig: { theme: 'default', startOnLoad: true } }]]}
-                                components={{
-                                    MermaidBlock: MermaidBlock,
-                                    code({ node, inline, className, children, ...props }) {
-                                        const match = /language-(\w+)/.exec(className || '');
-                                        const language = match ? match[1] : '';
+                <div className="max-w-2xl mx-auto px-6">
+                    <div className="markdown-content">
+                        <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
+                            rehypePlugins={[[rehypeMermaid, { mermaidConfig: { theme: 'default', startOnLoad: true } }]]}
+                            components={{
+                                MermaidBlock: MermaidBlock,
+                                code({ node, inline, className, children, ...props }) {
+                                    const match = /language-(\w+)/.exec(className || '');
+                                    const language = match ? match[1] : '';
 
-                                        if (!inline && language) {
-                                            return (
-                                                <SyntaxHighlighter
-                                                    style={vscDarkPlus}
-                                                    language={language}
-                                                    PreTag="div"
-                                                    className="rounded-lg text-sm my-4"
-                                                    customStyle={{ fontWeight: '500' }}
-                                                    {...props}
-                                                >
-                                                    {String(children).replace(/\n$/, '')}
-                                                </SyntaxHighlighter>
-                                            );
-                                        }
-
+                                    if (!inline && language) {
                                         return (
-                                            <code className="bg-gray-100 px-1.5 py-0.5 rounded text-black text-sm" {...props}>
-                                                {children}
-                                            </code>
+                                            <SyntaxHighlighter
+                                                style={vscDarkPlus}
+                                                language={language}
+                                                PreTag="div"
+                                                className="rounded-lg text-sm my-4"
+                                                customStyle={{ fontWeight: '500' }}
+                                                {...props}
+                                            >
+                                                {String(children).replace(/\n$/, '')}
+                                            </SyntaxHighlighter>
                                         );
                                     }
-                                }}
-                            >
-                                {content}
-                            </ReactMarkdown>
-                        </div>
+
+                                    return (
+                                        <code className="bg-gray-100 px-1.5 py-0.5 rounded text-black text-sm" {...props}>
+                                            {children}
+                                        </code>
+                                    );
+                                }
+                            }}
+                        >
+                            {content}
+                        </ReactMarkdown>
                     </div>
-                )}
+                </div>
             </main>
 
             <footer className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-t border-gray-100 sm:hidden">

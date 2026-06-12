@@ -8,8 +8,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/note/:noteId" element={<NoteView />} />
-        <Route path="/study/:guideId" element={<StudyGuide />} />
+        <Route path="/note/:unitId/:topicId" element={<NoteView />} />
+        <Route path="/study/:unitId/:topicId/:practiceId" element={<StudyGuide />} />
       </Routes>
     </Router>
   );
