@@ -10,13 +10,16 @@ import ErrorMessage from '../components/Common/ErrorMessage';
 function StudyGuide() {
     const location = useLocation();
     const navigate = useNavigate();
-    const { practiceFile, practiceName } = location.state || {};
+    const { practiceFile, practiceName, topicName } = location.state || {};
     const { questions, loading, error } = useStudyGuide(practiceFile);
     const [showAnswers, setShowAnswers] = useState(true);
 
     const handleBack = () => navigate('/');
     const handlePrint = () => window.print();
     const toggleAnswers = () => setShowAnswers(!showAnswers);
+
+    // Create a descriptive title for the header
+    const headerTitle = topicName ? `${topicName} - ${practiceName}` : practiceName;
 
     if (loading) return <LoadingSpinner message="Loading study guide..." />;
     if (error) return <ErrorMessage message="Practice set not found" />;
@@ -25,7 +28,7 @@ function StudyGuide() {
     return (
         <div className="min-h-screen bg-white font-mono">
             <StudyHeader
-                title={practiceName}
+                title={headerTitle}
                 onBack={handleBack}
                 onPrint={handlePrint}
                 showAnswers={showAnswers}

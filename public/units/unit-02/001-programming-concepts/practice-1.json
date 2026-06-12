@@ -1,0 +1,902 @@
+[
+    {
+        "sl": 1,
+        "question": "A basic command given to a computer to perform a specific task is called a(n):",
+        "op1": "Instruction",
+        "op2": "Program",
+        "op3": "Software",
+        "op4": "Algorithm",
+        "answer": 1
+    },
+    {
+        "sl": 2,
+        "question": "Which of the following is an example of a single computer instruction?",
+        "op1": "MS Word",
+        "op2": "Windows 10",
+        "op3": "ADD A, B",
+        "op4": "Photoshop",
+        "answer": 3
+    },
+    {
+        "sl": 3,
+        "question": "A collection of instructions that performs a specific task when executed by a computer is a:",
+        "op1": "Data set",
+        "op2": "Program",
+        "op3": "Hardware",
+        "op4": "Bus",
+        "answer": 2
+    },
+    {
+        "sl": 4,
+        "question": "The only language that a computer understands directly without translation is:",
+        "op1": "Assembly Language",
+        "op2": "High-level Language",
+        "op3": "Machine Language",
+        "op4": "Python",
+        "answer": 3
+    },
+    {
+        "sl": 5,
+        "question": "Low-level languages consist of:",
+        "op1": "Machine Language and Assembly Language",
+        "op2": "C and C++",
+        "op3": "Java and Python",
+        "op4": "SQL and Prolog",
+        "answer": 1
+    },
+    {
+        "sl": 6,
+        "question": "Assembly language uses symbolic codes called:",
+        "op1": "Variables",
+        "op2": "Mnemonics (e.g., MOV, ADD)",
+        "op3": "Classes",
+        "op4": "Tags",
+        "answer": 2
+    },
+    {
+        "sl": 7,
+        "question": "Which language level is closest to human language and is machine-independent?",
+        "op1": "Low-level",
+        "op2": "Assembly",
+        "op3": "High-level",
+        "op4": "Binary",
+        "answer": 3
+    },
+    {
+        "sl": 8,
+        "question": "Which of the following is a characteristic of high-level languages?",
+        "op1": "Difficult to debug",
+        "op2": "Machine dependent",
+        "op3": "Portable (can run on different hardware)",
+        "op4": "Written in 0s and 1s",
+        "answer": 3
+    },
+    {
+        "sl": 9,
+        "question": "Procedural programming focuses on:",
+        "op1": "What to do",
+        "op2": "Objects and Data",
+        "op3": "How to do (Sequence of steps/functions)",
+        "op4": "Logic only",
+        "answer": 3
+    },
+    {
+        "sl": 10,
+        "question": "Which programming paradigm uses a \"top-down\" approach and breaks programs into smaller logical modules?",
+        "op1": "Non-procedural",
+        "op2": "Structured Programming",
+        "op3": "Machine Level",
+        "op4": "Low-level",
+        "answer": 2
+    },
+    {
+        "sl": 11,
+        "question": "In Non-procedural programming, the user specifies:",
+        "op1": "Every step of the process",
+        "op2": "What the output should be, rather than how to get it",
+        "op3": "Memory addresses",
+        "op4": "Hardware registers",
+        "answer": 2
+    },
+    {
+        "sl": 12,
+        "question": "SQL (Structured Query Language) is an example of which programming type?",
+        "op1": "Procedural",
+        "op2": "Non-procedural (Declarative)",
+        "op3": "Low-level",
+        "op4": "Assembly",
+        "answer": 2
+    },
+    {
+        "sl": 13,
+        "question": "The paradigm based on the concept of \"objects,\" which contain data and code, is:",
+        "op1": "Procedural",
+        "op2": "Structured",
+        "op3": "Object-Oriented Programming (OOP)",
+        "op4": "Linear",
+        "answer": 3
+    },
+    {
+        "sl": 14,
+        "question": "Which of the following is a primary feature of OOP?",
+        "op1": "Use of GOTO statements",
+        "op2": "Encapsulation and Inheritance",
+        "op3": "Machine dependency",
+        "op4": "Lack of functions",
+        "answer": 2
+    },
+    {
+        "sl": 15,
+        "question": "An \"Object\" in OOP is an instance of a:",
+        "op1": "Program",
+        "op2": "Class",
+        "op3": "Variable",
+        "op4": "Instruction",
+        "answer": 2
+    },
+    {
+        "sl": 16,
+        "question": "Which language is considered a pure Procedural language?",
+        "op1": "C",
+        "op2": "Java",
+        "op3": "C++",
+        "op4": "SQL",
+        "answer": 1
+    },
+    {
+        "sl": 17,
+        "question": "Which of the following is an example of an Object-Oriented language?",
+        "op1": "COBOL",
+        "op2": "Fortran",
+        "op3": "Java",
+        "op4": "Pascal",
+        "answer": 3
+    },
+    {
+        "sl": 18,
+        "question": "Structured programming avoids the use of which statement to prevent \"spaghetti code\"?",
+        "op1": "IF-ELSE",
+        "op2": "GOTO",
+        "op3": "WHILE",
+        "op4": "FOR",
+        "answer": 2
+    },
+    {
+        "sl": 19,
+        "question": "A program written in high-level language is called:",
+        "op1": "Object Code",
+        "op2": "Source Code",
+        "op3": "Machine Code",
+        "op4": "Executable",
+        "answer": 2
+    },
+    {
+        "sl": 20,
+        "question": "What is required to convert a high-level program into machine language?",
+        "op1": "Compiler or Interpreter",
+        "op2": "Operating System",
+        "op3": "Hard Drive",
+        "op4": "Mouse",
+        "answer": 1
+    },
+    {
+        "sl": 21,
+        "question": "Which programming style is best for large-scale software development due to code reusability?",
+        "op1": "Assembly",
+        "op2": "Procedural",
+        "op3": "Object-Oriented",
+        "op4": "Binary",
+        "answer": 3
+    },
+    {
+        "sl": 22,
+        "question": "Assembly language requires which software for translation?",
+        "op1": "Compiler",
+        "op2": "Assembler",
+        "op3": "Interpreter",
+        "op4": "Linker",
+        "answer": 2
+    },
+    {
+        "sl": 23,
+        "question": "Non-procedural languages are also known as:",
+        "op1": "Declarative languages",
+        "op2": "Imperative languages",
+        "op3": "Low-level languages",
+        "op4": "Functional languages",
+        "answer": 1
+    },
+    {
+        "sl": 24,
+        "question": "Structured programming is a subset of:",
+        "op1": "Procedural programming",
+        "op2": "Non-procedural programming",
+        "op3": "Object-Oriented programming",
+        "op4": "Machine code",
+        "answer": 1
+    },
+    {
+        "sl": 25,
+        "question": "The instruction \"Store the value 5 in memory address 101\" is typical of:",
+        "op1": "OOP",
+        "op2": "Low-level programming",
+        "op3": "Non-procedural programming",
+        "op4": "SQL",
+        "answer": 2
+    },
+    {
+        "sl": 26,
+        "question": "Which of the following is NOT an OOP concept?",
+        "op1": "Polymorphism",
+        "op2": "Abstraction",
+        "op3": "Sequential Batching",
+        "op4": "Inheritance",
+        "answer": 3
+    },
+    {
+        "sl": 27,
+        "question": "High-level languages are easier to maintain because they are:",
+        "op1": "Readably similar to English",
+        "op2": "Faster to execute than machine code",
+        "op3": "Directly executed by hardware",
+        "op4": "Written in Hexadecimal",
+        "answer": 1
+    },
+    {
+        "sl": 28,
+        "question": "The concept of \"Code Reusability\" is most strongly associated with:",
+        "op1": "Machine Language",
+        "op2": "Object Oriented Programming",
+        "op3": "Assembly Language",
+        "op4": "Basic Instructions",
+        "answer": 2
+    },
+    {
+        "sl": 29,
+        "question": "Which language is typically used for system-level programming and hardware drivers?",
+        "op1": "SQL",
+        "op2": "C / Assembly",
+        "op3": "Python",
+        "op4": "Java",
+        "answer": 2
+    },
+    {
+        "sl": 30,
+        "question": "Programming logic that flows from the beginning to the end using loops and conditionals is:",
+        "op1": "Assembly logic",
+        "op2": "Structured logic",
+        "op3": "Non-procedural logic",
+        "op4": "Random logic",
+        "answer": 2
+    },
+    {
+        "sl": 31,
+        "question": "A(n) ________ is a blueprint for creating objects in OOP.",
+        "op1": "Instruction",
+        "op2": "Class",
+        "op3": "Function",
+        "op4": "Procedure",
+        "answer": 2
+    },
+    {
+        "sl": 32,
+        "question": "Which of these is an example of an instruction mnemonic?",
+        "op1": "main()",
+        "op2": "SUB",
+        "op3": "class Student",
+        "op4": "print(\"Hello\")",
+        "answer": 2
+    },
+    {
+        "sl": 33,
+        "question": "Programming in Machine Language is error-prone because:",
+        "op1": "It uses English words",
+        "op2": "It uses only 0s and 1s",
+        "op3": "It is too fast",
+        "op4": "It is object-oriented",
+        "answer": 2
+    },
+    {
+        "sl": 34,
+        "question": "Procedural languages are also called:",
+        "op1": "Imperative languages",
+        "op2": "Declarative languages",
+        "op3": "Symbolic languages",
+        "op4": "Visual languages",
+        "answer": 1
+    },
+    {
+        "sl": 35,
+        "question": "The main disadvantage of Low-level language is:",
+        "op1": "It is slow",
+        "op2": "It is machine dependent (not portable)",
+        "op3": "It is too easy to write",
+        "op4": "It requires a lot of RAM",
+        "answer": 2
+    },
+    {
+        "sl": 36,
+        "question": "In OOP, the ability of a single function to behave differently based on the input is called:",
+        "op1": "Inheritance",
+        "op2": "Encapsulation",
+        "op3": "Polymorphism",
+        "op4": "Abstraction",
+        "answer": 3
+    },
+    {
+        "sl": 37,
+        "question": "Which of the following is a Structured Programming language?",
+        "op1": "Pascal",
+        "op2": "Assembly",
+        "op3": "Prolog",
+        "op4": "Machine Code",
+        "answer": 1
+    },
+    {
+        "sl": 38,
+        "question": "The process of hiding internal details and showing only the necessary features is:",
+        "op1": "Encapsulation",
+        "op2": "Abstraction",
+        "op3": "Inheritance",
+        "op4": "Translation",
+        "answer": 2
+    },
+    {
+        "sl": 39,
+        "question": "Which of these provides a better bridge between human logic and computer hardware?",
+        "op1": "High-level language",
+        "op2": "Machine language",
+        "op3": "Binary code",
+        "op4": "Voltage pulses",
+        "answer": 1
+    },
+    {
+        "sl": 40,
+        "question": "An instruction like MOV AX, 01 is written in:",
+        "op1": "Machine Language",
+        "op2": "Assembly Language",
+        "op3": "High-level Language",
+        "op4": "Non-procedural Language",
+        "answer": 2
+    },
+    {
+        "sl": 41,
+        "question": "Structured programming promotes:",
+        "op1": "Unrestricted GOTO use",
+        "op2": "Readability and Maintainability",
+        "op3": "Manual memory addressing",
+        "op4": "Binary coding",
+        "answer": 2
+    },
+    {
+        "sl": 42,
+        "question": "Which generation of languages includes SQL and database query languages?",
+        "op1": "2nd",
+        "op2": "3rd",
+        "op3": "4th",
+        "op4": "1st",
+        "answer": 3
+    },
+    {
+        "sl": 43,
+        "question": "In OOP, wrapping data and methods into a single unit is:",
+        "op1": "Encapsulation",
+        "op2": "Inheritance",
+        "op3": "Abstraction",
+        "op4": "Compiling",
+        "answer": 1
+    },
+    {
+        "sl": 44,
+        "question": "A program that is machine-dependent:",
+        "op1": "Can run on any computer",
+        "op2": "Can only run on the specific hardware it was designed for",
+        "op3": "Is always high-level",
+        "op4": "Is written in Java",
+        "answer": 2
+    },
+    {
+        "sl": 45,
+        "question": "Modern programming languages like Python and Ruby are:",
+        "op1": "Low-level",
+        "op2": "High-level and Object-Oriented",
+        "op3": "Non-structured",
+        "op4": "Assembly-based",
+        "answer": 2
+    },
+    {
+        "sl": 46,
+        "question": "The step-by-step logic used to solve a problem before writing a program is:",
+        "op1": "Algorithm",
+        "op2": "Class",
+        "op3": "Object",
+        "op4": "Instruction",
+        "answer": 1
+    },
+    {
+        "sl": 47,
+        "question": "Which language is considered the \"Mother of all languages\" for modern programming?",
+        "op1": "C",
+        "op2": "Basic",
+        "op3": "Python",
+        "op4": "HTML",
+        "answer": 1
+    },
+    {
+        "sl": 48,
+        "question": "A non-procedural language is often used for:",
+        "op1": "OS development",
+        "op2": "Database queries",
+        "op3": "Device drivers",
+        "op4": "High-speed gaming",
+        "answer": 2
+    },
+    {
+        "sl": 49,
+        "question": "Which level of language has the fastest execution time (no translation needed)?",
+        "op1": "High-level",
+        "op2": "Assembly",
+        "op3": "Machine Language",
+        "op4": "OOP",
+        "answer": 3
+    },
+    {
+        "sl": 50,
+        "question": "The \"Object Oriented\" approach is based on:",
+        "op1": "Functions",
+        "op2": "Real-world entities",
+        "op3": "Linear instructions",
+        "op4": "Mnemonics",
+        "answer": 2
+    },
+    {
+        "sl": 51,
+        "question": "What is the process of finding and fixing errors in a computer program called?",
+        "op1": "Compiling",
+        "op2": "Executing",
+        "op3": "Debugging",
+        "op4": "Interpreting",
+        "answer": 3
+    },
+    {
+        "sl": 52,
+        "question": "A syntax error occurs when:",
+        "op1": "The program produces incorrect results",
+        "op2": "The rules of the programming language grammar are violated",
+        "op3": "The computer runs out of memory during execution",
+        "op4": "The program tries to divide a number by zero",
+        "answer": 2
+    },
+    {
+        "sl": 53,
+        "question": "Which of the following is an example of a runtime error?",
+        "op1": "Missing a semicolon at the end of a line",
+        "op2": "Division by zero during program execution",
+        "op3": "Spelling a keyword like 'while' incorrectly",
+        "op4": "Writing formula logic that calculates area instead of perimeter",
+        "answer": 2
+    },
+    {
+        "sl": 54,
+        "question": "An error in a program that produces incorrect or unexpected results without crashing is a:",
+        "op1": "Syntax error",
+        "op2": "Linker error",
+        "op3": "Logical error",
+        "op4": "Semantic error",
+        "answer": 3
+    },
+    {
+        "sl": 55,
+        "question": "In a standard flowchart, a rectangular symbol represents a(n):",
+        "op1": "Start/End block",
+        "op2": "Input/Output block",
+        "op3": "Process (Calculation or Assignment) block",
+        "op4": "Decision block",
+        "answer": 3
+    },
+    {
+        "sl": 56,
+        "question": "In a standard flowchart, a diamond-shaped symbol is used to represent a:",
+        "op1": "Process",
+        "op2": "Decision",
+        "op3": "Terminal",
+        "op4": "Document",
+        "answer": 2
+    },
+    {
+        "sl": 57,
+        "question": "An informal high-level description of a computer program's steps, written in plain English, is:",
+        "op1": "Pseudocode",
+        "op2": "Machine code",
+        "op3": "Source code",
+        "op4": "Compiled code",
+        "answer": 1
+    },
+    {
+        "sl": 58,
+        "question": "Which control structure is used to execute a block of code repeatedly as long as a condition is true?",
+        "op1": "Selection",
+        "op2": "Iteration (Loop)",
+        "op3": "Sequence",
+        "op4": "Branching",
+        "answer": 2
+    },
+    {
+        "sl": 59,
+        "question": "A named location in memory used to store data that can change during program execution is a:",
+        "op1": "Constant",
+        "op2": "Function",
+        "op3": "Variable",
+        "op4": "Class",
+        "answer": 3
+    },
+    {
+        "sl": 60,
+        "question": "Which of the following data types is typically used to store a single character?",
+        "op1": "Integer",
+        "op2": "Float",
+        "op3": "Char",
+        "op4": "Boolean",
+        "answer": 3
+    },
+    {
+        "sl": 61,
+        "question": "A variable that is declared inside a function and can only be accessed within that function is a:",
+        "op1": "Global variable",
+        "op2": "Static variable",
+        "op3": "Local variable",
+        "op4": "Constant variable",
+        "answer": 3
+    },
+    {
+        "sl": 62,
+        "question": "What is the scope of a global variable?",
+        "op1": "Only inside the main function",
+        "op2": "Throughout the entire program file",
+        "op3": "Restricted to a single local class method",
+        "op4": "Restricted to the block of a loop",
+        "answer": 2
+    },
+    {
+        "sl": 63,
+        "question": "The values passed into a function when it is called are known as:",
+        "op1": "Arguments",
+        "op2": "Parameters",
+        "op3": "Return types",
+        "op4": "Declarations",
+        "answer": 1
+    },
+    {
+        "sl": 64,
+        "question": "The variables defined in a function's header that receive values when the function is called are:",
+        "op1": "Global variables",
+        "op2": "Parameters",
+        "op3": "Constants",
+        "op4": "Pointers",
+        "answer": 2
+    },
+    {
+        "sl": 65,
+        "question": "A programming technique where a function calls itself to solve a smaller instance of the same problem is:",
+        "op1": "Iteration",
+        "op2": "Overloading",
+        "op3": "Recursion",
+        "op4": "Inheritance",
+        "answer": 3
+    },
+    {
+        "sl": 66,
+        "question": "What is the base case in a recursive function?",
+        "op1": "The condition that starts the recursion",
+        "op2": "The condition that terminates the recursion",
+        "op3": "The main loop of the function",
+        "op4": "The memory limit of the stack",
+        "answer": 2
+    },
+    {
+        "sl": 67,
+        "question": "A data structure that stores a collection of elements of the same type in contiguous memory locations is a(n):",
+        "op1": "Stack",
+        "op2": "Array",
+        "op3": "Linked List",
+        "op4": "Tree",
+        "answer": 2
+    },
+    {
+        "sl": 68,
+        "question": "The index of the first element in most modern programming language arrays is:",
+        "op1": "1",
+        "op2": "-1",
+        "op3": "0",
+        "op4": "Defined dynamically",
+        "answer": 3
+    },
+    {
+        "sl": 69,
+        "question": "Which data structure operates on a \"Last-In, First-Out\" (LIFO) basis?",
+        "op1": "Queue",
+        "op2": "Array",
+        "op3": "Stack",
+        "op4": "Tree",
+        "answer": 3
+    },
+    {
+        "sl": 70,
+        "question": "Which data structure operates on a \"First-In, First-Out\" (FIFO) basis?",
+        "op1": "Stack",
+        "op2": "Queue",
+        "op3": "Array",
+        "op4": "Graph",
+        "answer": 2
+    },
+    {
+        "sl": 71,
+        "question": "Text in a program that is ignored by the compiler or interpreter and is used for documentation is a:",
+        "op1": "Variable",
+        "op2": "Keyword",
+        "op3": "Comment",
+        "op4": "Statement",
+        "answer": 3
+    },
+    {
+        "sl": 72,
+        "question": "What does IDE stand for in programming?",
+        "op1": "Integrated Development Environment",
+        "op2": "Internal Data Entry",
+        "op3": "Interactive Design Element",
+        "op4": "International Developer Engine",
+        "answer": 1
+    },
+    {
+        "sl": 73,
+        "question": "Which of the following translates high-level source code into machine code line-by-line during execution?",
+        "op1": "Compiler",
+        "op2": "Assembler",
+        "op3": "Interpreter",
+        "op4": "Linker",
+        "answer": 3
+    },
+    {
+        "sl": 74,
+        "question": "A compiler differs from an interpreter because a compiler:",
+        "op1": "Translates code line-by-line during runtime",
+        "op2": "Translates the entire source code into an executable file before running",
+        "op3": "Does not require high-level code input",
+        "op4": "Only works on assembly language mnemonics",
+        "answer": 2
+    },
+    {
+        "sl": 75,
+        "question": "What is the binary representation of the decimal number 5?",
+        "op1": "101",
+        "op2": "110",
+        "op3": "111",
+        "op4": "011",
+        "answer": 1
+    },
+    {
+        "sl": 76,
+        "question": "The logical operator that returns true only if both of its operands are true is:",
+        "op1": "OR",
+        "op2": "NOT",
+        "op3": "AND",
+        "op4": "XOR",
+        "answer": 3
+    },
+    {
+        "sl": 77,
+        "question": "The process of combining multiple object files into a single executable program is done by a:",
+        "op1": "Loader",
+        "op2": "Linker",
+        "op3": "Compiler",
+        "op4": "Editor",
+        "answer": 2
+    },
+    {
+        "sl": 78,
+        "question": "A block of code designed to perform a particular task and return a value is called a:",
+        "op1": "Loop",
+        "op2": "Function / Method",
+        "op3": "Class",
+        "op4": "Constant",
+        "answer": 2
+    },
+    {
+        "sl": 79,
+        "question": "Which data type is used to store values that can only be either true or false?",
+        "op1": "String",
+        "op2": "Double",
+        "op3": "Boolean",
+        "op4": "Float",
+        "answer": 3
+    },
+    {
+        "sl": 80,
+        "question": "What is a \"null\" value in programming?",
+        "op1": "A value representing the number zero",
+        "op2": "A value representing the absence of any value or object reference",
+        "op3": "An infinite floating-point number",
+        "op4": "A boolean state of false",
+        "answer": 2
+    },
+    {
+        "sl": 81,
+        "question": "The set of rules defining the structure of valid statements in a programming language is:",
+        "op1": "Semantics",
+        "op2": "Syntax",
+        "op3": "Logic",
+        "op4": "Mnemonics",
+        "answer": 2
+    },
+    {
+        "sl": 82,
+        "question": "The logical meaning or behavior of a statement in a programming language is referred to as its:",
+        "op1": "Syntax",
+        "op2": "Mnemonics",
+        "op3": "Semantics",
+        "op4": "Pragmatics",
+        "answer": 3
+    },
+    {
+        "sl": 83,
+        "question": "Which of the following is an example of an assignment operator?",
+        "op1": "==",
+        "op2": "=",
+        "op3": "!=",
+        "op4": "+",
+        "answer": 2
+    },
+    {
+        "sl": 84,
+        "question": "In OOP, when a subclass inherits properties and behaviors from a superclass, it is called:",
+        "op1": "Encapsulation",
+        "op2": "Polymorphism",
+        "op3": "Inheritance",
+        "op4": "Instantiation",
+        "answer": 3
+    },
+    {
+        "sl": 85,
+        "question": "Which memory management concept refers to automatic deallocation of memory that is no longer needed by the program?",
+        "op1": "Garbage Collection",
+        "op2": "Memory Paging",
+        "op3": "Compilation",
+        "op4": "Threading",
+        "answer": 1
+    },
+    {
+        "sl": 86,
+        "question": "What is an \"infinite loop\"?",
+        "op1": "A loop that executes exactly 100 times",
+        "op2": "A loop that never terminates because its loop condition remains true",
+        "op3": "A loop that is skipped entirely by the execution logic",
+        "op4": "A nested loop inside another loop structure",
+        "answer": 2
+    },
+    {
+        "sl": 87,
+        "question": "Which phase of the Software Development Life Cycle (SDLC) involves writing the actual code?",
+        "op1": "Requirements Analysis",
+        "op2": "System Design",
+        "op3": "Implementation / Coding",
+        "op4": "Testing",
+        "answer": 3
+    },
+    {
+        "sl": 88,
+        "question": "What is the primary purpose of Software Testing?",
+        "op1": "To design the user interface components",
+        "op2": "To identify defects and ensure the software meets specifications",
+        "op3": "To compile the source code faster",
+        "op4": "To host the finished application on a web server",
+        "answer": 2
+    },
+    {
+        "sl": 89,
+        "question": "A collection of pre-compiled routines that a program can use is called a:",
+        "op1": "Register",
+        "op2": "Compiler",
+        "op3": "Library",
+        "op4": "Variable",
+        "answer": 3
+    },
+    {
+        "sl": 90,
+        "question": "What is \"source code\"?",
+        "op1": "The program written in human-readable programming language",
+        "op2": "The binary instructions executed by the CPU",
+        "op3": "The database where log files are stored",
+        "op4": "The documentation of the hardware design",
+        "answer": 1
+    },
+    {
+        "sl": 91,
+        "question": "The physical layout of a flowchart begins and ends with which symbol?",
+        "op1": "Oval (Terminal)",
+        "op2": "Rectangle (Process)",
+        "op3": "Parallelogram (Input/Output)",
+        "op4": "Diamond (Decision)",
+        "answer": 1
+    },
+    {
+        "sl": 92,
+        "question": "In programming, a \"constant\" is:",
+        "op1": "A variable that changes value frequently",
+        "op2": "An identifier whose value cannot be altered during execution",
+        "op3": "A function that runs continuously without pausing",
+        "op4": "A type of recursive loop",
+        "answer": 2
+    },
+    {
+        "sl": 93,
+        "question": "Which type of programming language is executed directly by the computer hardware without translation?",
+        "op1": "High-level language",
+        "op2": "Assembly language",
+        "op3": "Machine language",
+        "op4": "Scripting language",
+        "answer": 3
+    },
+    {
+        "sl": 94,
+        "question": "What does the term \"GUI\" stand for in programming applications?",
+        "op1": "Global User Identifier",
+        "op2": "General Utility Instruction",
+        "op3": "Graphical User Interface",
+        "op4": "Grouped User Input",
+        "answer": 3
+    },
+    {
+        "sl": 95,
+        "question": "In OOP, a function inside a class is commonly referred to as a:",
+        "op1": "Variable",
+        "op2": "Method",
+        "op3": "Constructor",
+        "op4": "Attribute",
+        "answer": 2
+    },
+    {
+        "sl": 96,
+        "question": "Which of the following is a sequence of characters, usually used to represent text?",
+        "op1": "Array",
+        "op2": "Integer",
+        "op3": "String",
+        "op4": "Float",
+        "answer": 3
+    },
+    {
+        "sl": 97,
+        "question": "An \"array index out of bounds\" error is an example of a:",
+        "op1": "Syntax error",
+        "op2": "Runtime error",
+        "op3": "Compilation error",
+        "op4": "Hardware error",
+        "answer": 2
+    },
+    {
+        "sl": 98,
+        "question": "Which operator is commonly used to find the remainder of a division in programming?",
+        "op1": "/",
+        "op2": "% (Modulo)",
+        "op3": "*",
+        "op4": "^",
+        "answer": 2
+    },
+    {
+        "sl": 99,
+        "question": "A step-by-step procedure to solve a specific problem is called an:",
+        "op1": "Instruction",
+        "op2": "Algorithm",
+        "op3": "Program",
+        "op4": "Flowchart",
+        "answer": 2
+    },
+    {
+        "sl": 100,
+        "question": "In programming, the term \"concatenation\" refers to:",
+        "op1": "Dividing two numbers",
+        "op2": "Joining two or more strings together",
+        "op3": "Deleting a variable from memory",
+        "op4": "Translating code into binary",
+        "answer": 2
+    }
+]

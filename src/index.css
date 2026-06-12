@@ -7,6 +7,33 @@
   --font-sans: "JetBrains Mono", monospace;
 }
 
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c1c1c1 #f1f1f1;
+}
+
 /* Force ALL text to use at least 500 weight */
 *,
 *::before,
@@ -172,16 +199,17 @@ code:not(pre code) {
 
 /* Code blocks - Pre */
 pre {
-  background-color: #1a1a1a;
+  background-color: #f8f9fa;
   padding: 1rem;
   border-radius: 0.5rem;
   overflow-x: auto;
   margin: 1em 0;
+  border: 1px solid #e9ecef;
 }
 
 pre code {
-  color: #e5e7eb;
-  font-weight: 500 !important;
+  color: #000000;
+  font-weight: 500;
   font-family: "JetBrains Mono", monospace;
   font-size: 0.875em;
   background: none;

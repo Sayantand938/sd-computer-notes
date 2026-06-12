@@ -16,7 +16,7 @@ function ContentItems({ unitId, topicId, topic }) {
                 >
                     <FileText className="w-3 h-3 text-black opacity-40" />
                     <span className="text-xs text-black opacity-70 group-hover:opacity-100">
-                        Study Notes
+                        Notes
                     </span>
                 </Link>
             )}
@@ -27,7 +27,8 @@ function ContentItems({ unitId, topicId, topic }) {
                     to={`/study/${unitId}/${topicId}/${practice.id}`}
                     state={{
                         practiceFile: `/${practice.file}`,
-                        practiceName: practice.name
+                        practiceName: practice.name,
+                        topicName: topic.name
                     }}
                     className="flex items-center gap-2 px-2 py-1 rounded hover:bg-gray-50 transition-colors group"
                 >

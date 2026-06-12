@@ -1,12 +1,12 @@
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { rehypeMermaid, MermaidBlock } from 'react-markdown-mermaid';
 
 function NoteContent({ content }) {
     return (
-        <div className="max-w-2xl mx-auto px-6">
+        <div className="max-w-3xl mx-auto px-6">
             <div className="markdown-content">
                 <ReactMarkdown
                     remarkPlugins={[remarkGfm]}
@@ -20,11 +20,15 @@ function NoteContent({ content }) {
                             if (!inline && language) {
                                 return (
                                     <SyntaxHighlighter
-                                        style={vscDarkPlus}
+                                        style={prism}
                                         language={language}
                                         PreTag="div"
                                         className="rounded-lg text-sm my-4"
-                                        customStyle={{ fontWeight: '500' }}
+                                        customStyle={{
+                                            fontWeight: '500',
+                                            background: '#f8f9fa',
+                                            margin: '1em 0'
+                                        }}
                                         {...props}
                                     >
                                         {String(children).replace(/\n$/, '')}

@@ -9,7 +9,7 @@
           "name": "001 Computer System And Organisation",
           "notes": {
             "file": "units/unit-01/001-computer-system-and-organisation/notes.md",
-            "name": "Study Notes"
+            "name": "Notes"
           },
           "practices": [
             {
@@ -20,13 +20,34 @@
           ]
         }
       ]
+    },
+    {
+      "id": "unit-02",
+      "name": "Unit 02",
+      "topics": [
+        {
+          "id": "001-programming-concepts",
+          "name": "001 Programming Concepts",
+          "notes": {
+            "file": "units/unit-02/001-programming-concepts/notes.md",
+            "name": "Notes"
+          },
+          "practices": [
+            {
+              "id": "practice-1",
+              "file": "units/unit-02/001-programming-concepts/practice-1.json",
+              "name": "Practice 1"
+            }
+          ]
+        }
+      ]
     }
   ],
   "total": {
-    "units": 1,
-    "topics": 1,
-    "notes": 1,
-    "practices": 1
+    "units": 2,
+    "topics": 2,
+    "notes": 2,
+    "practices": 2
   },
-  "lastUpdated": "2026-06-12T13:15:38.211Z"
+  "lastUpdated": "2026-06-12T13:51:20.503Z"
 }

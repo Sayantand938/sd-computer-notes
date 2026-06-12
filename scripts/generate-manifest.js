@@ -16,12 +16,26 @@ function formatName(str) {
         .join(' ');
 }
 
+// Helper function to format practice name - keep it simple
+function formatPracticeName(filename) {
+    // Remove 'practice-' prefix and '.json' suffix
+    let name = filename.replace('practice-', '').replace('.json', '');
+
+    // If it's a number, create "Practice X"
+    if (!isNaN(name)) {
+        return `Practice ${name}`;
+    }
+
+    // Otherwise format the name
+    return formatName(name);
+}
+
 // Read all units
 const units = [];
 
 if (fs.existsSync(unitsDir)) {
     const unitFolders = fs.readdirSync(unitsDir);
-    
+
     unitFolders.forEach(unitFolder => {
         const unitPath = path.join(unitsDir, unitFolder);
         if (fs.statSync(unitPath).isDirectory()) {
@@ -30,10 +44,10 @@ if (fs.existsSync(unitsDir)) {
                 name: formatName(unitFolder),
                 topics: []
             };
-            
+
             // Read topics inside unit
             const topicFolders = fs.readdirSync(unitPath);
-            
+
             topicFolders.forEach(topicFolder => {
                 const topicPath = path.join(unitPath, topicFolder);
                 if (fs.statSync(topicPath).isDirectory()) {
@@ -43,35 +57,35 @@ if (fs.existsSync(unitsDir)) {
                         notes: null,
                         practices: []
                     };
-                    
+
                     // Check for notes.md
                     const notesPath = path.join(topicPath, 'notes.md');
                     if (fs.existsSync(notesPath)) {
                         topic.notes = {
                             file: `units/${unitFolder}/${topicFolder}/notes.md`,
-                            name: 'Study Notes'
+                            name: 'Notes'  // Simple "Notes" name
                         };
                     }
-                    
+
                     // Check for practice JSON files
                     const files = fs.readdirSync(topicPath);
                     const practiceFiles = files.filter(file => file.startsWith('practice-') && file.endsWith('.json'));
-                    
+
                     practiceFiles.forEach(practiceFile => {
-                        const practiceName = practiceFile.replace('.json', '');
+                        const practiceId = practiceFile.replace('.json', '');
                         topic.practices.push({
-                            id: practiceName,
+                            id: practiceId,
                             file: `units/${unitFolder}/${topicFolder}/${practiceFile}`,
-                            name: formatName(practiceName)
+                            name: formatPracticeName(practiceFile)  // Simple practice name
                         });
                     });
-                    
+
                     if (topic.notes || topic.practices.length > 0) {
                         unit.topics.push(topic);
                     }
                 }
             });
-            
+
             if (unit.topics.length > 0) {
                 units.push(unit);
             }
