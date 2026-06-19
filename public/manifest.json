@@ -18,6 +18,51 @@
               "name": "Practice 1"
             }
           ]
+        },
+        {
+          "id": "002-concepts-of software",
+          "name": "002 Concepts Of software",
+          "notes": {
+            "file": "units/unit-01/002-concepts-of software/notes.md",
+            "name": "Notes"
+          },
+          "practices": [
+            {
+              "id": "practice-1",
+              "file": "units/unit-01/002-concepts-of software/practice-1.json",
+              "name": "Practice 1"
+            }
+          ]
+        },
+        {
+          "id": "003-number-system",
+          "name": "003 Number System",
+          "notes": {
+            "file": "units/unit-01/003-number-system/notes.md",
+            "name": "Notes"
+          },
+          "practices": [
+            {
+              "id": "practice-1",
+              "file": "units/unit-01/003-number-system/practice-1.json",
+              "name": "Practice 1"
+            }
+          ]
+        },
+        {
+          "id": "004-boolean-algebra",
+          "name": "004 Boolean Algebra",
+          "notes": {
+            "file": "units/unit-01/004-boolean-algebra/notes.md",
+            "name": "Notes"
+          },
+          "practices": [
+            {
+              "id": "practice-1",
+              "file": "units/unit-01/004-boolean-algebra/practice-1.json",
+              "name": "Practice 1"
+            }
+          ]
         }
       ]
     },
@@ -39,15 +84,45 @@
               "name": "Practice 1"
             }
           ]
+        },
+        {
+          "id": "002-algorithm-fundamentals",
+          "name": "002 Algorithm Fundamentals",
+          "notes": {
+            "file": "units/unit-02/002-algorithm-fundamentals/notes.md",
+            "name": "Notes"
+          },
+          "practices": [
+            {
+              "id": "practice-1",
+              "file": "units/unit-02/002-algorithm-fundamentals/practice-1.json",
+              "name": "Practice 1"
+            }
+          ]
+        },
+        {
+          "id": "003-introduction-to-problem-solving",
+          "name": "003 Introduction To Problem Solving",
+          "notes": {
+            "file": "units/unit-02/003-introduction-to-problem-solving/notes.md",
+            "name": "Notes"
+          },
+          "practices": [
+            {
+              "id": "practice-1",
+              "file": "units/unit-02/003-introduction-to-problem-solving/practice-1.json",
+              "name": "Practice 1"
+            }
+          ]
         }
       ]
     }
   ],
   "total": {
     "units": 2,
-    "topics": 2,
-    "notes": 2,
-    "practices": 2
+    "topics": 7,
+    "notes": 7,
+    "practices": 7
   },
-  "lastUpdated": "2026-06-12T13:51:20.503Z"
+  "lastUpdated": "2026-06-19T07:55:39.518Z"
 }
