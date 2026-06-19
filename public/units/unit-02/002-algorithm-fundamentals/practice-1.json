@@ -1,0 +1,902 @@
+[
+    {
+        "sl": 1,
+        "question": "An algorithm is defined as:",
+        "op1": "A computer program written in Python",
+        "op2": "A finite, step-by-step sequence of unambiguous instructions to solve a problem",
+        "op3": "A mathematical formula used to calculate processor speed",
+        "op4": "A software utility used to format hard drives",
+        "answer": 2
+    },
+    {
+        "sl": 2,
+        "question": "Which characteristic of an algorithm ensures that it must eventually stop after a certain number of steps?",
+        "op1": "Finiteness",
+        "op2": "Definiteness",
+        "op3": "Feasibility",
+        "op4": "Effectiveness",
+        "answer": 1
+    },
+    {
+        "sl": 3,
+        "question": "What does the characteristic of 'Definiteness' inside an algorithm refer to?",
+        "op1": "The code must run fast on every operating system",
+        "op2": "Each step must be clear, precise, and completely unambiguous",
+        "op3": "The algorithm must accept exactly ten distinct inputs",
+        "op4": "The algorithm must use a recursive structure",
+        "answer": 2
+    },
+    {
+        "sl": 4,
+        "question": "An algorithm must produce at least how many output values?",
+        "op1": "Zero",
+        "op2": "One",
+        "op3": "Two",
+        "op4": "Infinite",
+        "answer": 2
+    },
+    {
+        "sl": 5,
+        "question": "An algorithm can accept how many inputs?",
+        "op1": "Strictly one input",
+        "op2": "Zero or more inputs",
+        "op3": "Exactly ten inputs",
+        "op4": "At least two inputs",
+        "answer": 2
+    },
+    {
+        "sl": 6,
+        "question": "What does the characteristic of 'Effectiveness' mean in algorithm design?",
+        "op1": "Every instruction must be basic enough to be carried out manually with paper and pencil",
+        "op2": "The code must compile under one microsecond",
+        "op3": "It must use GUI windows instead of CUI terminal screens",
+        "op4": "It must run on multiple physical processors concurrently",
+        "answer": 1
+    },
+    {
+        "sl": 7,
+        "question": "What does it mean for an algorithm to be 'Feasible'?",
+        "op1": "It can be written using graphics libraries",
+        "op2": "It must compile without any warnings",
+        "op3": "It must be practical to execute with the available time and memory resources",
+        "op4": "It must run without any base cases",
+        "answer": 3
+    },
+    {
+        "sl": 8,
+        "question": "What does 'Language Independence' mean in algorithms?",
+        "op1": "The algorithm's logic is universal and can be coded in any programming language",
+        "op2": "The algorithm must only be translated by an interpreter",
+        "op3": "The algorithm cannot run on Linux servers",
+        "op4": "The algorithm only processes English characters",
+        "answer": 1
+    },
+    {
+        "sl": 9,
+        "question": "Which of the following is NOT a fundamental characteristic of an algorithm?",
+        "op1": "Finiteness",
+        "op2": "Definiteness",
+        "op3": "Compiler specific syntax",
+        "op4": "Effectiveness",
+        "answer": 3
+    },
+    {
+        "sl": 10,
+        "question": "An algorithm serves primarily as a: ",
+        "op1": "Physical layout of transistor logic gates",
+        "op2": "Detailed system driver configuration file",
+        "op3": "Step-by-step logic blueprint used before writing actual code",
+        "op4": "Dynamic RAM hardware register",
+        "answer": 3
+    },
+    {
+        "sl": 11,
+        "question": "Why is finiteness highly critical in algorithm design?",
+        "op1": "To ensure that the algorithm does not run into an infinite loop",
+        "op2": "To guarantee that it consumes zero memory space",
+        "op3": "To force the compiler to generate object files",
+        "op4": "To eliminate the need for input values",
+        "answer": 1
+    },
+    {
+        "sl": 12,
+        "question": "If an instruction inside an algorithm is written as 'Choose a number close to 10', which characteristic does it violate?",
+        "op1": "Finiteness",
+        "op2": "Definiteness (it is ambiguous)",
+        "op3": "Language independence",
+        "op4": "Input constraints",
+        "answer": 2
+    },
+    {
+        "sl": 13,
+        "question": "The efficiency of an algorithm is evaluated in terms of which two parameters?",
+        "op1": "CPU instructions and clock voltage",
+        "op2": "Space complexity and Time complexity",
+        "op3": "Number of inputs and number of outputs",
+        "op4": "Keyboard typing speed and RAM price",
+        "answer": 2
+    },
+    {
+        "sl": 14,
+        "question": "An algorithm that calls itself to solve smaller sub-problems is classified as a:",
+        "op1": "Recursive Algorithm",
+        "op2": "Iterative Algorithm",
+        "op3": "Sequential Algorithm",
+        "op4": "Non-recursive Algorithm",
+        "answer": 1
+    },
+    {
+        "sl": 15,
+        "question": "An algorithm that repeats steps using control loops (such as 'for' or 'while') instead of self-calls is:",
+        "op1": "Recursive",
+        "op2": "Non-recursive (Iterative)",
+        "op3": "Infinite",
+        "op4": "Asymptotic",
+        "answer": 2
+    },
+    {
+        "sl": 16,
+        "question": "What is the critical termination condition in a Recursive algorithm called?",
+        "op1": "Recursive Case",
+        "op2": "Base Case",
+        "op3": "Stop Loop",
+        "op4": "Asymptotic Bound",
+        "answer": 2
+    },
+    {
+        "sl": 17,
+        "question": "What happens if a recursive algorithm is written without a proper Base Case?",
+        "op1": "It compiles faster than usual",
+        "op2": "It terminates immediately without outputting",
+        "op3": "It runs into infinite recursion, eventually causing a Stack Overflow error",
+        "op4": "It converts itself into an iterative loop automatically",
+        "answer": 3
+    },
+    {
+        "sl": 18,
+        "question": "The step in a recursive algorithm where the function invokes itself with a smaller input parameter is the:",
+        "op1": "Base Case",
+        "op2": "Recursive Case",
+        "op3": "Iterative Block",
+        "op4": "Static State",
+        "answer": 2
+    },
+    {
+        "sl": 19,
+        "question": "Why do recursive algorithms generally have higher memory overhead than iterative algorithms?",
+        "op1": "They bypass the main system RAM storage",
+        "op2": "Each recursive self-call adds a new frame of variables onto the system call stack",
+        "op3": "They require specialized graphics coprocessors to compile",
+        "op4": "They run only on supercomputers",
+        "answer": 2
+    },
+    {
+        "sl": 20,
+        "question": "Which of the following is generally truer regarding Iteration vs Recursion?",
+        "op1": "Iteration is slower and consumes more stack space than recursion",
+        "op2": "Iteration is generally faster and more memory-efficient than recursion",
+        "op3": "Recursion does not require system RAM to execute",
+        "op4": "Both have identical compile and runtime hardware characteristics",
+        "answer": 2
+    },
+    {
+        "sl": 21,
+        "question": "Stack Overflow occurs in recursion when:",
+        "op1": "The physical HDD is completely full",
+        "op2": "The execution call stack memory limit is exceeded due to infinite or deep self-calls",
+        "op3": "The operating system runs too many background processes",
+        "op4": "The program lacks recursive cases",
+        "answer": 2
+    },
+    {
+        "sl": 22,
+        "question": "In a recursive solution to calculate the Factorial of $N$, what is the standard Base Case?",
+        "op1": "When N == 0 or N == 1",
+        "op2": "When N is an even number",
+        "op3": "When N approaches infinity",
+        "op4": "When the loop finishes",
+        "answer": 1
+    },
+    {
+        "sl": 23,
+        "question": "If the base case is met, a recursive function:",
+        "op1": "Calls itself again with larger parameters",
+        "op2": "Returns a definite value without making further recursive calls",
+        "op3": "Resets the motherboard memory registers",
+        "op4": "Enters a sleep cycle",
+        "answer": 2
+    },
+    {
+        "sl": 24,
+        "question": "A graphical or pictorial representation of an algorithm is known as a:",
+        "op1": "Pseudocode document",
+        "op2": "Flowchart",
+        "op3": "Call stack map",
+        "op4": "Memory array",
+        "answer": 2
+    },
+    {
+        "sl": 25,
+        "question": "Which shape represents the Terminal (Start or Stop) state inside a flowchart?",
+        "op1": "Rectangle",
+        "op2": "Parallelogram",
+        "op3": "Oval / Rounded Rectangle",
+        "op4": "Diamond",
+        "answer": 3
+    },
+    {
+        "sl": 26,
+        "question": "Which flowchart shape represents Input / Output operations?",
+        "op1": "Rectangle",
+        "op2": "Parallelogram",
+        "op3": "Oval",
+        "op4": "Diamond",
+        "answer": 2
+    },
+    {
+        "sl": 27,
+        "question": "What does a Rectangle represent inside a flowchart?",
+        "op1": "Start / Stop state",
+        "op2": "Logical Decision Branching",
+        "op3": "Input / Output read",
+        "op4": "Processing / Calculation / Variable Assignment",
+        "answer": 4
+    },
+    {
+        "sl": 28,
+        "question": "Which flowchart symbol is used to perform a conditional branch check requiring a Yes/No or True/False decision?",
+        "op1": "Parallelogram",
+        "op2": "Diamond",
+        "op3": "Rectangle",
+        "op4": "Circle",
+        "answer": 2
+    },
+    {
+        "sl": 29,
+        "question": "What is the purpose of flow lines (arrows) in a flowchart?",
+        "op1": "To represent data sizes in bytes",
+        "op2": "To show the specific connection direction and execution sequence of steps",
+        "op3": "To connect the monitor to the CPU",
+        "op4": "To specify the asymptotic notation limits",
+        "answer": 2
+    },
+    {
+        "sl": 30,
+        "question": "What is the purpose of a Circle symbol inside a complex flowchart?",
+        "op1": "To perform arithmetic calculations",
+        "op2": "To act as a Connector linking different parts of the chart across pages",
+        "op3": "To declare a new dynamic array",
+        "op4": "To execute a recursive call",
+        "answer": 2
+    },
+    {
+        "sl": 31,
+        "question": "What is Pseudocode?",
+        "op1": "A highly specialized binary machine language",
+        "op2": "An informal, high-level English-narrated description of an algorithm's steps",
+        "op3": "A Python compiler tool designed to optimize code",
+        "op4": "A custom diagnostic tool for hardware ports",
+        "answer": 2
+    },
+    {
+        "sl": 32,
+        "question": "Which of the following is true regarding Pseudocode?",
+        "op1": "It must follow strict, unbending syntax rules of a specific compiler",
+        "op2": "It is written in plain, narrative English, making it language-independent",
+        "op3": "It can be directly loaded into RAM and executed by a CPU",
+        "op4": "It does not allow any conditional checks",
+        "answer": 2
+    },
+    {
+        "sl": 33,
+        "question": "An instruction in pseudocode like 'Initialize sum = 0' belongs to which category of operations?",
+        "op1": "Input / Output",
+        "op2": "Processing / Variable Declaration",
+        "op3": "Decision checks",
+        "op4": "Asymptotic analysis",
+        "answer": 2
+    },
+    {
+        "sl": 34,
+        "question": "The total amount of memory (RAM) required by an algorithm to run to completion is its:",
+        "op1": "Time Complexity",
+        "op2": "Space Complexity",
+        "op3": "Input Volume",
+        "op4": "Asymptotic notation",
+        "answer": 2
+    },
+    {
+        "sl": 35,
+        "question": "The total amount of logical CPU operational time required by an algorithm to run is its:",
+        "op1": "Space Complexity",
+        "op2": "Time Complexity",
+        "op3": "Transmission bandwidth",
+        "op4": "Byte volume",
+        "answer": 2
+    },
+    {
+        "sl": 36,
+        "question": "Why is absolute wall-clock time (in seconds) NOT a standard way to measure theoretical Time Complexity?",
+        "op1": "It is too difficult to calculate using math formulas",
+        "op2": "Because execution time varies based on the computer's CPU speed, operating system, and hardware load",
+        "op3": "Because seconds are not digital units",
+        "op4": "Because the compiler translates it in milliseconds",
+        "answer": 2
+    },
+    {
+        "sl": 37,
+        "question": "Instead of measuring real execution time in seconds, theoretical Time Complexity is evaluated by counting:",
+        "op1": "The number of lines of source code in the IDE",
+        "op2": "The number of basic primitive operations (like additions or comparisons) as a function of input size 'n'",
+        "op3": "The volume of data saved in secondary registers",
+        "op4": "The number of comments written in the code",
+        "answer": 2
+    },
+    {
+        "sl": 38,
+        "question": "The fixed part of Space Complexity includes memory space required for storing:",
+        "op1": "Instruction codes, simple variables, and system constants",
+        "op2": "Dynamic arrays that change size dynamically with input",
+        "op3": "Deep recursive call stack frames",
+        "op4": "The entire operating system",
+        "answer": 1
+    },
+    {
+        "sl": 39,
+        "question": "The variable part of Space Complexity is memory required for storing:",
+        "op1": "Constant numbers and static system code",
+        "op2": "Dynamic arrays, large lists, or recursion stack frames whose sizes depend on input size 'n'",
+        "op3": "The mouse driver data",
+        "op4": "The physical BIOS program",
+        "answer": 2
+    },
+    {
+        "sl": 40,
+        "question": "The parameter 'n' inside algorithmic complexity analysis represents:",
+        "op1": "The clock frequency of the processor core",
+        "op2": "The physical input size or amount of data elements to be processed",
+        "op3": "The number of sub-directories in secondary storage",
+        "op4": "The compilation execution duration",
+        "answer": 2
+    },
+    {
+        "sl": 41,
+        "question": "What is the primary purpose of Asymptotic Notation?",
+        "op1": "To calculate the physical voltage of CPU cores",
+        "op2": "To describe the limiting behavior and growth rate of an algorithm's execution metrics as the input size 'n' grows very large",
+        "op3": "To connect the debugger tool to application software",
+        "op4": "To convert assembler mnemonic files to machine code",
+        "answer": 2
+    },
+    {
+        "sl": 42,
+        "question": "Which asymptotic notation represents the Worst Case or absolute Upper Bound of an algorithm's resource consumption?",
+        "op1": "Big Theta Notation (θ)",
+        "op2": "Big O Notation (O)",
+        "op3": "Big Omega Notation (Ω)",
+        "op4": "Sub-quadratic notation",
+        "answer": 2
+    },
+    {
+        "sl": 43,
+        "question": "Which asymptotic notation represents the Best Case or absolute Lower Bound of an algorithm's performance?",
+        "op1": "Big O Notation (O)",
+        "op2": "Big Omega Notation (Ω)",
+        "op3": "Big Theta Notation (θ)",
+        "op4": "Constant notation",
+        "answer": 2
+    },
+    {
+        "sl": 44,
+        "question": "Which asymptotic notation represents the Average Case or Tight Bound of an algorithm's resource requirements?",
+        "op1": "Big O Notation (O)",
+        "op2": "Big Omega Notation (Ω)",
+        "op3": "Big Theta Notation (θ)",
+        "op4": "Linearithmic notation",
+        "answer": 3
+    },
+    {
+        "sl": 45,
+        "question": "If $f(n) \\le c \\cdot g(n)$ for all values $n \\ge n_0$, this describes which notation?",
+        "op1": "Big Theta Notation",
+        "op2": "Big O Notation",
+        "op3": "Big Omega Notation",
+        "op4": "Standard constant equation",
+        "answer": 2
+    },
+    {
+        "sl": 46,
+        "question": "If $f(n) \\ge c \\cdot g(n)$ for all values $n \\ge n_0$, this describes which notation?",
+        "op1": "Big O Notation",
+        "op2": "Big Omega Notation",
+        "op3": "Big Theta Notation",
+        "op4": "Dynamic bounds ratio",
+        "answer": 2
+    },
+    {
+        "sl": 47,
+        "question": "If $c_1 \\cdot g(n) \\le f(n) \\le c_2 \\cdot g(n)$ for all values $n \\ge n_0$, this describes which notation?",
+        "op1": "Big O Notation",
+        "op2": "Big Omega Notation",
+        "op3": "Big Theta Notation",
+        "op4": "Constant threshold limit",
+        "answer": 3
+    },
+    {
+        "sl": 48,
+        "question": "An algorithm with $O(1)$ complexity operates in what time profile?",
+        "op1": "Linear Time",
+        "op2": "Logarithmic Time",
+        "op3": "Constant Time (execution time is independent of input size)",
+        "op4": "Quadratic Time",
+        "answer": 3
+    },
+    {
+        "sl": 49,
+        "question": "Which of the following is an example of an operation that runs in Constant Time $O(1)$?",
+        "op1": "Finding a specific value in an unsorted list of 'n' items",
+        "op2": "Accessing an array element directly using its index value",
+        "op3": "Sorting an array of 'n' items with bubble sort",
+        "op4": "Executing a recursive function with nested loops",
+        "answer": 2
+    },
+    {
+        "sl": 50,
+        "question": "An algorithm with $O(\\log n)$ complexity operates in what time profile?",
+        "op1": "Quadratic Time",
+        "op2": "Constant Time",
+        "op3": "Logarithmic Time",
+        "op4": "Linear Time",
+        "answer": 3
+    },
+    {
+        "sl": 51,
+        "question": "Which search algorithm runs in Logarithmic Time $O(\\log n)$ in its average and worst cases?",
+        "op1": "Linear Search",
+        "op2": "Selection Sort",
+        "op3": "Binary Search",
+        "op4": "Bubble Sort",
+        "answer": 3
+    },
+    {
+        "sl": 52,
+        "question": "An algorithm with $O(n)$ complexity operates in what time profile?",
+        "op1": "Constant Time",
+        "op2": "Logarithmic Time",
+        "op3": "Linear Time (execution time scales proportionally to input size)",
+        "op4": "Quadratic Time",
+        "answer": 3
+    },
+    {
+        "sl": 53,
+        "question": "Searching an unsorted list of 'n' items sequentially for a specific element (Linear Search) has what worst-case time complexity?",
+        "op1": "O(1)",
+        "op2": "O(log n)",
+        "op3": "O(n)",
+        "op4": "O(n^2)",
+        "answer": 3
+    },
+    {
+        "sl": 54,
+        "question": "An algorithm with $O(n \\log n)$ complexity operates in what time profile?",
+        "op1": "Constant Time",
+        "op2": "Quadratic Time",
+        "op3": "Linearithmic Time",
+        "op4": "Exponential Time",
+        "answer": 3
+    },
+    {
+        "sl": 55,
+        "question": "Efficient sorting algorithms like Merge Sort run with what average-case time complexity?",
+        "op1": "O(n)",
+        "op2": "O(log n)",
+        "op3": "O(n log n)",
+        "op4": "O(n^2)",
+        "answer": 3
+    },
+    {
+        "sl": 56,
+        "question": "An algorithm with $O(n^2)$ complexity operates in what time profile?",
+        "op1": "Constant Time",
+        "op2": "Linearithmic Time",
+        "op3": "Quadratic Time (commonly caused by two nested loops)",
+        "op4": "Exponential Time",
+        "answer": 3
+    },
+    {
+        "sl": 57,
+        "question": "Simple, non-optimized sorting algorithms like Bubble Sort have what worst-case complexity profile?",
+        "op1": "O(log n)",
+        "op2": "O(n log n)",
+        "op3": "O(n^2)",
+        "op4": "O(2^n)",
+        "answer": 3
+    },
+    {
+        "sl": 58,
+        "question": "An algorithm with $O(2^n)$ complexity operates in what time profile?",
+        "op1": "Linearithmic Time",
+        "op2": "Quadratic Time",
+        "op3": "Exponential Time",
+        "op4": "Constant Time",
+        "answer": 3
+    },
+    {
+        "sl": 59,
+        "question": "Which of the following complexity notations represents the SLOWEST execution profile (worst efficiency) as 'n' approaches infinity?",
+        "op1": "O(n)",
+        "op2": "O(n log n)",
+        "op3": "O(n^2)",
+        "op4": "O(2^n)",
+        "answer": 4
+    },
+    {
+        "sl": 60,
+        "question": "Which of the following complexity notations represents the FASTEST execution profile (best efficiency) as 'n' approaches infinity?",
+        "op1": "O(n)",
+        "op2": "O(log n)",
+        "op3": "O(n^2)",
+        "op4": "O(n log n)",
+        "answer": 2
+    },
+    {
+        "sl": 61,
+        "question": "Arrange the following complexity profiles in correct ascending order of growth rate (from fastest-running to slowest-running):",
+        "op1": "O(1) < O(n) < O(log n) < O(n^2)",
+        "op2": "O(1) < O(log n) < O(n) < O(n^2)",
+        "op3": "O(n^2) < O(n) < O(log n) < O(1)",
+        "op4": "O(log n) < O(1) < O(n) < O(n^2)",
+        "answer": 2
+    },
+    {
+        "sl": 62,
+        "question": "What happens to the running time of an $O(1)$ algorithm if the input size 'n' is doubled?",
+        "op1": "The running time is doubled",
+        "op2": "The running time is quadrupled",
+        "op3": "The running time remains exactly the same",
+        "op4": "The running time increases logarithmically",
+        "answer": 3
+    },
+    {
+        "sl": 63,
+        "question": "If an algorithm's operation count is modeled by the equation $T(n) = 4n^2 + 7n + 15$, what is its Big O complexity?",
+        "op1": "O(n)",
+        "op2": "O(n^2)",
+        "op3": "O(15)",
+        "op4": "O(n^3)",
+        "answer": 2
+    },
+    {
+        "sl": 64,
+        "question": "In asymptotic analysis, why do we drop constant multipliers (like '4' in $4n^2$) and lower-order terms (like '7n')?",
+        "op1": "Because compilers ignore constant numbers",
+        "op2": "As 'n' approaches infinity, the highest-degree term completely dominates the growth rate",
+        "op3": "To save RAM storage during calculations",
+        "op4": "To ensure language independence",
+        "answer": 2
+    },
+    {
+        "sl": 65,
+        "question": "If an algorithm requires nested loops where the outer loop runs 'n' times and the inner loop also runs 'n' times, the total time complexity is usually:",
+        "op1": "O(n)",
+        "op2": "O(n log n)",
+        "op3": "O(n^2)",
+        "op4": "O(2^n)",
+        "answer": 3
+    },
+    {
+        "sl": 66,
+        "question": "If a non-recursive program has two independent, sequential loops that each run 'n' times, its total time complexity is:",
+        "op1": "O(n^2)",
+        "op2": "O(n)",
+        "op3": "O(2n)",
+        "op4": "O(log n)",
+        "answer": 2
+    },
+    {
+        "sl": 67,
+        "question": "What is the worst-case space complexity of an iterative algorithm that only utilizes three simple scalar counter variables?",
+        "op1": "O(n)",
+        "op2": "O(1)",
+        "op3": "O(log n)",
+        "op4": "O(n^2)",
+        "answer": 2
+    },
+    {
+        "sl": 68,
+        "question": "What is the space complexity of an algorithm that allocates a new array of size 'n' to store duplicate file values?",
+        "op1": "O(1)",
+        "op2": "O(n)",
+        "op3": "O(n^2)",
+        "op4": "O(log n)",
+        "answer": 2
+    },
+    {
+        "sl": 69,
+        "question": "In recursion, if a function with input size 'n' calls itself 'n' times sequentially before hitting the base case, what is its recursion-stack space complexity?",
+        "op1": "O(1)",
+        "op2": "O(n)",
+        "op3": "O(n^2)",
+        "op4": "O(2^n)",
+        "answer": 2
+    },
+    {
+        "sl": 70,
+        "question": "Which notation is used mathematically to establish an absolute guarantee on the minimum efficiency (best performance) of an algorithm?",
+        "op1": "Big O",
+        "op2": "Big Omega",
+        "op3": "Big Theta",
+        "op4": "Quadratic threshold",
+        "answer": 2
+    },
+    {
+        "sl": 71,
+        "question": "Which of the following describes an exponential growth rate?",
+        "op1": "O(n)",
+        "op2": "O(n^2)",
+        "op3": "O(2^n)",
+        "op4": "O(log n)",
+        "answer": 3
+    },
+    {
+        "sl": 72,
+        "question": "A loop containing an index parameter that is multiplied by 2 in each iteration (e.g., $i = i * 2$) typically leads to what time complexity?",
+        "op1": "O(1)",
+        "op2": "O(log n)",
+        "op3": "O(n)",
+        "op4": "O(n^2)",
+        "answer": 2
+    },
+    {
+        "sl": 73,
+        "question": "Which of these represents the tightest, exact bound for an algorithm whose worst-case upper bound and best-case lower bound are both $O(n)$?",
+        "op1": "O(n^2)",
+        "op2": "Ω(n)",
+        "op3": "θ(n)",
+        "op4": "O(1)",
+        "answer": 3
+    },
+    {
+        "sl": 74,
+        "question": "What will happen if an algorithm runs with $O(2^n)$ complexity and 'n' increases to 50?",
+        "op1": "It completes immediately because 50 is a small number",
+        "op2": "It will take an impossibly huge number of operations ($2^{50}$), making it highly impractical to run",
+        "op3": "The space complexity drops to zero",
+        "op4": "It converts into an $O(1)$ constant profile",
+        "answer": 2
+    },
+    {
+        "sl": 75,
+        "question": "If an algorithm requires $O(n^3)$ operations, it is classified under what growth category?",
+        "op1": "Linearithmic",
+        "op2": "Quadratic",
+        "op3": "Cubic",
+        "op4": "Exponential",
+        "answer": 3
+    },
+    {
+        "sl": 76,
+        "question": "Which flowchart shape has exactly one entry line and multiple conditional exit lines branching out?",
+        "op1": "Rectangle",
+        "op2": "Parallelogram",
+        "op3": "Diamond",
+        "op4": "Oval",
+        "answer": 3
+    },
+    {
+        "sl": 77,
+        "question": "Which of the following is true about a Flowchart?",
+        "op1": "It can be loaded directly into dynamic RAM of the CPU",
+        "op2": "It uses standard geometric shapes to visualize step-by-step programming logic",
+        "op3": "It is written in high-level Assembly syntax",
+        "op4": "It represents hardware circuit wiring traces",
+        "answer": 2
+    },
+    {
+        "sl": 78,
+        "question": "Which of the following is NOT a logical component of loops inside an iterative algorithm?",
+        "op1": "Loop variable initialization",
+        "op2": "Termination test condition",
+        "op3": "Step update statement",
+        "op4": "Base case definition",
+        "answer": 4
+    },
+    {
+        "sl": 79,
+        "question": "In algorithm planning, why is pseudocode preferred by project leads over direct programming code?",
+        "op1": "It has its own custom compiler tool",
+        "op2": "It allows focusing entirely on problem-solving logic without worrying about language-specific syntax errors",
+        "op3": "It runs much faster on supercomputers",
+        "op4": "It guarantees zero memory consumption",
+        "answer": 2
+    },
+    {
+        "sl": 80,
+        "question": "If an algorithm's behavior is modeled as $T(n) = 100n + 5$, what is its Big O worst-case complexity?",
+        "op1": "O(100)",
+        "op2": "O(n)",
+        "op3": "O(1)",
+        "op4": "O(n^2)",
+        "answer": 2
+    },
+    {
+        "sl": 81,
+        "question": "Why is an $O(n \\log n)$ sorting algorithm preferred over an $O(n^2)$ sorting algorithm for large arrays?",
+        "op1": "Because $n \\log n$ grows much slower than $n^2$ as $n$ increases, making it vastly faster",
+        "op2": "Because it requires zero physical memory",
+        "op3": "Because it only uses CUI screens",
+        "op4": "Because it is designed with zero loops",
+        "answer": 1
+    },
+    {
+        "sl": 82,
+        "question": "The total operations of a program are described as $T(n) = 3^n$. What growth profile is this?",
+        "op1": "Polynomial",
+        "op2": "Logarithmic",
+        "op3": "Exponential",
+        "op4": "Linear",
+        "answer": 3
+    },
+    {
+        "sl": 83,
+        "question": "What is the typical base of logs in standard computer science complexity analysis?",
+        "op1": "10",
+        "op2": "e (natural log)",
+        "op3": "2",
+        "op4": "16",
+        "answer": 3
+    },
+    {
+        "sl": 84,
+        "question": "Which of the following is true regarding recursive stack call overhead?",
+        "op1": "It can be completely ignored in space complexity analysis",
+        "op2": "Each active recursive call preserves its parameters on physical memory, contributing to Space Complexity",
+        "op3": "It exists only in hardware registers",
+        "op4": "It converts files to machine binary",
+        "answer": 2
+    },
+    {
+        "sl": 85,
+        "question": "If an algorithm checks if a number is even or odd by performing 'N % 2 == 0', its time complexity is:",
+        "op1": "O(n)",
+        "op2": "O(log n)",
+        "op3": "O(1)",
+        "op4": "O(n^2)",
+        "answer": 3
+    },
+    {
+        "sl": 86,
+        "question": "A loop statement 'for i = 1 to n step 1' contains a block running in O(1). The complexity of the loop is:",
+        "op1": "O(1)",
+        "op2": "O(log n)",
+        "op3": "O(n)",
+        "op4": "O(n^2)",
+        "answer": 3
+    },
+    {
+        "sl": 87,
+        "question": "What flowchart shape represents variables declaration or simple state calculations?",
+        "op1": "Diamond",
+        "op2": "Rectangle",
+        "op3": "Oval",
+        "op4": "Circle",
+        "answer": 2
+    },
+    {
+        "sl": 88,
+        "question": "The efficiency term 'Space-Time Tradeoff' in algorithms means:",
+        "op1": "Hardware costs more than software",
+        "op2": "An algorithm can be designed to run faster at the cost of consuming more memory, or vice versa",
+        "op3": "CPU clocks slow down if RAM is upgraded",
+        "op4": "The compiler runs only at specific times",
+        "answer": 2
+    },
+    {
+        "sl": 89,
+        "question": "Which of the following factors does NOT affect theoretical Space Complexity?",
+        "op1": "Size of declared array variables",
+        "op2": "Physical color of the computer cabinet",
+        "op3": "Recursion call stack nesting depth",
+        "op4": "Class type sizes in code",
+        "answer": 2
+    },
+    {
+        "sl": 90,
+        "question": "What is the typical time complexity of accessing the first element of a linked list?",
+        "op1": "O(1)",
+        "op2": "O(n)",
+        "op3": "O(log n)",
+        "op4": "O(n^2)",
+        "answer": 1
+    },
+    {
+        "sl": 91,
+        "question": "An instruction in pseudocode like 'Repeat steps until condition is true' indicates what structure?",
+        "op1": "Sequential",
+        "op2": "Loop / Iteration",
+        "op3": "Recursive call",
+        "op4": "Constant declaration",
+        "answer": 2
+    },
+    {
+        "sl": 92,
+        "question": "An algorithm that has a worst-case time complexity of $O(n^2)$ might operate in $O(n)$ in its best case. This describes:",
+        "op1": "The variation in execution flow based on specific input configurations",
+        "op2": "A compiler error",
+        "op3": "An unstable operating system",
+        "op4": "A language translation delay",
+        "answer": 1
+    },
+    {
+        "sl": 93,
+        "question": "Which of the following complexity ranks represents a highly efficient algorithm for large data sets?",
+        "op1": "O(2^n)",
+        "op2": "O(n^2)",
+        "op3": "O(log n)",
+        "op4": "O(n^3)",
+        "answer": 3
+    },
+    {
+        "sl": 94,
+        "question": "In recursive factorial functions, if the input is negative, what should the validation logic do?",
+        "op1": "Increase the stack size infinitely",
+        "op2": "Return an error or exit immediately to prevent infinite recursive calls",
+        "op3": "Execute nested loops",
+        "op4": "Convert values into octal numbers",
+        "answer": 2
+    },
+    {
+        "sl": 95,
+        "question": "Which flowchart shape denotes the direction of data or control flow?",
+        "op1": "Connector",
+        "op2": "Flow Line (Arrow)",
+        "op3": "Diamond",
+        "op4": "Rectangle",
+        "answer": 2
+    },
+    {
+        "sl": 96,
+        "question": "If an algorithm divides a problem of size 'n' into two equal halves at each step (like Binary Search), its growth rate is:",
+        "op1": "O(n)",
+        "op2": "O(log n)",
+        "op3": "O(n^2)",
+        "op4": "O(n log n)",
+        "answer": 2
+    },
+    {
+        "sl": 97,
+        "question": "Which of the following models is the correct representation for an algorithm that runs three sequential, non-nested blocks of complexity $O(n^2)$, $O(n)$, and $O(1)$?",
+        "op1": "O(n^3)",
+        "op2": "O(n^2)",
+        "op3": "O(n)",
+        "op4": "O(1)",
+        "answer": 2
+    },
+    {
+        "sl": 98,
+        "question": "Asymptotic analysis is performed focusing on: ",
+        "op1": "Small input sets where 'n' is less than 5",
+        "op2": "Very large values of 'n' where the growth rate of functions becomes prominent",
+        "op3": "Compiler file compilation periods",
+        "op4": "Standard input voltage properties",
+        "answer": 2
+    },
+    {
+        "sl": 99,
+        "question": "Which asymptotic symbol mathematically represents a tight average bound on an algorithm?",
+        "op1": "O (Big O)",
+        "op2": "Ω (Big Omega)",
+        "op3": "θ (Big Theta)",
+        "op4": "Constant prefix",
+        "answer": 3
+    },
+    {
+        "sl": 100,
+        "question": "Why must every algorithm have at least one defined output?",
+        "op1": "To prevent compile-time warnings",
+        "op2": "An algorithm is written to solve a problem; without producing a result/output, it is useless",
+        "op3": "To empty the system registers",
+        "op4": "To ensure language independence",
+        "answer": 2
+    }
+]

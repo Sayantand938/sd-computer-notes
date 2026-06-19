@@ -1,0 +1,902 @@
+[
+    {
+        "sl": 1,
+        "question": "What is the logical definition of software?",
+        "op1": "A set of physical chips and processors",
+        "op2": "A collection of programs, procedures, and rules designed to guide computer hardware",
+        "op3": "The internal power supply system of a computer",
+        "op4": "The physical chassis and motherboard wiring",
+        "answer": 2
+    },
+    {
+        "sl": 2,
+        "question": "A single set of logical instructions written to perform a specific task is known as a:",
+        "op1": "Hardware component",
+        "op2": "Bus line",
+        "op3": "Program",
+        "op4": "Hard copy",
+        "answer": 3
+    },
+    {
+        "sl": 3,
+        "question": "Computer software is broadly classified into which primary categories?",
+        "op1": "Input and Output software",
+        "op2": "Local and Cloud software",
+        "op3": "Internal and External software",
+        "op4": "System, Application, and Utility software",
+        "answer": 4
+    },
+    {
+        "sl": 4,
+        "question": "Which software is designed to control, operate, and manage physical computer hardware components?",
+        "op1": "System Software",
+        "op2": "Application Software",
+        "op3": "Bespoke Software",
+        "op4": "Tailor-made Software",
+        "answer": 1
+    },
+    {
+        "sl": 5,
+        "question": "System software acts as an active intermediary interface between:",
+        "op1": "Two external storage drives",
+        "op2": "Application software and computer hardware",
+        "op3": "Input and output ports only",
+        "op4": "The scanner and printer hardware",
+        "answer": 2
+    },
+    {
+        "sl": 6,
+        "question": "Which of the following is NOT a type of System Software?",
+        "op1": "Operating System",
+        "op2": "Language Translators",
+        "op3": "Database Management System (DBMS) like Oracle",
+        "op4": "Linker and Loader",
+        "answer": 3
+    },
+    {
+        "sl": 7,
+        "question": "A language translator is primarily required because a computer CPU only directly understands:",
+        "op1": "High-Level Language code",
+        "op2": "Assembly Language mnemonics",
+        "op3": "Machine Language (binary)",
+        "op4": "English text instructions",
+        "answer": 3
+    },
+    {
+        "sl": 8,
+        "question": "Which system program translates low-level Assembly Language into machine language?",
+        "op1": "Compiler",
+        "op2": "Assembler",
+        "op3": "Interpreter",
+        "op4": "Loader",
+        "answer": 2
+    },
+    {
+        "sl": 9,
+        "question": "Assembly language uses symbolic codes instead of binary instructions. These codes are called:",
+        "op1": "Bytecodes",
+        "op2": "Operators",
+        "op3": "Mnemonics",
+        "op4": "Variables",
+        "answer": 3
+    },
+    {
+        "sl": 10,
+        "question": "Which language translator scans and translates an entire high-level program into machine code at once?",
+        "op1": "Interpreter",
+        "op2": "Assembler",
+        "op3": "Compiler",
+        "op4": "Linker",
+        "answer": 3
+    },
+    {
+        "sl": 11,
+        "question": "An Interpreter translates and executes a high-level language source program in what manner?",
+        "op1": "Line-by-line concurrently",
+        "op2": "In blocks of 100 lines at a time",
+        "op3": "At the very end of program writing",
+        "op4": "Only when the program crashes",
+        "answer": 1
+    },
+    {
+        "sl": 12,
+        "question": "Which file is typically generated as a result of successful Compilation?",
+        "op1": "Source file",
+        "op2": "Text document",
+        "op3": "Object code file",
+        "op4": "System register file",
+        "answer": 3
+    },
+    {
+        "sl": 13,
+        "question": "If an error is found inside a line of code during Interpretation, what does the interpreter do?",
+        "op1": "Saves the file and reboots the computer",
+        "op2": "Skips the line and executes the next line",
+        "op3": "Stops execution immediately and reports the error",
+        "op4": "Compiles the entire project as an executable",
+        "answer": 3
+    },
+    {
+        "sl": 14,
+        "question": "Why is debugging (finding and resolving code errors) generally easier with an Interpreter?",
+        "op1": "Because it ignores syntax errors completely",
+        "op2": "Because it points out errors line-by-line as they occur",
+        "op3": "Because it converts all errors into comments",
+        "op4": "Because it runs faster than a compiler",
+        "answer": 2
+    },
+    {
+        "sl": 15,
+        "question": "Which programming language translator does NOT generate any permanent intermediate object files?",
+        "op1": "Compiler",
+        "op2": "Linker",
+        "op3": "Interpreter",
+        "op4": "Assembler",
+        "answer": 3
+    },
+    {
+        "sl": 16,
+        "question": "The program written by a programmer in a high-level language before translation is called:",
+        "op1": "Object Code",
+        "op2": "Source Code",
+        "op3": "Machine Code",
+        "op4": "Bytecode",
+        "answer": 2
+    },
+    {
+        "sl": 17,
+        "question": "Which of the following is true regarding Compiler translation speed vs Interpreter translation speed?",
+        "op1": "An interpreter is faster to execute an entire program than a compiler",
+        "op2": "A compiled program runs faster during execution because translation was done beforehand",
+        "op3": "Both run at exactly identical execution speeds",
+        "op4": "Speed depends entirely on keyboard typing speed",
+        "answer": 2
+    },
+    {
+        "sl": 18,
+        "question": "Which language translator is commonly associated with languages like C and C++?",
+        "op1": "Interpreter",
+        "op2": "Compiler",
+        "op3": "Assembler",
+        "op4": "Decompressor",
+        "answer": 2
+    },
+    {
+        "sl": 19,
+        "question": "Which language translator is commonly associated with languages like Python and Ruby?",
+        "op1": "Compiler",
+        "op2": "Interpreter",
+        "op3": "Assembler",
+        "op4": "Linker",
+        "answer": 2
+    },
+    {
+        "sl": 20,
+        "question": "What does a Linker do?",
+        "op1": "It connects the computer to a network switch",
+        "op2": "It combines multiple object files and library files into a single executable file",
+        "op3": "It converts hardware voltage signals to binary numbers",
+        "op4": "It deletes duplicate temporary files from RAM",
+        "answer": 2
+    },
+    {
+        "sl": 21,
+        "question": "Which system software is responsible for placing an executable program into primary RAM memory for CPU execution?",
+        "op1": "Linker",
+        "op2": "Loader",
+        "op3": "Interpreter",
+        "op4": "Defragmenter",
+        "answer": 2
+    },
+    {
+        "sl": 22,
+        "question": "A loader operates between which two primary components of memory storage?",
+        "op1": "Keyboard buffer and output screen",
+        "op2": "Secondary storage (disk) and primary memory (RAM)",
+        "op3": "L1 Cache and registers",
+        "op4": "ALU and Accumulator register",
+        "answer": 2
+    },
+    {
+        "sl": 23,
+        "question": "What is the logical order of steps from writing code to executing it on a computer?",
+        "op1": "Source Code -> Loading -> Linking -> Compilation",
+        "op2": "Compilation -> Loading -> Source Code -> Linking",
+        "op3": "Source Code -> Compilation -> Linking -> Loading",
+        "op4": "Linking -> Loading -> Compilation -> Source Code",
+        "answer": 3
+    },
+    {
+        "sl": 24,
+        "question": "If external functions or library code referenced in a program are not found, which utility generates an error?",
+        "op1": "Loader",
+        "op2": "Compiler",
+        "op3": "Linker",
+        "op4": "Assembler",
+        "answer": 3
+    },
+    {
+        "sl": 25,
+        "question": "What is an Operating System (OS)?",
+        "op1": "A custom web application for running servers",
+        "op2": "System software that manages computer hardware and software resources",
+        "op3": "Hardware circuitry that manages the CPU clock speed",
+        "op4": "A software suite for writing letters and calculation files",
+        "answer": 2
+    },
+    {
+        "sl": 26,
+        "question": "The task of keeping track of allocated and free memory spaces in RAM is part of which OS function?",
+        "op1": "Processor Management",
+        "op2": "Memory Management",
+        "op3": "Device Management",
+        "op4": "File Management",
+        "answer": 2
+    },
+    {
+        "sl": 27,
+        "question": "The OS component that decides which task gets access to the CPU and for how long is known as the:",
+        "op1": "Memory Manager",
+        "op2": "File System",
+        "op3": "CPU Scheduler",
+        "op4": "Device Driver",
+        "answer": 3
+    },
+    {
+        "sl": 28,
+        "question": "Organizing data structures into logical folders and managing files is handled by which function of an OS?",
+        "op1": "Device Management",
+        "op2": "File Management",
+        "op3": "Security Management",
+        "op4": "Processor Management",
+        "answer": 2
+    },
+    {
+        "sl": 29,
+        "question": "What software helps an OS communicate with specific physical peripheral components like graphics cards or printers?",
+        "op1": "Linkers",
+        "op2": "Device Drivers",
+        "op3": "Utility Suites",
+        "op4": "Compilers",
+        "answer": 2
+    },
+    {
+        "sl": 30,
+        "question": "The physical process of loading the operating system into the main RAM memory when turning on a computer is called:",
+        "op1": "Compiling",
+        "op2": "Linking",
+        "op3": "Booting",
+        "op4": "Defragmenting",
+        "answer": 3
+    },
+    {
+        "sl": 31,
+        "question": "An operating system that allows only one active user to perform one task at a time is a:",
+        "op1": "Single-User Single-Tasking OS",
+        "op2": "Single-User Multi-Tasking OS",
+        "op3": "Multi-User OS",
+        "op4": "Time-Sharing OS",
+        "answer": 1
+    },
+    {
+        "sl": 32,
+        "question": "Which of the following historical operating systems is a classic example of a single-user single-tasking CUI OS?",
+        "op1": "Windows 11",
+        "op2": "MS-DOS",
+        "op3": "Ubuntu Linux",
+        "op4": "macOS",
+        "answer": 2
+    },
+    {
+        "sl": 33,
+        "question": "Modern personal computers running Windows or macOS allow one user to run multiple applications at once. This is a:",
+        "op1": "Single-User Multi-Tasking OS",
+        "op2": "Single-User Single-Tasking OS",
+        "op3": "Multiprocessing OS only",
+        "op4": "Real-Time OS only",
+        "answer": 1
+    },
+    {
+        "sl": 34,
+        "question": "An OS that allows many users on different terminals to access the central CPU and RAM simultaneously is a:",
+        "op1": "Single-User OS",
+        "op2": "Multi-User OS",
+        "op3": "Static OS",
+        "op4": "Bespoke OS",
+        "answer": 2
+    },
+    {
+        "sl": 35,
+        "question": "What is the primary technical objective of a 'Multiprogramming' Operating System?",
+        "op1": "To allow multiple users to play online games together",
+        "op2": "To keep the CPU active as much as possible by loading multiple programs into memory",
+        "op3": "To compile multiple languages without using an interpreter",
+        "op4": "To connect multiple CPUs inside a single main system",
+        "answer": 2
+    },
+    {
+        "sl": 36,
+        "question": "In a multiprogramming system, if a running program pauses to wait for an input/output action, what does the OS do?",
+        "op1": "Stops the entire computer until input is given",
+        "op2": "Switches the CPU to execute another active program in RAM",
+        "op3": "Deletes the program from secondary storage",
+        "op4": "Reboots the motherboard automatically",
+        "answer": 2
+    },
+    {
+        "sl": 37,
+        "question": "An operating system that works with and controls two or more physical processors (CPUs) inside one computer is a:",
+        "op1": "Single-tasking OS",
+        "op2": "Multiprocessing OS",
+        "op3": "CUI OS",
+        "op4": "Time-sharing OS",
+        "answer": 2
+    },
+    {
+        "sl": 38,
+        "question": "What is the main benefit of a Multiprocessing system?",
+        "op1": "It uses less power and generates no heat",
+        "op2": "It achieves true parallel execution of instructions across different CPU cores",
+        "op3": "It eliminates the need for primary RAM memory",
+        "op4": "It converts all high-level code to assembly language",
+        "answer": 2
+    },
+    {
+        "sl": 39,
+        "question": "An operating system that divides CPU time into small intervals to switch rapidly among active users is a:",
+        "op1": "Batch Processing OS",
+        "op2": "Time-Sharing OS",
+        "op3": "Single-Tasking OS",
+        "op4": "Standard Desktop OS",
+        "answer": 2
+    },
+    {
+        "sl": 40,
+        "question": "The tiny allotted block of execution time given to each user in a Time-Sharing system is called a:",
+        "op1": "Time-lag",
+        "op2": "Frequency band",
+        "op3": "Time Slice or Quantum",
+        "op4": "Buffer cycle",
+        "answer": 3
+    },
+    {
+        "sl": 41,
+        "question": "Which of the following is designed for users to complete specialized individual daily tasks like document formatting?",
+        "op1": "System Software",
+        "op2": "Application Software",
+        "op3": "Utility Software",
+        "op4": "Linker software",
+        "answer": 2
+    },
+    {
+        "sl": 42,
+        "question": "An application software designed for a wide range of public users, like Microsoft Word, is called:",
+        "op1": "Customized Software",
+        "op2": "General Purpose Application Software",
+        "op3": "System utility",
+        "op4": "Compiler language",
+        "answer": 2
+    },
+    {
+        "sl": 43,
+        "question": "Software custom-built to manage academic records and fees specifically for a particular school is an example of:",
+        "op1": "General Purpose Software",
+        "op2": "Customized (Tailor-made) Software",
+        "op3": "Operating System Software",
+        "op4": "Language Compiler Software",
+        "answer": 2
+    },
+    {
+        "sl": 44,
+        "question": "Which type of software consists of helper tools to protect, keep up, configure, and optimize computer performance?",
+        "op1": "Bespoke Application Software",
+        "op2": "Utility Software",
+        "op3": "CUI operating system",
+        "op4": "High-level language compiler",
+        "answer": 2
+    },
+    {
+        "sl": 45,
+        "question": "Which of the following software programs is classified as a Utility Software?",
+        "op1": "MS Excel",
+        "op2": "Antivirus",
+        "op3": "C++ Compiler",
+        "op4": "Linux Kernel",
+        "answer": 2
+    },
+    {
+        "sl": 46,
+        "question": "A utility program that brings non-contiguous split file sectors together on a physical hard drive to improve speed is a:",
+        "op1": "File Compressor",
+        "op2": "Disk Defragmenter",
+        "op3": "Backup Utility",
+        "op4": "Loader utility",
+        "answer": 2
+    },
+    {
+        "sl": 47,
+        "question": "Applications like WinZip, WinRAR, and 7-Zip are classified under which software category?",
+        "op1": "General Purpose Application Software",
+        "op2": "File Compression Utility Software",
+        "op3": "Operating System Platforms",
+        "op4": "Language Translator Software",
+        "answer": 2
+    },
+    {
+        "sl": 48,
+        "question": "A software utility designed to make duplicate storage copies of files in case of data loss is called:",
+        "op1": "Disk Formatting Utility",
+        "op2": "Backup Utility",
+        "op3": "Compiler",
+        "op4": "Device Driver",
+        "answer": 2
+    },
+    {
+        "sl": 49,
+        "question": "Which software utility scans active directories to protect, isolate, and remove malware threats?",
+        "op1": "Disk partitioner",
+        "op2": "Antivirus software",
+        "op3": "Assembler program",
+        "op4": "File editor",
+        "answer": 2
+    },
+    {
+        "sl": 50,
+        "question": "What is the full form of CUI?",
+        "op1": "Computerized User Index",
+        "op2": "Character User Interface",
+        "op3": "Common Unified Instruction",
+        "op4": "Calculated Utility Interface",
+        "answer": 2
+    },
+    {
+        "sl": 51,
+        "question": "What is the full form of GUI?",
+        "op1": "General User Integration",
+        "op2": "Graphical User Interface",
+        "op3": "Global Utility Interface",
+        "op4": "Graphics Unified Index",
+        "answer": 2
+    },
+    {
+        "sl": 52,
+        "question": "Which primary input device is used to operate a system that only has a Character User Interface (CUI)?",
+        "op1": "Mouse",
+        "op2": "Scanner",
+        "op3": "Keyboard",
+        "op4": "Joystick",
+        "answer": 3
+    },
+    {
+        "sl": 53,
+        "question": "Visual graphical elements like windows, files, system menus, and visual buttons are characteristic of which interface?",
+        "op1": "CUI",
+        "op2": "GUI",
+        "op3": "C-Language interface",
+        "op4": "Assembly prompt",
+        "answer": 2
+    },
+    {
+        "sl": 54,
+        "question": "Which of the following properties is an advantage of CUI over GUI?",
+        "op1": "CUI has an easier learning curve for beginners",
+        "op2": "CUI uses much less primary memory and computer system overhead",
+        "op3": "CUI shows colorful folders and graphics",
+        "op4": "CUI relies heavily on using pointing mice",
+        "answer": 2
+    },
+    {
+        "sl": 55,
+        "question": "Which interface is designed to be highly intuitive and easy to use for beginners without memorizing commands?",
+        "op1": "CUI",
+        "op2": "GUI",
+        "op3": "Assembly line command",
+        "op4": "Binary code console",
+        "answer": 2
+    },
+    {
+        "sl": 56,
+        "question": "What kind of user interface is the standard Command Prompt terminal in Windows or Linux?",
+        "op1": "GUI",
+        "op2": "CUI / CLI",
+        "op3": "Hardware interface",
+        "op4": "3D interface",
+        "answer": 2
+    },
+    {
+        "sl": 57,
+        "question": "Which of the following is a GUI desktop environment used to run Linux systems graphically?",
+        "op1": "MS-DOS console",
+        "op2": "Bash Shell terminal",
+        "op3": "GNOME desktop",
+        "op4": "Assembler unit",
+        "answer": 3
+    },
+    {
+        "sl": 58,
+        "question": "Which open-source operating system is highly famous for both its robust CLI and graphical interface capabilities?",
+        "op1": "MS-DOS",
+        "op2": "Windows 3.1",
+        "op3": "Linux",
+        "op4": "Apple iOS 1.0",
+        "answer": 3
+    },
+    {
+        "sl": 59,
+        "question": "In Linux, which command displays the full absolute path of the directory you are currently working in?",
+        "op1": "ls",
+        "op2": "pwd",
+        "op3": "cd",
+        "op4": "cat",
+        "answer": 2
+    },
+    {
+        "sl": 60,
+        "question": "Which fundamental Linux command is used to list all directories and files in the current directory?",
+        "op1": "ls",
+        "op2": "cd",
+        "op3": "pwd",
+        "op4": "mkdir",
+        "answer": 1
+    },
+    {
+        "sl": 61,
+        "question": "Which Linux command is used to navigate or change your working folder directory?",
+        "op1": "ls",
+        "op2": "pwd",
+        "op3": "cd",
+        "op4": "touch",
+        "answer": 3
+    },
+    {
+        "sl": 62,
+        "question": "What command should you write in Linux terminal to create a new folder named 'Study'?",
+        "op1": "rmdir Study",
+        "op2": "cd Study",
+        "op3": "mkdir Study",
+        "op4": "touch Study",
+        "answer": 3
+    },
+    {
+        "sl": 63,
+        "question": "Which command is used to delete an empty folder named 'Study' in a Linux environment?",
+        "op1": "rmdir Study",
+        "op2": "mkdir Study",
+        "op3": "rm Study",
+        "op4": "touch Study",
+        "answer": 1
+    },
+    {
+        "sl": 64,
+        "question": "In Linux, how can you quickly create a new empty text file named 'notes.txt'?",
+        "op1": "cat notes.txt",
+        "op2": "touch notes.txt",
+        "op3": "mkdir notes.txt",
+        "op4": "pwd notes.txt",
+        "answer": 2
+    },
+    {
+        "sl": 65,
+        "question": "Which Linux command is used to read and output the contents of a text file onto the screen?",
+        "op1": "ls",
+        "op2": "pwd",
+        "op3": "cat",
+        "op4": "mkdir",
+        "answer": 3
+    },
+    {
+        "sl": 66,
+        "question": "What is the basic syntax of the Linux command to copy a file named 'a.txt' to another directory path 'backup'?",
+        "op1": "mv a.txt backup/",
+        "op2": "cp a.txt backup/",
+        "op3": "rm a.txt backup/",
+        "op4": "touch a.txt backup/",
+        "answer": 2
+    },
+    {
+        "sl": 67,
+        "question": "Which Linux command is used to move a file or rename it to a new location?",
+        "op1": "cp",
+        "op2": "mv",
+        "op3": "rm",
+        "op4": "cat",
+        "answer": 2
+    },
+    {
+        "sl": 68,
+        "question": "Which Linux command is used to permanently delete files?",
+        "op1": "rmdir",
+        "op2": "rm",
+        "op3": "mv",
+        "op4": "cat",
+        "answer": 2
+    },
+    {
+        "sl": 69,
+        "question": "To clear all command histories and clean the terminal display screen in Linux, we use:",
+        "op1": "cat",
+        "op2": "clear",
+        "op3": "pwd",
+        "op4": "ls",
+        "answer": 2
+    },
+    {
+        "sl": 70,
+        "question": "Which Linux command displays the username of the active user session currently logged in?",
+        "op1": "whoami",
+        "op2": "pwd",
+        "op3": "who",
+        "op4": "id",
+        "answer": 1
+    },
+    {
+        "sl": 71,
+        "question": "What is an alternative name for high-level source programs before compilation?",
+        "op1": "Binary file",
+        "op2": "Object modules",
+        "op3": "Source program / code",
+        "op4": "Executable binary",
+        "answer": 3
+    },
+    {
+        "sl": 72,
+        "question": "A system program that translates mnemonic-based programs into machine-language programs is:",
+        "op1": "Compiler",
+        "op2": "Interpreter",
+        "op3": "Assembler",
+        "op4": "Loader",
+        "answer": 3
+    },
+    {
+        "sl": 73,
+        "question": "Which translation system allows testing and execution of a program to continue after editing line-by-line?",
+        "op1": "Compiler",
+        "op2": "Interpreter",
+        "op3": "Linker",
+        "op4": "Decompressor",
+        "answer": 2
+    },
+    {
+        "sl": 74,
+        "question": "Why does a Compiler need more storage space than an Interpreter during the translation cycle?",
+        "op1": "It works with printers directly",
+        "op2": "It creates and saves intermediate object code files to disk",
+        "op3": "It is written in binary",
+        "op4": "It is an application software",
+        "answer": 2
+    },
+    {
+        "sl": 75,
+        "question": "An executable file on a disk can be executed by the processor only after it has been loaded by:",
+        "op1": "The Linker",
+        "op2": "The Compiler",
+        "op3": "The Loader",
+        "op4": "An Assembler",
+        "answer": 3
+    },
+    {
+        "sl": 76,
+        "question": "The linker resolves external library file calls. The linked executable is then saved on:",
+        "op1": "Primary storage (RAM)",
+        "op2": "Secondary storage (Disk)",
+        "op3": "CPU Registers",
+        "op4": "L1 Cache",
+        "answer": 2
+    },
+    {
+        "sl": 77,
+        "question": "Which OS module interacts with system hardware directly and coordinates program resources?",
+        "op1": "Kernel",
+        "op2": "GUI desktop",
+        "op3": "Compiler",
+        "op4": "Word processor",
+        "answer": 1
+    },
+    {
+        "sl": 78,
+        "question": "Which task of the Operating System coordinates resources so processes do not overwrite each other's data spaces in RAM?",
+        "op1": "CPU Scheduling",
+        "op2": "Memory Management",
+        "op3": "Device Drivers execution",
+        "op4": "File formatting",
+        "answer": 2
+    },
+    {
+        "sl": 79,
+        "question": "When an OS ensures that unauthorized network logins are blocked, it is performing which task?",
+        "op1": "Device management",
+        "op2": "Security / Protection management",
+        "op3": "Processor scheduling",
+        "op4": "File mapping",
+        "answer": 2
+    },
+    {
+        "sl": 80,
+        "question": "An OS allows a user to listen to music while writing notes in MS Word on a single CPU core by switching tasks very quickly. This is:",
+        "op1": "Single-tasking",
+        "op2": "Multitasking / Multiprogramming",
+        "op3": "Multiprocessing",
+        "op4": "Asynchronous boot",
+        "answer": 2
+    },
+    {
+        "sl": 81,
+        "question": "Which type of OS is primarily used on cluster computers and giant server environments where tasks are split across physical multi-core CPUs?",
+        "op1": "Single-user single-tasking OS",
+        "op2": "Multiprocessing OS",
+        "op3": "MS-DOS OS",
+        "op4": "Embedded static OS",
+        "answer": 2
+    },
+    {
+        "sl": 82,
+        "question": "In Time-Sharing systems, what algorithm is commonly used to assign time slices sequentially to active tasks?",
+        "op1": "First In First Out",
+        "op2": "Shortest Job First",
+        "op3": "Round Robin",
+        "op4": "Last In First Out",
+        "answer": 3
+    },
+    {
+        "sl": 83,
+        "question": "Which type of software comprises applications like Adobe Photoshop or CorelDRAW?",
+        "op1": "System Utilities",
+        "op2": "General Purpose Application Software",
+        "op3": "Customized ERP System",
+        "op4": "Operating system kernel",
+        "answer": 2
+    },
+    {
+        "sl": 84,
+        "question": "Which of the following is customized software designed uniquely for a client organization?",
+        "op1": "Mozilla Firefox",
+        "op2": "A specific Bank's transaction and account portal software",
+        "op3": "Windows Defender",
+        "op4": "Notepad text editor",
+        "answer": 2
+    },
+    {
+        "sl": 85,
+        "question": "Which of these utility softwares reduces the overall size of files or folders for faster network transfers?",
+        "op1": "Disk Defragmenter",
+        "op2": "WinRAR / WinZip",
+        "op3": "Antivirus Scan",
+        "op4": "Loader Utility",
+        "answer": 2
+    },
+    {
+        "sl": 86,
+        "question": "Under what software category do backup scripts and automated replication applications fall?",
+        "op1": "System Kernel",
+        "op2": "Utility Software",
+        "op3": "General Purpose apps",
+        "op4": "Database engines",
+        "answer": 2
+    },
+    {
+        "sl": 87,
+        "question": "Which interface allows users to perform automated operations very efficiently by writing shell scripts?",
+        "op1": "GUI",
+        "op2": "CUI / CLI",
+        "op3": "Visual layout editor",
+        "op4": "None of the above",
+        "answer": 2
+    },
+    {
+        "sl": 88,
+        "question": "Which interface allows users to launch folders and files by clicking graphic icons using pointing devices?",
+        "op1": "CUI",
+        "op2": "GUI",
+        "op3": "Command Prompt terminal",
+        "op4": "Assembly prompt",
+        "answer": 2
+    },
+    {
+        "sl": 89,
+        "question": "Which operating system uses CUI by default, requiring commands like 'DIR' or 'CD' to view folders?",
+        "op1": "macOS Mojave",
+        "op2": "Windows 11",
+        "op3": "MS-DOS",
+        "op4": "Android 14",
+        "answer": 3
+    },
+    {
+        "sl": 90,
+        "question": "If you are in Linux CUI terminal, which parameter combined with 'ls' shows hidden files and permissions?",
+        "op1": "-h",
+        "op2": "-la",
+        "op3": "-x",
+        "op4": "-help",
+        "answer": 2
+    },
+    {
+        "sl": 91,
+        "question": "The absolute file path returned by the command 'pwd' in Linux terminal starts with which symbol?",
+        "op1": "\\",
+        "op2": "/",
+        "op3": "~",
+        "op4": "$",
+        "answer": 2
+    },
+    {
+        "sl": 92,
+        "question": "Which Linux directory command takes you back up to the parent directory immediately above the current directory?",
+        "op1": "cd /",
+        "op2": "cd ..",
+        "op3": "cd ~",
+        "op4": "cd parent",
+        "answer": 2
+    },
+    {
+        "sl": 93,
+        "question": "What is the correct command syntax to create a directory named 'Notes' in Linux terminal?",
+        "op1": "cd Notes",
+        "op2": "mkdir Notes",
+        "op3": "touch Notes",
+        "op4": "rmdir Notes",
+        "answer": 2
+    },
+    {
+        "sl": 94,
+        "question": "What will happen if you execute the command 'rmdir Document' in Linux if the folder 'Document' contains several files?",
+        "op1": "It will delete the folder and all its contents",
+        "op2": "It will return an error stating that the directory is not empty",
+        "op3": "It will move the folder to backup storage",
+        "op4": "It will convert the directory into an empty file",
+        "answer": 2
+    },
+    {
+        "sl": 95,
+        "question": "In Linux, creating an empty file can be quickly done with touch. Which of the following is the correct code?",
+        "op1": "touch project.doc",
+        "op2": "mkdir project.doc",
+        "op3": "cd project.doc",
+        "op4": "cat project.doc",
+        "answer": 1
+    },
+    {
+        "sl": 96,
+        "question": "To read and display text inside a file named 'log.txt' on a Linux terminal screen, we type:",
+        "op1": "touch log.txt",
+        "op2": "mkdir log.txt",
+        "op3": "cat log.txt",
+        "op4": "ls log.txt",
+        "answer": 3
+    },
+    {
+        "sl": 97,
+        "question": "Which command syntax is correct to copy file 'exam.txt' to directory path 'school' in Linux?",
+        "op1": "cp exam.txt school/",
+        "op2": "mv exam.txt school/",
+        "op3": "rm exam.txt school/",
+        "op4": "touch exam.txt school/",
+        "answer": 1
+    },
+    {
+        "sl": 98,
+        "question": "How do you rename a file named 'old.txt' to 'new.txt' in a Linux terminal session?",
+        "op1": "cp old.txt new.txt",
+        "op2": "mv old.txt new.txt",
+        "op3": "rm old.txt new.txt",
+        "op4": "touch old.txt new.txt",
+        "answer": 2
+    },
+    {
+        "sl": 99,
+        "question": "Which of these terminal commands is used to delete a file named 'trash.tmp' inside Linux?",
+        "op1": "rmdir trash.tmp",
+        "op2": "rm trash.tmp",
+        "op3": "mv trash.tmp",
+        "op4": "clear trash.tmp",
+        "answer": 2
+    },
+    {
+        "sl": 100,
+        "question": "What happens when you execute the 'clear' command in a Linux shell?",
+        "op1": "It deletes all system files in the active directory",
+        "op2": "It empties system RAM buffer storage",
+        "op3": "It clears the terminal output screen display",
+        "op4": "It logs out the active system user",
+        "answer": 3
+    }
+]

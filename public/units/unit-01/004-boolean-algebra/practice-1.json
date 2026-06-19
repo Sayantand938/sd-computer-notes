@@ -1,0 +1,902 @@
+[
+    {
+        "sl": 1,
+        "question": "In Boolean algebra, variables can have only how many logical values?",
+        "op1": "Infinite",
+        "op2": "Ten",
+        "op3": "Two",
+        "op4": "Four",
+        "answer": 3
+    },
+    {
+        "sl": 2,
+        "question": "Which mathematical postulate is represented by the equation A + 0 = A?",
+        "op1": "Complement Law",
+        "op2": "Identity Law for OR",
+        "op3": "Absorption Law",
+        "op4": "Distributive Law",
+        "answer": 2
+    },
+    {
+        "sl": 3,
+        "question": "Which mathematical postulate is represented by the equation A * 1 = A?",
+        "op1": "Identity Law for AND",
+        "op2": "Complement Law",
+        "op3": "Involution Law",
+        "op4": "Idempotent Law",
+        "answer": 1
+    },
+    {
+        "sl": 4,
+        "question": "The Boolean equation A + A' = 1 belongs to which law?",
+        "op1": "Idempotent Law",
+        "op2": "Complement Law",
+        "op3": "Absorption Law",
+        "op4": "Associative Law",
+        "answer": 2
+    },
+    {
+        "sl": 5,
+        "question": "The Boolean equation A * A' = 0 belongs to which law?",
+        "op1": "Complement Law",
+        "op2": "Idempotent Law",
+        "op3": "Consensus Law",
+        "op4": "Duality Law",
+        "answer": 1
+    },
+    {
+        "sl": 6,
+        "question": "What is the simplified output of the expression A + A?",
+        "op1": "1",
+        "op2": "0",
+        "op3": "A",
+        "op4": "2A",
+        "answer": 3
+    },
+    {
+        "sl": 7,
+        "question": "The law stating A * A = A is known as:",
+        "op1": "Distributive Law",
+        "op2": "Complement Law",
+        "op3": "Idempotent Law",
+        "op4": "Identity Law",
+        "answer": 3
+    },
+    {
+        "sl": 8,
+        "question": "According to the properties of 0 and 1, what is the output of A + 1?",
+        "op1": "A",
+        "op2": "1",
+        "op3": "0",
+        "op4": "A'",
+        "answer": 2
+    },
+    {
+        "sl": 9,
+        "question": "According to the properties of 0 and 1, what is the output of A * 0?",
+        "op1": "A",
+        "op2": "1",
+        "op3": "0",
+        "op4": "A'",
+        "answer": 3
+    },
+    {
+        "sl": 10,
+        "question": "The double complement of a variable (Involution Law) is written as (A')' = ",
+        "op1": "0",
+        "op2": "1",
+        "op3": "A'",
+        "op4": "A",
+        "answer": 4
+    },
+    {
+        "sl": 11,
+        "question": "Which law is represented by the equation A + B = B + A?",
+        "op1": "Associative Law",
+        "op2": "Commutative Law",
+        "op3": "Distributive Law",
+        "op4": "Absorption Law",
+        "answer": 2
+    },
+    {
+        "sl": 12,
+        "question": "The algebraic relation (A + B) + C = A + (B + C) represents which law?",
+        "op1": "Commutative Law",
+        "op2": "Associative Law",
+        "op3": "Distributive Law",
+        "op4": "Complement Law",
+        "answer": 2
+    },
+    {
+        "sl": 13,
+        "question": "The algebraic relation A + (B * C) = (A + B) * (A + C) represents which law?",
+        "op1": "Associative Law",
+        "op2": "Distributive Law",
+        "op3": "Absorption Law",
+        "op4": "Commutative Law",
+        "answer": 2
+    },
+    {
+        "sl": 14,
+        "question": "What is the simplified output of the Absorption Law expression A + AB?",
+        "op1": "B",
+        "op2": "AB",
+        "op3": "A",
+        "op4": "A + B",
+        "answer": 3
+    },
+    {
+        "sl": 15,
+        "question": "Simplify the Absorption Law expression A * (A + B):",
+        "op1": "B",
+        "op2": "A + B",
+        "op3": "A",
+        "op4": "AB",
+        "answer": 3
+    },
+    {
+        "sl": 16,
+        "question": "According to the Duality Principle, to find the dual of an expression we swap:",
+        "op1": "All variables with their complements",
+        "op2": "All OR operations with AND, AND with OR, and swap 0 and 1",
+        "op3": "Only inputs with outputs",
+        "op4": "All terms with their double complement",
+        "answer": 2
+    },
+    {
+        "sl": 17,
+        "question": "What is the dual of the Boolean relation A * 0 = 0?",
+        "op1": "A * 1 = 1",
+        "op2": "A + 1 = 1",
+        "op3": "A' + 1 = 1",
+        "op4": "A + 0 = 0",
+        "answer": 2
+    },
+    {
+        "sl": 18,
+        "question": "What is the dual of the Boolean relation A * (B + C) = AB + AC?",
+        "op1": "A + (B * C) = (A + B) * (A + C)",
+        "op2": "A' * (B' + C') = A'B' + A'C'",
+        "op3": "A + B + C = AB + AC",
+        "op4": "None of the above",
+        "answer": 1
+    },
+    {
+        "sl": 19,
+        "question": "Simplify the expression algebraically: A + A'B",
+        "op1": "B",
+        "op2": "A + B",
+        "op3": "AB",
+        "op4": "A' + B",
+        "answer": 2
+    },
+    {
+        "sl": 20,
+        "question": "Simplify the expression algebraically: A * (A' + B)",
+        "op1": "A + B",
+        "op2": "AB",
+        "op3": "A'B",
+        "op4": "B",
+        "answer": 2
+    },
+    {
+        "sl": 21,
+        "question": "The consensus theorem state that AB + A'C + BC is equal to:",
+        "op1": "AB + BC",
+        "op2": "AB + A'C",
+        "op3": "A'C + BC",
+        "op4": "A + B + C",
+        "answer": 2
+    },
+    {
+        "sl": 22,
+        "question": "The operation AND is equivalent to which logical concept?",
+        "op1": "Logical Inversion",
+        "op2": "Logical Conjunction (Multiplication)",
+        "op3": "Logical Disjunction (Addition)",
+        "op4": "Logical Exclusive-OR",
+        "answer": 2
+    },
+    {
+        "sl": 23,
+        "question": "The operation OR is equivalent to which logical concept?",
+        "op1": "Logical Disjunction (Addition)",
+        "op2": "Logical Conjunction (Multiplication)",
+        "op3": "Logical Inversion",
+        "op4": "None of the above",
+        "answer": 1
+    },
+    {
+        "sl": 24,
+        "question": "What is the dual of the relation A + A' = 1?",
+        "op1": "A * A' = 0",
+        "op2": "A' + A = 1",
+        "op3": "A * A = 1",
+        "op4": "A' * A' = 0",
+        "answer": 1
+    },
+    {
+        "sl": 25,
+        "question": "In Boolean logic, the complement of 0 is:",
+        "op1": "0",
+        "op2": "1",
+        "op3": "Undefined",
+        "op4": "-1",
+        "answer": 2
+    },
+    {
+        "sl": 26,
+        "question": "Which of these logic gates performs logical inversion?",
+        "op1": "AND Gate",
+        "op2": "NOT Gate",
+        "op3": "OR Gate",
+        "op4": "XOR Gate",
+        "answer": 2
+    },
+    {
+        "sl": 27,
+        "question": "An AND gate outputs 1 only when:",
+        "op1": "At least one input is 1",
+        "op2": "All inputs are 1",
+        "op3": "All inputs are 0",
+        "op4": "An odd number of inputs are 1",
+        "answer": 2
+    },
+    {
+        "sl": 28,
+        "question": "An OR gate outputs 0 only when:",
+        "op1": "All inputs are 0",
+        "op2": "All inputs are 1",
+        "op3": "At least one input is 0",
+        "op4": "An even number of inputs are 1",
+        "answer": 1
+    },
+    {
+        "sl": 29,
+        "question": "Which logic gate has the Boolean expression Y = A + B?",
+        "op1": "AND Gate",
+        "op2": "OR Gate",
+        "op3": "NAND Gate",
+        "op4": "XOR Gate",
+        "answer": 2
+    },
+    {
+        "sl": 30,
+        "question": "Which logic gate has the Boolean expression Y = A * B?",
+        "op1": "OR Gate",
+        "op2": "AND Gate",
+        "op3": "NOR Gate",
+        "op4": "XNOR Gate",
+        "answer": 2
+    },
+    {
+        "sl": 31,
+        "question": "NAND and NOR gates are classified as:",
+        "op1": "Basic Gates",
+        "op2": "Universal Gates",
+        "op3": "Derived Gates",
+        "op4": "Arithmetic Gates",
+        "answer": 2
+    },
+    {
+        "sl": 32,
+        "question": "Why are NAND and NOR gates called Universal Gates?",
+        "op1": "They can be used to construct any other logic gate or Boolean function",
+        "op2": "They operate faster than any basic gate",
+        "op3": "They do not require power supply",
+        "op4": "They accept an infinite number of inputs",
+        "answer": 1
+    },
+    {
+        "sl": 33,
+        "question": "Which logic gate has the Boolean expression Y = (A * B)'?",
+        "op1": "NOR Gate",
+        "op2": "NAND Gate",
+        "op3": "XNOR Gate",
+        "op4": "AND Gate",
+        "answer": 2
+    },
+    {
+        "sl": 34,
+        "question": "Which logic gate has the Boolean expression Y = (A + B)'?",
+        "op1": "NAND Gate",
+        "op2": "NOR Gate",
+        "op3": "XOR Gate",
+        "op4": "OR Gate",
+        "answer": 2
+    },
+    {
+        "sl": 35,
+        "question": "A NAND gate outputs 0 only when:",
+        "op1": "All inputs are 0",
+        "op2": "All inputs are 1",
+        "op3": "At least one input is 0",
+        "op4": "An odd number of inputs are 1",
+        "answer": 2
+    },
+    {
+        "sl": 36,
+        "question": "A NOR gate outputs 1 only when:",
+        "op1": "All inputs are 1",
+        "op2": "All inputs are 0",
+        "op3": "At least one input is 1",
+        "op4": "The inputs are different",
+        "answer": 2
+    },
+    {
+        "sl": 37,
+        "question": "The abbreviation XOR stands for:",
+        "op1": "Extended OR",
+        "op2": "Exclusive OR",
+        "op3": "External OR",
+        "op4": "Extra Optional Register",
+        "answer": 2
+    },
+    {
+        "sl": 38,
+        "question": "What is the algebraic expression of a 2-input XOR gate?",
+        "op1": "Y = AB + A'B'",
+        "op2": "Y = A'B + AB'",
+        "op3": "Y = A + B",
+        "op4": "Y = (A + B)'",
+        "answer": 2
+    },
+    {
+        "sl": 39,
+        "question": "An XOR gate with inputs A and B will output 1 when:",
+        "op1": "A and B are both 0",
+        "op2": "A and B are both 1",
+        "op3": "A and B are different (one is 0, the other is 1)",
+        "op4": "Inputs are identical",
+        "answer": 3
+    },
+    {
+        "sl": 40,
+        "question": "A 2-input XNOR gate will output 1 when:",
+        "op1": "The inputs are different",
+        "op2": "The inputs are identical (both 0 or both 1)",
+        "op3": "At least one input is 0",
+        "op4": "Never",
+        "answer": 2
+    },
+    {
+        "sl": 41,
+        "question": "What is the algebraic expression of a 2-input XNOR gate?",
+        "op1": "Y = A'B + AB'",
+        "op2": "Y = AB + A'B'",
+        "op3": "Y = (AB)'",
+        "op4": "Y = A'B'",
+        "answer": 2
+    },
+    {
+        "sl": 42,
+        "question": "What happens if you connect both inputs of a 2-input NAND gate together?",
+        "op1": "It behaves like an OR gate",
+        "op2": "It behaves like a NOT gate (inverter)",
+        "op3": "It behaves like an AND gate",
+        "op4": "It short-circuits and fails",
+        "answer": 2
+    },
+    {
+        "sl": 43,
+        "question": "What happens if you connect both inputs of a 2-input NOR gate together?",
+        "op1": "It behaves like a NOT gate (inverter)",
+        "op2": "It behaves like an AND gate",
+        "op3": "It behaves like an OR gate",
+        "op4": "It remains in an undefined state",
+        "answer": 1
+    },
+    {
+        "sl": 44,
+        "question": "A logic gate with inputs A=1 and B=0 produces output Y=1. Which gate can this NOT be?",
+        "op1": "OR Gate",
+        "op2": "XOR Gate",
+        "op3": "AND Gate",
+        "op4": "NAND Gate",
+        "answer": 3
+    },
+    {
+        "sl": 45,
+        "question": "A logic gate with inputs A=1 and B=1 produces output Y=0. Which gate can this be?",
+        "op1": "AND Gate",
+        "op2": "OR Gate",
+        "op3": "NAND Gate",
+        "op4": "XNOR Gate",
+        "answer": 3
+    },
+    {
+        "sl": 46,
+        "question": "A truth table with 3 input variables will contain how many rows of input combinations?",
+        "op1": "6",
+        "op2": "8",
+        "op3": "9",
+        "op4": "16",
+        "answer": 2
+    },
+    {
+        "sl": 47,
+        "question": "A truth table with 'n' input variables will contain how many rows?",
+        "op1": "2n",
+        "op2": "n^2",
+        "op3": "2^n",
+        "op4": "n^3",
+        "answer": 3
+    },
+    {
+        "sl": 48,
+        "question": "Which gate is represented by the symbol ⊕?",
+        "op1": "XNOR Gate",
+        "op2": "XOR Gate",
+        "op3": "NOR Gate",
+        "op4": "Universal AND",
+        "answer": 2
+    },
+    {
+        "sl": 49,
+        "question": "Which gate is represented by the symbol ⊙?",
+        "op1": "XOR Gate",
+        "op2": "XNOR Gate",
+        "op3": "NAND Gate",
+        "op4": "OR Gate",
+        "answer": 2
+    },
+    {
+        "sl": 50,
+        "question": "An XOR gate behaves as an 'odd detector'. This means it outputs 1 if:",
+        "op1": "The output value is odd",
+        "op2": "There are an odd number of 1s in the inputs",
+        "op3": "The input values are decimal odd numbers",
+        "op4": "The number of inputs is odd",
+        "answer": 2
+    },
+    {
+        "sl": 51,
+        "question": "What is the output of a 3-input XOR gate if the inputs are A=1, B=1, C=1?",
+        "op1": "0",
+        "op2": "1",
+        "op3": "Undefined",
+        "op4": "3",
+        "answer": 2
+    },
+    {
+        "sl": 52,
+        "question": "What is the output of a 3-input XNOR gate if the inputs are A=1, B=1, C=1?",
+        "op1": "1",
+        "op2": "0",
+        "op3": "2",
+        "op4": "Undefined",
+        "answer": 2
+    },
+    {
+        "sl": 53,
+        "question": "To construct an AND gate using only NAND gates, we need how many NAND gates?",
+        "op1": "1",
+        "op2": "2",
+        "op3": "3",
+        "op4": "4",
+        "answer": 2
+    },
+    {
+        "sl": 54,
+        "question": "To construct an OR gate using only NAND gates, we need how many NAND gates?",
+        "op1": "2",
+        "op2": "3",
+        "op3": "4",
+        "op4": "1",
+        "answer": 2
+    },
+    {
+        "sl": 55,
+        "question": "How many NOR gates are required to construct a basic OR gate?",
+        "op1": "1",
+        "op2": "2",
+        "op3": "3",
+        "op4": "4",
+        "answer": 2
+    },
+    {
+        "sl": 56,
+        "question": "What is De Morgan's First Theorem in Boolean algebra?",
+        "op1": "(A + B)' = A' * B'",
+        "op2": "(A * B)' = A' + B'",
+        "op3": "(A + B)' = A' + B'",
+        "op4": "(A * B)' = A' * B'",
+        "answer": 1
+    },
+    {
+        "sl": 57,
+        "question": "What is De Morgan's Second Theorem in Boolean algebra?",
+        "op1": "(A + B)' = A' * B'",
+        "op2": "(A * B)' = A' + B'",
+        "op3": "A' + B' = (A + B)'",
+        "op4": "(AB)' = A'B'",
+        "answer": 2
+    },
+    {
+        "sl": 58,
+        "question": "De Morgan's First Theorem tells us that a NOR gate is equivalent to a:",
+        "op1": "NAND gate",
+        "op2": "Bubbled AND gate (inputs inverted before AND)",
+        "op3": "Bubbled OR gate",
+        "op4": "XOR gate",
+        "answer": 2
+    },
+    {
+        "sl": 59,
+        "question": "De Morgan's Second Theorem tells us that a NAND gate is equivalent to a:",
+        "op1": "NOR gate",
+        "op2": "Bubbled OR gate (inputs inverted before OR)",
+        "op3": "Bubbled AND gate",
+        "op4": "XNOR gate",
+        "answer": 2
+    },
+    {
+        "sl": 60,
+        "question": "The complement of the expression (A + B'C) is equal to:",
+        "op1": "A' * (B + C')",
+        "op2": "A' * (B' + C)",
+        "op3": "A' + B * C'",
+        "op4": "A'B + C",
+        "answer": 1
+    },
+    {
+        "sl": 61,
+        "question": "The complement of the expression A'(B + C') is equal to:",
+        "op1": "A + B'C",
+        "op2": "A' + B'C",
+        "op3": "A + B' + C",
+        "op4": "A(B' + C)",
+        "answer": 1
+    },
+    {
+        "sl": 62,
+        "question": "De Morgan's laws can be extended to three variables. Thus, (A + B + C)' is equal to:",
+        "op1": "A' + B' + C'",
+        "op2": "A' * B' * C'",
+        "op3": "A'B' + C'",
+        "op4": "(ABC)'",
+        "answer": 2
+    },
+    {
+        "sl": 63,
+        "question": "Simplify the expression using De Morgan's laws: ((A + B)' + C')'",
+        "op1": "(A + B) * C",
+        "op2": "(A' * B') + C",
+        "op3": "A'B'C'",
+        "op4": "A + B + C",
+        "answer": 1
+    },
+    {
+        "sl": 64,
+        "question": "Which of the following is true about proving De Morgan's theorem using a truth table?",
+        "op1": "We prove it by showing that the output column for LHS is identical to the output column of RHS",
+        "op2": "It can only be proven for a single variable",
+        "op3": "It is not mathematically possible to use a truth table for proof",
+        "op4": "It requires proving that all outputs are 1",
+        "answer": 1
+    },
+    {
+        "sl": 65,
+        "question": "The complement of an expression can be found by applying De Morgan's steps. This process is also called:",
+        "op1": "Factoring",
+        "op2": "Inverting/Complementing the Boolean function",
+        "op3": "Minimizing cells",
+        "op4": "Duality mapping",
+        "answer": 2
+    },
+    {
+        "sl": 66,
+        "question": "A product term containing all the variables of a Boolean function in either direct or complemented form is a:",
+        "op1": "Maxterm",
+        "op2": "Minterm",
+        "op3": "Canonical sum",
+        "op4": "K-Map cell",
+        "answer": 2
+    },
+    {
+        "sl": 67,
+        "question": "A sum term containing all the variables of a Boolean function in either direct or complemented form is a:",
+        "op1": "Minterm",
+        "op2": "Maxterm",
+        "op3": "Product of sum",
+        "op4": "Boolean dual",
+        "answer": 2
+    },
+    {
+        "sl": 68,
+        "question": "SOP stands for:",
+        "op1": "Sum of Products",
+        "op2": "Standard Operating Program",
+        "op3": "System Organized Product",
+        "op4": "Static Output Parameter",
+        "answer": 1
+    },
+    {
+        "sl": 69,
+        "question": "POS stands for:",
+        "op1": "Product of Sums",
+        "op2": "Primary Output System",
+        "op3": "Program Organization Standard",
+        "op4": "Parallel Operating Schema",
+        "answer": 1
+    },
+    {
+        "sl": 70,
+        "question": "For a 3-variable Boolean function F(A, B, C), if we have the inputs A=1, B=0, C=1, what is the corresponding minterm (m5)?",
+        "op1": "A + B' + C",
+        "op2": "AB'C",
+        "op3": "A'BC'",
+        "op4": "A + B + C",
+        "answer": 2
+    },
+    {
+        "sl": 71,
+        "question": "For a 3-variable Boolean function F(A, B, C), if we have the inputs A=1, B=0, C=1, what is the corresponding maxterm (M5)?",
+        "op1": "AB'C",
+        "op2": "A' + B + C'",
+        "op3": "A + B' + C",
+        "op4": "A'BC'",
+        "answer": 2
+    },
+    {
+        "sl": 72,
+        "question": "In SOP canonical representations, if a variable is 0, it is represented as:",
+        "op1": "The normal variable (e.g., A)",
+        "op2": "The complemented variable (e.g., A')",
+        "op3": "The constant 0",
+        "op4": "It is omitted entirely",
+        "answer": 2
+    },
+    {
+        "sl": 73,
+        "question": "In POS canonical representations, if a variable is 1, it is represented as:",
+        "op1": "The normal variable (e.g., A)",
+        "op2": "The complemented variable (e.g., A')",
+        "op3": "The constant 1",
+        "op4": "It is omitted",
+        "answer": 2
+    },
+    {
+        "sl": 74,
+        "question": "Which symbol is standardly used to represent a Canonical SOP expression?",
+        "op1": "Π (Pi)",
+        "op2": "Σ (Sigma)",
+        "op3": "⊕ (XOR)",
+        "op4": "⊙ (XNOR)",
+        "answer": 2
+    },
+    {
+        "sl": 75,
+        "question": "Which symbol is standardly used to represent a Canonical POS expression?",
+        "op1": "Σ (Sigma)",
+        "op2": "Π (Pi)",
+        "op3": "λ (Lambda)",
+        "op4": "None of the above",
+        "answer": 2
+    },
+    {
+        "sl": 76,
+        "question": "The total number of minterms for an 'n' variable function is:",
+        "op1": "2n",
+        "op2": "2^n",
+        "op3": "n^2",
+        "op4": "n!",
+        "answer": 2
+    },
+    {
+        "sl": 77,
+        "question": "The sum of a minterm and its corresponding maxterm (e.g., m5 + M5) is always equal to:",
+        "op1": "0",
+        "op2": "1",
+        "op3": "A",
+        "op4": "A'",
+        "answer": 2
+    },
+    {
+        "sl": 78,
+        "question": "What is the relation between the index set of SOP minterms and POS maxterms for a given function F?",
+        "op1": "They are identical sets",
+        "op2": "They are complementary sets (maxterms occupy the positions where minterms are absent)",
+        "op3": "They have no mathematical relation",
+        "op4": "SOP has twice as many terms as POS",
+        "answer": 2
+    },
+    {
+        "sl": 79,
+        "question": "An expression like Y = AB + BC' is in which form?",
+        "op1": "Canonical SOP",
+        "op2": "Standard/Non-canonical SOP",
+        "op3": "Canonical POS",
+        "op4": "Standard/Non-canonical POS",
+        "answer": 2
+    },
+    {
+        "sl": 80,
+        "question": "An expression like Y = (A + B)(B' + C) is in which form?",
+        "op1": "Canonical SOP",
+        "op2": "Standard/Non-canonical POS",
+        "op3": "Standard/Non-canonical SOP",
+        "op4": "Canonical POS",
+        "answer": 2
+    },
+    {
+        "sl": 81,
+        "question": "What does K-Map stand for?",
+        "op1": "Karnaugh Map",
+        "op2": "Kelvin Map",
+        "op3": "Key Map",
+        "op4": "Kernel Map",
+        "answer": 1
+    },
+    {
+        "sl": 82,
+        "question": "How many cells are there in a 3-variable K-Map?",
+        "op1": "6",
+        "op2": "8",
+        "op3": "9",
+        "op4": "16",
+        "answer": 2
+    },
+    {
+        "sl": 83,
+        "question": "How many cells are there in a 4-variable K-Map?",
+        "op1": "8",
+        "op2": "12",
+        "op3": "16",
+        "op4": "32",
+        "answer": 3
+    },
+    {
+        "sl": 84,
+        "question": "K-Map cells are arranged using which binary coding system so that adjacent cells differ by only 1 bit?",
+        "op1": "BCD (8421)",
+        "op2": "Gray Code",
+        "op3": "Excess-3 Code",
+        "op4": "ASCII Code",
+        "answer": 2
+    },
+    {
+        "sl": 85,
+        "question": "Which of the following represents the correct column header sequence for a 4-variable K-Map?",
+        "op1": "00, 01, 10, 11",
+        "op2": "00, 01, 11, 10",
+        "op3": "00, 10, 11, 01",
+        "op4": "01, 11, 10, 00",
+        "answer": 2
+    },
+    {
+        "sl": 86,
+        "question": "In K-Map simplification, a group of 2 adjacent cells containing 1s is called a:",
+        "op1": "Pair",
+        "op2": "Quad",
+        "op3": "Octet",
+        "op4": "Doublet",
+        "answer": 1
+    },
+    {
+        "sl": 87,
+        "question": "In K-Map simplification, a group of 4 adjacent cells containing 1s is called a:",
+        "op1": "Pair",
+        "op2": "Quad",
+        "op3": "Octet",
+        "op4": "Block",
+        "answer": 2
+    },
+    {
+        "sl": 88,
+        "question": "In K-Map simplification, a group of 8 adjacent cells containing 1s is called an:",
+        "op1": "Pair",
+        "op2": "Quad",
+        "op3": "Octet",
+        "op4": "Byte",
+        "answer": 3
+    },
+    {
+        "sl": 89,
+        "question": "In K-Map simplification, grouping a Quad (4 adjacent cells) eliminates how many variables?",
+        "op1": "1 variable",
+        "op2": "2 variables",
+        "op3": "3 variables",
+        "op4": "4 variables",
+        "answer": 2
+    },
+    {
+        "sl": 90,
+        "question": "In K-Map simplification, grouping an Octet (8 adjacent cells) eliminates how many variables?",
+        "op1": "1 variable",
+        "op2": "2 variables",
+        "op3": "3 variables",
+        "op4": "4 variables",
+        "answer": 3
+    },
+    {
+        "sl": 91,
+        "question": "In K-Map grouping, wrapping are allowed. This means adjacent cells can group across:",
+        "op1": "The top and bottom edges, or left and right edges",
+        "op2": "Diagonal directions only",
+        "op3": "No edges can wrap",
+        "op4": "Only the right edge to the top edge",
+        "answer": 1
+    },
+    {
+        "sl": 92,
+        "question": "Simplify the 3-variable SOP function F(A, B, C) = Σ m(0, 2, 4, 6) using K-Map:",
+        "op1": "A",
+        "op2": "C'",
+        "op3": "B'",
+        "op4": "A + C'",
+        "answer": 2
+    },
+    {
+        "sl": 93,
+        "question": "Simplify the 3-variable SOP function F(A, B, C) = Σ m(4, 5, 6, 7) using K-Map:",
+        "op1": "A",
+        "op2": "A'",
+        "op3": "B",
+        "op4": "C",
+        "answer": 1
+    },
+    {
+        "sl": 94,
+        "question": "A cell grouping in a K-map that is completely covered by other groups is called a:",
+        "op1": "Essential Prime Implicant",
+        "op2": "Redundant Group",
+        "op3": "Primary Implicant",
+        "op4": "Overlapping Implicant",
+        "answer": 2
+    },
+    {
+        "sl": 95,
+        "question": "A logical diagram containing interconnected symbols of logic gates is a:",
+        "op1": "Truth Table",
+        "op2": "Logic Circuit",
+        "op3": "State Diagram",
+        "op4": "Flowchart",
+        "answer": 2
+    },
+    {
+        "sl": 96,
+        "question": "To draw the logic circuit for Y = AB + C', we require which combination of basic gates?",
+        "op1": "One AND, one NOT, and one OR gate",
+        "op2": "Two AND gates and one OR gate",
+        "op3": "One NAND gate and one NOR gate",
+        "op4": "One XOR gate and one NOT gate",
+        "answer": 1
+    },
+    {
+        "sl": 97,
+        "question": "To draw the logic circuit for Y = (A + B)' * C, we require which gates?",
+        "op1": "One OR, one NOT, and one AND gate (or one NOR and one AND)",
+        "op2": "One NAND and one XOR",
+        "op3": "One AND and one NOT",
+        "op4": "Two OR gates",
+        "answer": 1
+    },
+    {
+        "sl": 98,
+        "question": "What is the equivalent Boolean expression of a circuit where outputs of two NOT gates (A' and B') are connected to an OR gate?",
+        "op1": "A'B'",
+        "op2": "A' + B'",
+        "op3": "(A + B)'",
+        "op4": "(AB)'",
+        "answer": 2
+    },
+    {
+        "sl": 99,
+        "question": "According to De Morgan's laws, the bubbled OR gate (Y = A' + B') has the exact same function as a:",
+        "op1": "NOR Gate",
+        "op2": "NAND Gate",
+        "op3": "AND Gate",
+        "op4": "XOR Gate",
+        "answer": 2
+    },
+    {
+        "sl": 100,
+        "question": "Which of these is the main advantage of simplifying Boolean expressions before building hardware logic circuits?",
+        "op1": "It reduces the physical count of logic gates, lowering cost and heat generation",
+        "op2": "It eliminates the need for input terminals",
+        "op3": "It converts all basic gates to XOR gates",
+        "op4": "It increases the binary base of the system",
+        "answer": 1
+    }
+]

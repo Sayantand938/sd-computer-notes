@@ -1,0 +1,902 @@
+[
+    {
+        "sl": 1,
+        "question": "What is the base or radix of the Binary number system?",
+        "op1": "10",
+        "op2": "8",
+        "op3": "2",
+        "op4": "16",
+        "answer": 3
+    },
+    {
+        "sl": 2,
+        "question": "Which digits are allowed in the Octal number system?",
+        "op1": "0 to 8",
+        "op2": "0 to 7",
+        "op3": "1 to 8",
+        "op4": "0 and 1",
+        "answer": 2
+    },
+    {
+        "sl": 3,
+        "question": "What is the equivalent decimal value of the Hexadecimal symbol 'C'?",
+        "op1": "10",
+        "op2": "11",
+        "op3": "12",
+        "op4": "13",
+        "answer": 3
+    },
+    {
+        "sl": 4,
+        "question": "What does the base of a number system represent?",
+        "op1": "The largest single digit in that system",
+        "op2": "The total number of unique digits used in that system",
+        "op3": "The maximum number of bits stored in CPU registers",
+        "op4": "The clock frequency of the processor",
+        "answer": 2
+    },
+    {
+        "sl": 5,
+        "question": "Which of the following is NOT a valid Hexadecimal number?",
+        "op1": "1A9F",
+        "op2": "C09D",
+        "op3": "3G4E",
+        "op4": "BEEF",
+        "answer": 3
+    },
+    {
+        "sl": 6,
+        "question": "Which of the following numbers is invalid in the Octal system?",
+        "op1": "107",
+        "op2": "764",
+        "op3": "281",
+        "op4": "350",
+        "answer": 3
+    },
+    {
+        "sl": 7,
+        "question": "What is the binary representation of the decimal number 13?",
+        "op1": "1011",
+        "op2": "1101",
+        "op3": "1110",
+        "op4": "1111",
+        "answer": 2
+    },
+    {
+        "sl": 8,
+        "question": "What is the base of the Hexadecimal number system?",
+        "op1": "16",
+        "op2": "10",
+        "op3": "8",
+        "op4": "12",
+        "answer": 1
+    },
+    {
+        "sl": 9,
+        "question": "Which of the following is the binary equivalent of decimal 5?",
+        "op1": "010",
+        "op2": "101",
+        "op3": "110",
+        "op4": "011",
+        "answer": 2
+    },
+    {
+        "sl": 10,
+        "question": "How many bits are used to represent a single Octal digit in binary form?",
+        "op1": "2",
+        "op2": "3",
+        "op3": "4",
+        "op4": "8",
+        "answer": 2
+    },
+    {
+        "sl": 11,
+        "question": "Convert the decimal number 25 to binary.",
+        "op1": "11001",
+        "op2": "10011",
+        "op3": "11100",
+        "op4": "10101",
+        "answer": 1
+    },
+    {
+        "sl": 12,
+        "question": "Convert the decimal number 57 to its octal equivalent.",
+        "op1": "65",
+        "op2": "71",
+        "op3": "57",
+        "op4": "60",
+        "answer": 2
+    },
+    {
+        "sl": 13,
+        "question": "Convert the decimal number 45 to hexadecimal.",
+        "op1": "2B",
+        "op2": "2D",
+        "op3": "3A",
+        "op4": "2C",
+        "answer": 2
+    },
+    {
+        "sl": 14,
+        "question": "What is the binary equivalent of the decimal fraction 0.375?",
+        "op1": "0.11",
+        "op2": "0.011",
+        "op3": "0.101",
+        "op4": "0.111",
+        "answer": 2
+    },
+    {
+        "sl": 15,
+        "question": "Convert the decimal fraction 0.5 to its binary representation.",
+        "op1": "0.01",
+        "op2": "0.1",
+        "op3": "0.11",
+        "op4": "0.101",
+        "answer": 2
+    },
+    {
+        "sl": 16,
+        "question": "Convert the binary number 101010 to decimal.",
+        "op1": "42",
+        "op2": "38",
+        "op3": "44",
+        "op4": "40",
+        "answer": 1
+    },
+    {
+        "sl": 17,
+        "question": "What is the decimal equivalent of the octal number 125?",
+        "op1": "85",
+        "op2": "75",
+        "op3": "95",
+        "op4": "65",
+        "answer": 1
+    },
+    {
+        "sl": 18,
+        "question": "What is the decimal equivalent of the hexadecimal number 1E?",
+        "op1": "28",
+        "op2": "30",
+        "op3": "14",
+        "op4": "15",
+        "answer": 2
+    },
+    {
+        "sl": 19,
+        "question": "Convert the binary fraction 0.101 to decimal.",
+        "op1": "0.5",
+        "op2": "0.25",
+        "op3": "0.625",
+        "op4": "0.125",
+        "answer": 3
+    },
+    {
+        "sl": 20,
+        "question": "Convert the hexadecimal fraction 0.8 to its decimal equivalent.",
+        "op1": "0.8",
+        "op2": "0.5",
+        "op3": "0.08",
+        "op4": "0.125",
+        "answer": 2
+    },
+    {
+        "sl": 21,
+        "question": "To convert binary to octal directly, we group binary bits into sets of:",
+        "op1": "2",
+        "op2": "3",
+        "op3": "4",
+        "op4": "5",
+        "answer": 2
+    },
+    {
+        "sl": 22,
+        "question": "To convert binary to hexadecimal directly, we group binary bits into sets of:",
+        "op1": "2",
+        "op2": "3",
+        "op3": "4",
+        "op4": "8",
+        "answer": 3
+    },
+    {
+        "sl": 23,
+        "question": "Groupings of bits for converting integer binary numbers are done starting from:",
+        "op1": "Left to Right",
+        "op2": "Right to Left",
+        "op3": "Middle to both ends",
+        "op4": "Any random order",
+        "answer": 2
+    },
+    {
+        "sl": 24,
+        "question": "Groupings of bits for converting fractional binary numbers are done starting from:",
+        "op1": "Right to Left",
+        "op2": "Left to Right",
+        "op3": "The decimal point moving left",
+        "op4": "LSB to MSB",
+        "answer": 2
+    },
+    {
+        "sl": 25,
+        "question": "Convert the binary number 110101 to its octal equivalent.",
+        "op1": "65",
+        "op2": "55",
+        "op3": "53",
+        "op4": "45",
+        "answer": 1
+    },
+    {
+        "sl": 26,
+        "question": "Convert the binary number 1111010 to hexadecimal.",
+        "op1": "7A",
+        "op2": "E2",
+        "op3": "EA",
+        "op4": "72",
+        "answer": 1
+    },
+    {
+        "sl": 27,
+        "question": "Convert the octal number 73 to binary.",
+        "op1": "111011",
+        "op2": "111100",
+        "op3": "111010",
+        "op4": "110011",
+        "answer": 1
+    },
+    {
+        "sl": 28,
+        "question": "Convert the hexadecimal number A5 to binary.",
+        "op1": "10100101",
+        "op2": "10101010",
+        "op3": "11000101",
+        "op4": "10100111",
+        "answer": 1
+    },
+    {
+        "sl": 29,
+        "question": "Which of the following is the binary equivalent of the octal fraction 0.4?",
+        "op1": "0.1",
+        "op2": "0.01",
+        "op3": "0.11",
+        "op4": "0.101",
+        "answer": 1
+    },
+    {
+        "sl": 30,
+        "question": "Which of the following is the binary equivalent of the hexadecimal fraction 0.C?",
+        "op1": "0.11",
+        "op2": "0.1101",
+        "op3": "0.011",
+        "op4": "0.101",
+        "answer": 1
+    },
+    {
+        "sl": 31,
+        "question": "Convert the octal number 52 to hexadecimal.",
+        "op1": "2A",
+        "op2": "3A",
+        "op3": "2B",
+        "op4": "32",
+        "answer": 1
+    },
+    {
+        "sl": 32,
+        "question": "Convert the hexadecimal number B1 to octal.",
+        "op1": "261",
+        "op2": "161",
+        "op3": "271",
+        "op4": "251",
+        "answer": 1
+    },
+    {
+        "sl": 33,
+        "question": "The hexadecimal number 2F is equivalent to what octal value?",
+        "op1": "47",
+        "op2": "57",
+        "op3": "67",
+        "op4": "77",
+        "answer": 2
+    },
+    {
+        "sl": 34,
+        "question": "Convert the octal fraction 0.2 to hexadecimal.",
+        "op1": "0.4",
+        "op2": "0.2",
+        "op3": "0.1",
+        "op4": "0.8",
+        "answer": 1
+    },
+    {
+        "sl": 35,
+        "question": "Convert the hexadecimal fraction 0.4 to octal.",
+        "op1": "0.2",
+        "op2": "0.4",
+        "op3": "0.5",
+        "op4": "0.1",
+        "answer": 1
+    },
+    {
+        "sl": 36,
+        "question": "In decimal representation, hexadecimal letter 'F' has a weight of:",
+        "op1": "14",
+        "op2": "15",
+        "op3": "16",
+        "op4": "10",
+        "answer": 2
+    },
+    {
+        "sl": 37,
+        "question": "What is the hexadecimal equivalent of $(101011.11)_2$?",
+        "op1": "2B.3",
+        "op2": "2B.C",
+        "op3": "A5.3",
+        "op4": "2B.C1",
+        "answer": 2
+    },
+    {
+        "sl": 38,
+        "question": "Convert $(127)_8$ to decimal.",
+        "op1": "87",
+        "op2": "97",
+        "op3": "127",
+        "op4": "75",
+        "answer": 1
+    },
+    {
+        "sl": 39,
+        "question": "Convert the decimal number 100 to hexadecimal.",
+        "op1": "64",
+        "op2": "54",
+        "op3": "74",
+        "op4": "100",
+        "answer": 1
+    },
+    {
+        "sl": 40,
+        "question": "Convert the binary value 11111111 to octal.",
+        "op1": "377",
+        "op2": "277",
+        "op3": "355",
+        "op4": "375",
+        "answer": 1
+    },
+    {
+        "sl": 41,
+        "question": "What is the 1's complement of the binary number 10101?",
+        "op1": "01010",
+        "op2": "11010",
+        "op3": "01011",
+        "op4": "10100",
+        "answer": 1
+    },
+    {
+        "sl": 42,
+        "question": "What is the 1's complement of the binary value 111000?",
+        "op1": "000111",
+        "op2": "000110",
+        "op3": "111001",
+        "op4": "000000",
+        "answer": 1
+    },
+    {
+        "sl": 43,
+        "question": "Find the 1's complement of the binary fraction 0.101.",
+        "op1": "0.010",
+        "op2": "1.010",
+        "op3": "0.101",
+        "op4": "0.011",
+        "answer": 1
+    },
+    {
+        "sl": 44,
+        "question": "The 1's complement of a binary number is obtained by:",
+        "op1": "Adding 1 to the LSB",
+        "op2": "Inverting each individual bit",
+        "op3": "Subtracting 1 from the MSB",
+        "op4": "Discarding the fractional bits",
+        "answer": 2
+    },
+    {
+        "sl": 45,
+        "question": "What is the 1's complement of the binary value 00000?",
+        "op1": "11111",
+        "op2": "00001",
+        "op3": "10000",
+        "op4": "11110",
+        "answer": 1
+    },
+    {
+        "sl": 46,
+        "question": "What is the mathematical relation between 1's complement and 2's complement?",
+        "op1": "2's Complement = 1's Complement + 1",
+        "op2": "2's Complement = 1's Complement - 1",
+        "op3": "2's Complement = 1's Complement * 2",
+        "op4": "They are exactly the same",
+        "answer": 1
+    },
+    {
+        "sl": 47,
+        "question": "Find the 2's complement of the binary value 10110.",
+        "op1": "01010",
+        "op2": "01001",
+        "op3": "11010",
+        "op4": "01100",
+        "answer": 1
+    },
+    {
+        "sl": 48,
+        "question": "Find the 2's complement of the binary value 110000.",
+        "op1": "010000",
+        "op2": "001111",
+        "op3": "011111",
+        "op4": "001000",
+        "answer": 1
+    },
+    {
+        "sl": 49,
+        "question": "What is the 2's complement of the binary value 00001?",
+        "op1": "11111",
+        "op2": "11110",
+        "op3": "11101",
+        "op4": "00010",
+        "answer": 1
+    },
+    {
+        "sl": 50,
+        "question": "What is the 2's complement of the binary value 10000?",
+        "op1": "10000",
+        "op2": "01111",
+        "op3": "01000",
+        "op4": "11111",
+        "answer": 1
+    },
+    {
+        "sl": 51,
+        "question": "What is the 1's complement of the binary value 1011100?",
+        "op1": "0100011",
+        "op2": "0100010",
+        "op3": "0100001",
+        "op4": "0100111",
+        "answer": 1
+    },
+    {
+        "sl": 52,
+        "question": "What is the 2's complement of the binary value 1011100?",
+        "op1": "0100100",
+        "op2": "0100011",
+        "op3": "0100101",
+        "op4": "0100000",
+        "answer": 1
+    },
+    {
+        "sl": 53,
+        "question": "In a signed representation system, the Most Significant Bit (MSB) represents the sign of the number. What does an MSB of '1' mean?",
+        "op1": "The number is positive",
+        "op2": "The number is negative",
+        "op3": "The number is fractional",
+        "op4": "The number is overflowed",
+        "answer": 2
+    },
+    {
+        "sl": 54,
+        "question": "In signed binary systems, what does an MSB of '0' represent?",
+        "op1": "Negative number",
+        "op2": "Positive number",
+        "op3": "Zero weight",
+        "op4": "An invalid bit state",
+        "answer": 2
+    },
+    {
+        "sl": 55,
+        "question": "If you perform a double 1's complement inversion on a binary number, the result is:",
+        "op1": "The 2's complement of the number",
+        "op2": "The original binary number",
+        "op3": "The zero state",
+        "op4": "All ones",
+        "answer": 2
+    },
+    {
+        "sl": 56,
+        "question": "Which system is most commonly used inside CPU arithmetic units to perform integer subtraction?",
+        "op1": "ASCII code addition",
+        "op2": "2's complement addition",
+        "op3": "Gray code subtraction",
+        "op4": "Decimal division",
+        "answer": 2
+    },
+    {
+        "sl": 57,
+        "question": "Why is 2's complement preferred over 1's complement in modern ALU design?",
+        "op1": "It has faster clock cycles",
+        "op2": "It has a single representation for the value '0' (no negative zero)",
+        "op3": "It is a weighted code system",
+        "op4": "It avoids using binary bits",
+        "answer": 2
+    },
+    {
+        "sl": 58,
+        "question": "Find the 2's complement of the binary value 01101.",
+        "op1": "10011",
+        "op2": "10010",
+        "op3": "10101",
+        "op4": "10001",
+        "answer": 1
+    },
+    {
+        "sl": 59,
+        "question": "What is the 1's complement of the binary value 110011?",
+        "op1": "001100",
+        "op2": "001101",
+        "op3": "001111",
+        "op4": "001000",
+        "answer": 1
+    },
+    {
+        "sl": 60,
+        "question": "What is the 2's complement of the binary value 110011?",
+        "op1": "001101",
+        "op2": "001100",
+        "op3": "001110",
+        "op4": "001000",
+        "answer": 1
+    },
+    {
+        "sl": 61,
+        "question": "Which of the following is an example of a weighted binary code?",
+        "op1": "Gray Code",
+        "op2": "Excess-3 Code",
+        "op3": "BCD (8421) Code",
+        "op4": "None of the above",
+        "answer": 3
+    },
+    {
+        "sl": 62,
+        "question": "What does BCD stand for?",
+        "op1": "Binary Coded Decimal",
+        "op2": "Basic Code Descriptor",
+        "op3": "Binary Calculated Digit",
+        "op4": "Bipolar Code Device",
+        "answer": 1
+    },
+    {
+        "sl": 63,
+        "question": "How many binary bits are used to represent a single decimal digit in BCD format?",
+        "op1": "2",
+        "op2": "3",
+        "op3": "4",
+        "op4": "8",
+        "answer": 3
+    },
+    {
+        "sl": 64,
+        "question": "Which binary patterns are invalid/forbidden in BCD (8421) representation?",
+        "op1": "0000 to 1001",
+        "op2": "1010 to 1111",
+        "op3": "0100 to 1001",
+        "op4": "There are no invalid patterns",
+        "answer": 2
+    },
+    {
+        "sl": 65,
+        "question": "Convert the decimal number 45 directly to BCD representation.",
+        "op1": "00101101",
+        "op2": "01000101",
+        "op3": "01000110",
+        "op4": "01010100",
+        "answer": 2
+    },
+    {
+        "sl": 66,
+        "question": "Represent the decimal number 82 in BCD.",
+        "op1": "10000010",
+        "op2": "10000011",
+        "op3": "01000010",
+        "op4": "10010010",
+        "answer": 1
+    },
+    {
+        "sl": 67,
+        "question": "What decimal value is represented by the BCD code 0111 0011?",
+        "op1": "73",
+        "op2": "53",
+        "op3": "83",
+        "op4": "115",
+        "answer": 1
+    },
+    {
+        "sl": 68,
+        "question": "Which of the following is a negative weighted code?",
+        "op1": "8421 Code",
+        "op2": "84-2-1 Code",
+        "op3": "Excess-3 Code",
+        "op4": "Gray Code",
+        "answer": 2
+    },
+    {
+        "sl": 69,
+        "question": "What is the representation of decimal digit 5 in the 84-2-1 weighted code?",
+        "op1": "1011",
+        "op2": "0101",
+        "op3": "1000",
+        "op4": "1010",
+        "answer": 1
+    },
+    {
+        "sl": 70,
+        "question": "What is the representation of decimal digit 9 in the 84-2-1 weighted code?",
+        "op1": "1111",
+        "op2": "1001",
+        "op3": "1100",
+        "op4": "1010",
+        "answer": 1
+    },
+    {
+        "sl": 71,
+        "question": "Why is the 84-2-1 code classified as a 'self-complementing' code?",
+        "op1": "The 1's complement of its binary pattern represents the 9's complement of its decimal value",
+        "op2": "It uses negative weights",
+        "op3": "It is identical to the BCD code",
+        "op4": "It has no forbidden states",
+        "answer": 1
+    },
+    {
+        "sl": 72,
+        "question": "Which of the following is an example of a non-weighted binary code?",
+        "op1": "8421 (BCD)",
+        "op2": "84-2-1 Code",
+        "op3": "Excess-3 Code",
+        "op4": "None of the above",
+        "answer": 3
+    },
+    {
+        "sl": 73,
+        "question": "How do you convert a decimal digit to Excess-3 code?",
+        "op1": "Add 3 to the decimal digit and then find its 4-bit binary representation",
+        "op2": "Subtract 3 from the decimal digit and convert to binary",
+        "op3": "Convert to BCD and shift left by 3 bits",
+        "op4": "Invert all bits of the BCD code",
+        "answer": 1
+    },
+    {
+        "sl": 74,
+        "question": "Convert the decimal digit 4 to its Excess-3 representation.",
+        "op1": "0111",
+        "op2": "0100",
+        "op3": "0011",
+        "op4": "1000",
+        "answer": 1
+    },
+    {
+        "sl": 75,
+        "question": "Convert the decimal digit 9 to its Excess-3 representation.",
+        "op1": "1100",
+        "op2": "1001",
+        "op3": "1111",
+        "op4": "1010",
+        "answer": 1
+    },
+    {
+        "sl": 76,
+        "question": "Which of the following codes is also known as a 'unit-distance' or 'cyclic' code because only one bit changes at a time?",
+        "op1": "BCD (8421)",
+        "op2": "Excess-3 Code",
+        "op3": "Gray Code",
+        "op4": "84-2-1 Code",
+        "answer": 3
+    },
+    {
+        "sl": 77,
+        "question": "Convert the binary value 1010 to Gray code.",
+        "op1": "1111",
+        "op2": "1101",
+        "op3": "1110",
+        "op4": "1001",
+        "answer": 1
+    },
+    {
+        "sl": 78,
+        "question": "Convert the binary value 1101 to Gray code.",
+        "op1": "1011",
+        "op2": "1010",
+        "op3": "1111",
+        "op4": "1001",
+        "answer": 1
+    },
+    {
+        "sl": 79,
+        "question": "Convert the Gray code 1111 to its binary equivalent.",
+        "op1": "1010",
+        "op2": "1100",
+        "op3": "1000",
+        "op4": "1111",
+        "answer": 1
+    },
+    {
+        "sl": 80,
+        "question": "Convert the Gray code 1010 to its binary equivalent.",
+        "op1": "1100",
+        "op2": "1111",
+        "op3": "1000",
+        "op4": "1101",
+        "answer": 1
+    },
+    {
+        "sl": 81,
+        "question": "What is the logical operation used between adjacent bits to convert a binary number to its Gray code?",
+        "op1": "AND",
+        "op2": "OR",
+        "op3": "XOR",
+        "op4": "NAND",
+        "answer": 3
+    },
+    {
+        "sl": 82,
+        "question": "Which of the following binary values represents decimal 0 in the Excess-3 system?",
+        "op1": "0000",
+        "op2": "0011",
+        "op3": "0100",
+        "op4": "0110",
+        "answer": 2
+    },
+    {
+        "sl": 83,
+        "question": "The Gray code equivalent of the decimal digit 2 is:",
+        "op1": "0011",
+        "op2": "0010",
+        "op3": "0001",
+        "op4": "0110",
+        "answer": 1
+    },
+    {
+        "sl": 84,
+        "question": "The Gray code equivalent of the decimal digit 7 is:",
+        "op1": "0100",
+        "op2": "0111",
+        "op3": "0101",
+        "op4": "0011",
+        "answer": 1
+    },
+    {
+        "sl": 85,
+        "question": "Convert the decimal number 38 to BCD.",
+        "op1": "00111000",
+        "op2": "00110111",
+        "op3": "00101000",
+        "op4": "01001000",
+        "answer": 1
+    },
+    {
+        "sl": 86,
+        "question": "Convert the decimal number 15 to Excess-3.",
+        "op1": "01001000",
+        "op2": "01000101",
+        "op3": "01111000",
+        "op4": "00111000",
+        "answer": 1
+    },
+    {
+        "sl": 87,
+        "question": "What is the output of the logical operation $1 \\oplus 1$ (1 XOR 1)?",
+        "op1": "1",
+        "op2": "0",
+        "op3": "2",
+        "op4": "-1",
+        "answer": 2
+    },
+    {
+        "sl": 88,
+        "question": "What is the output of the logical operation $1 \\oplus 0$ (1 XOR 0)?",
+        "op1": "1",
+        "op2": "0",
+        "op3": "Undefined",
+        "op4": "None of the above",
+        "answer": 1
+    },
+    {
+        "sl": 89,
+        "question": "Which of the following is a key application of Gray codes?",
+        "op1": "Storing data inside primary RAM",
+        "op2": "Rotary encoders and error prevention in physical shaft positioning",
+        "op3": "Direct execution of BIOS scripts",
+        "op4": "Internet data compression",
+        "answer": 2
+    },
+    {
+        "sl": 90,
+        "question": "The self-complementing property of the Excess-3 code simplifies the design of:",
+        "op1": "Digital subtractors",
+        "op2": "Input keyboards",
+        "op3": "Optical disk readers",
+        "op4": "Solid-state memory cells",
+        "answer": 1
+    },
+    {
+        "sl": 91,
+        "question": "What does ASCII stand for?",
+        "op1": "American Standard Code for Information Interchange",
+        "op2": "Advanced System Code for Information Interchange",
+        "op3": "American Standard Control Instruction Index",
+        "op4": "Association of System Codes and Information Integration",
+        "answer": 1
+    },
+    {
+        "sl": 92,
+        "question": "How many characters can be defined by the standard 7-bit ASCII scheme?",
+        "op1": "128",
+        "op2": "256",
+        "op3": "64",
+        "op4": "512",
+        "answer": 1
+    },
+    {
+        "sl": 93,
+        "question": "How many characters can be represented by the 8-bit Extended ASCII code?",
+        "op1": "128",
+        "op2": "256",
+        "op3": "512",
+        "op4": "1024",
+        "answer": 2
+    },
+    {
+        "sl": 94,
+        "question": "What is the ASCII value of the capital letter 'A' in decimal?",
+        "op1": "65",
+        "op2": "97",
+        "op3": "48",
+        "op4": "57",
+        "answer": 1
+    },
+    {
+        "sl": 95,
+        "question": "What is the ASCII value of the lowercase letter 'a' in decimal?",
+        "op1": "65",
+        "op2": "97",
+        "op3": "48",
+        "op4": "122",
+        "answer": 2
+    },
+    {
+        "sl": 96,
+        "question": "What is the ASCII value of the character digit '0' in decimal?",
+        "op1": "0",
+        "op2": "48",
+        "op3": "32",
+        "op4": "65",
+        "answer": 2
+    },
+    {
+        "sl": 97,
+        "question": "What does ISCII stand for?",
+        "op1": "Indian Script Code for Information Interchange",
+        "op2": "International Standard Code for Information Integration",
+        "op3": "Indian Standard Character and Instruction Index",
+        "op4": "Inter-State Communication and Information Interface",
+        "answer": 1
+    },
+    {
+        "sl": 98,
+        "question": "How many bits are used in the ISCII representation standard?",
+        "op1": "7",
+        "op2": "8",
+        "op3": "16",
+        "op4": "32",
+        "answer": 2
+    },
+    {
+        "sl": 99,
+        "question": "Which of the following encoding standards is a variable-width system designed to represent every character in every global written language?",
+        "op1": "ASCII",
+        "op2": "ISCII",
+        "op3": "Unicode",
+        "op4": "BCD",
+        "answer": 3
+    },
+    {
+        "sl": 100,
+        "question": "Which Unicode transformation format uses a variable length of 1 to 4 bytes and is fully backward-compatible with English ASCII?",
+        "op1": "UTF-8",
+        "op2": "UTF-16",
+        "op3": "UTF-32",
+        "op4": "Unicode-8421",
+        "answer": 1
+    }
+]

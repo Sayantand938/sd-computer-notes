@@ -1,0 +1,902 @@
+[
+    {
+        "sl": 1,
+        "question": "What is the first step in the systematic computer-based problem-solving process?",
+        "op1": "Writing the program code",
+        "op2": "Analysing the problem",
+        "op3": "Debugging the syntax",
+        "op4": "Developing an algorithm",
+        "answer": 2
+    },
+    {
+        "sl": 2,
+        "question": "The primary objective of the problem analysis phase is to:",
+        "op1": "Choose the fastest programming language compiler",
+        "op2": "Thoroughly understand requirements, inputs, outputs, and constraints",
+        "op3": "Erase all temporary variables from cache memory",
+        "op4": "Generate the executable files on disk",
+        "answer": 2
+    },
+    {
+        "sl": 3,
+        "question": "Under the IPO cycle model of problem analysis, IPO stands for:",
+        "op1": "Internal Program Operation",
+        "op2": "Input, Process, Output",
+        "op3": "Instruction, Pointer, Offset",
+        "op4": "Interactive Process Organisation",
+        "answer": 2
+    },
+    {
+        "sl": 4,
+        "question": "In the context of problem-solving, what are 'constraints'?",
+        "op1": "Syntax syntax rules of Python",
+        "op2": "The physical limits or boundaries under which the solution must operate",
+        "op3": "A type of runtime loop error",
+        "op4": "Tools used to compile assembly codes",
+        "answer": 2
+    },
+    {
+        "sl": 5,
+        "question": "Why is it risky to skip the problem analysis stage and start coding immediately?",
+        "op1": "It may lead to building an error-free program that solves the wrong problem",
+        "op2": "It physically damages the motherboard processor",
+        "op3": "It disables the interpreter tool",
+        "op4": "It converts high-level code to machine binary too fast",
+        "answer": 1
+    },
+    {
+        "sl": 6,
+        "question": "Which of the following is identified during the 'Analysing the Problem' phase?",
+        "op1": "The exact memory address of registers",
+        "op2": "The expected final output results",
+        "op3": "The operating system syntax",
+        "op4": "The compiler execution speed",
+        "answer": 2
+    },
+    {
+        "sl": 7,
+        "question": "Which phase of problem-solving involves creating a conceptual step-by-step logic map of the solution?",
+        "op1": "Analysing the problem",
+        "op2": "Developing an algorithm",
+        "op3": "Coding the statements",
+        "op4": "Debugging dynamic syntax",
+        "answer": 2
+    },
+    {
+        "sl": 8,
+        "question": "An algorithm developed during the design phase must be:",
+        "op1": "Dependent on one specific programming language",
+        "op2": "Unambiguous and finite in nature",
+        "op3": "Compiled directly into machine code",
+        "op4": "Written exclusively inside a flowchart diamond",
+        "answer": 2
+    },
+    {
+        "sl": 9,
+        "question": "What is the primary role of Flowcharts and Pseudocode during algorithm development?",
+        "op1": "To compile instructions into binary formats",
+        "op2": "To act as non-language-specific logical blueprints before coding begins",
+        "op3": "To allocate data memory blocks inside main RAM",
+        "op4": "To detect runtime system errors",
+        "answer": 2
+    },
+    {
+        "sl": 10,
+        "question": "The phase in which the planned logical algorithm is written in a high-level language is:",
+        "op1": "Analysing the problem",
+        "op2": "Developing an algorithm",
+        "op3": "Coding",
+        "op4": "Testing",
+        "answer": 3
+    },
+    {
+        "sl": 11,
+        "question": "Which of the following is written during the Coding phase?",
+        "op1": "Hardware layout architecture",
+        "op2": "Source code statements",
+        "op3": "User requirement specifications document",
+        "op4": "System logical schema charts",
+        "answer": 2
+    },
+    {
+        "sl": 12,
+        "question": "What is the primary purpose of writing comments in the code during the coding phase?",
+        "op1": "To speed up code execution on multi-core CPUs",
+        "op2": "To explain logical segments, enhancing readability and maintainability for humans",
+        "op3": "To avoid syntax compilation errors",
+        "op4": "To allocate dynamic system registers",
+        "answer": 2
+    },
+    {
+        "sl": 13,
+        "question": "The process of executing a program with different inputs to verify its correctness is:",
+        "op1": "Coding",
+        "op2": "Testing",
+        "op3": "Analysing the problem",
+        "op4": "Linking object libraries",
+        "answer": 2
+    },
+    {
+        "sl": 14,
+        "question": "What is a 'test case'?",
+        "op1": "A visual box inside a system flowchart",
+        "op2": "A specific set of input data values, execution conditions, and expected outputs",
+        "op3": "A compiler error warning window",
+        "op4": "The dynamic RAM memory segment allocated to programs",
+        "answer": 2
+    },
+    {
+        "sl": 15,
+        "question": "Testing is designed primarily to show:",
+        "op1": "That the program executes at maximum clock cycles",
+        "op2": "The presence of errors or behavioral deviations in the software",
+        "op3": "That no more logical code can be written",
+        "op4": "How many files can be loaded into cache",
+        "answer": 2
+    },
+    {
+        "sl": 16,
+        "question": "Standard expected values used to check the core logical execution of a program are:",
+        "op1": "Boundary test data",
+        "op2": "Normal test data",
+        "op3": "Invalid test data",
+        "op4": "Mock syntax values",
+        "answer": 2
+    },
+    {
+        "sl": 17,
+        "question": "Values at the extreme limits of acceptable input ranges are:",
+        "op1": "Normal test data",
+        "op2": "Boundary test data",
+        "op3": "Invalid test data",
+        "op4": "Pseudo values",
+        "answer": 2
+    },
+    {
+        "sl": 18,
+        "question": "Testing an arithmetic program with text strings when numeric entries are expected is an example of using:",
+        "op1": "Normal test data",
+        "op2": "Invalid / Erroneous test data",
+        "op3": "Boundary test data",
+        "op4": "Compiled system inputs",
+        "answer": 2
+    },
+    {
+        "sl": 19,
+        "question": "Why is testing with invalid or erroneous data important?",
+        "op1": "To ensure the system crashes immediately",
+        "op2": "To evaluate how robustly the program handles unexpected values and manages errors",
+        "op3": "To increase the compiled executable size on disk",
+        "op4": "To automatically translate assembly language statements",
+        "answer": 2
+    },
+    {
+        "sl": 20,
+        "question": "If testing reveals incorrect execution behaviors, which phase must be started immediately?",
+        "op1": "Problem analysis",
+        "op2": "Debugging",
+        "op3": "Flowchart drawing",
+        "op4": "System formatting",
+        "answer": 2
+    },
+    {
+        "sl": 21,
+        "question": "The dynamic diagnostic process of locating and fixing the cause of bugs is:",
+        "op1": "Testing",
+        "op2": "Debugging",
+        "op3": "Coding",
+        "op4": "Algorithmic notation modeling",
+        "answer": 2
+    },
+    {
+        "sl": 22,
+        "question": "What is the key functional difference between Testing and Debugging?",
+        "op1": "Testing locates the bug; debugging reveals that a bug exists",
+        "op2": "Testing reveals that a bug exists; debugging locates and fixes the root cause of the bug",
+        "op3": "Testing changes the source code; debugging does not modify statements",
+        "op4": "They are identical processes performed by automated compiler tools",
+        "answer": 2
+    },
+    {
+        "sl": 23,
+        "question": "Debugging is typically performed by:",
+        "op1": "Independent beta users who do not know code structure",
+        "op2": "Programmers/developers who understand the active source code",
+        "op3": "Automated system backup programs",
+        "op4": "The physical graphics card hardware",
+        "answer": 2
+    },
+    {
+        "sl": 24,
+        "question": "Which of the following is a common activity during the Debugging phase?",
+        "op1": "Drawing circles inside flowcharts",
+        "op2": "Using print statements or debugger step-tools to trace dynamic memory variable states",
+        "op3": "Drafting the initial requirements specifications document",
+        "op4": "Buying additional secondary storage blocks",
+        "answer": 2
+    },
+    {
+        "sl": 25,
+        "question": "If a debugging process results in structural logic changes, which previous phase must we return to?",
+        "op1": "Flowchart assembly",
+        "op2": "Coding / Code editing",
+        "op3": "Hardware diagnostics",
+        "op4": "Problem identification",
+        "answer": 2
+    },
+    {
+        "sl": 26,
+        "question": "Which of these is the most efficient sequence in the software development lifecycle?",
+        "op1": "Coding -> Testing -> Debugging",
+        "op2": "Testing -> Coding -> Debugging",
+        "op3": "Debugging -> Testing -> Coding",
+        "op4": "Coding -> Debugging -> Testing",
+        "answer": 1
+    },
+    {
+        "sl": 27,
+        "question": "A programmer misspells a Python keyword as 'whlie' instead of 'while'. This causes a:",
+        "op1": "Logical Error",
+        "op2": "Syntax Error",
+        "op3": "Runtime Error",
+        "op4": "Hardware crash",
+        "answer": 2
+    },
+    {
+        "sl": 28,
+        "question": "Which error type violates the grammatical rules of the programming language?",
+        "op1": "Logical Error",
+        "op2": "Syntax Error",
+        "op3": "Runtime Error",
+        "op4": "Sub-system crash",
+        "answer": 2
+    },
+    {
+        "sl": 29,
+        "question": "Syntax errors are typically caught by:",
+        "op1": "The user during beta testing",
+        "op2": "The compiler or interpreter before program execution begins",
+        "op3": "The hard drive controller during backup",
+        "op4": "None of the above",
+        "answer": 2
+    },
+    {
+        "sl": 30,
+        "question": "If a syntax error exists inside a program, what will happen when you try to compile or interpret it?",
+        "op1": "The program runs successfully but prints random outputs",
+        "op2": "The compiler/interpreter fails to translate the file and execution cannot start",
+        "op3": "The operating system automatically deletes the file",
+        "op4": "The program enters an infinite sleep cycle",
+        "answer": 2
+    },
+    {
+        "sl": 31,
+        "question": "Which of the following causes a Syntax Error?",
+        "op1": "Dividing a variable by zero",
+        "op2": "Missing a closing parenthesis in an instruction line",
+        "op3": "Initializing a multiplier variable to 0",
+        "op4": "Trying to open a non-existent file on disk",
+        "answer": 2
+    },
+    {
+        "sl": 32,
+        "question": "What type of error is caused by missing a colon ':' at the end of a Python 'if' statement?",
+        "op1": "Logical Error",
+        "op2": "Syntax Error",
+        "op3": "Runtime Error",
+        "op4": "Dynamic pointer warning",
+        "answer": 2
+    },
+    {
+        "sl": 33,
+        "question": "An error that occurs during active program execution, causing the program to stop abruptly, is a:",
+        "op1": "Syntax Error",
+        "op2": "Runtime Error",
+        "op3": "Logical Error",
+        "op4": "Static compile warning",
+        "answer": 2
+    },
+    {
+        "sl": 34,
+        "question": "Runtime errors are caught and displayed during which phase?",
+        "op1": "Compilation",
+        "op2": "Execution",
+        "op3": "Algorithm design",
+        "op4": "Problem analysis",
+        "answer": 2
+    },
+    {
+        "sl": 35,
+        "question": "Which of the following is a classic example of a Runtime Error?",
+        "op1": "Writing 'prnt()' instead of 'print()'",
+        "op2": "Attempting to divide a number by zero during execution",
+        "op3": "Using '+' instead of '*' to multiply numbers",
+        "op4": "Using incorrect indents in Python",
+        "answer": 2
+    },
+    {
+        "sl": 36,
+        "question": "If you try to access the element at index 10 in a list containing only 3 elements, what error is thrown?",
+        "op1": "Syntax Error",
+        "op2": "Runtime Error",
+        "op3": "Logical Error",
+        "op4": "Structural constraint warning",
+        "answer": 2
+    },
+    {
+        "sl": 37,
+        "question": "A runtime error is commonly referred to in technical terms as an:",
+        "op1": "Algorithm step",
+        "op2": "Exception",
+        "op3": "Unresolved link",
+        "op4": "Asymptotic upper limit",
+        "answer": 2
+    },
+    {
+        "sl": 38,
+        "question": "What occurs when you write a grammatically correct program that runs to completion but outputs incorrect results?",
+        "op1": "Syntax Error",
+        "op2": "Logical / Semantic Error",
+        "op3": "Runtime Error",
+        "op4": "Assembler translation failure",
+        "answer": 2
+    },
+    {
+        "sl": 39,
+        "question": "Which of these errors is generally the HARDEST to detect and resolve?",
+        "op1": "Syntax Error (caught by compiler)",
+        "op2": "Logical / Semantic Error (program runs but gives wrong output)",
+        "op3": "Runtime Error (causes immediate crash with trace message)",
+        "op4": "All are equally easy to identify",
+        "answer": 2
+    },
+    {
+        "sl": 40,
+        "question": "Why cannot compilers or interpreters detect Logical Errors?",
+        "op1": "Because logical errors do not violate any grammatical syntax rules of the language",
+        "op2": "Because logical errors only happen on supercomputers",
+        "op3": "Because logical errors always convert to binary automatically",
+        "op4": "Because logical errors cause the system to shut down immediately",
+        "answer": 1
+    },
+    {
+        "sl": 41,
+        "question": "If a programmer wants to compute simple interest as $(P * R * T) / 100$ but accidentally codes it as $(P * R * T) * 100$, what error is this?",
+        "op1": "Syntax Error",
+        "op2": "Logical Error",
+        "op3": "Runtime Error",
+        "op4": "Compilation exception",
+        "answer": 2
+    },
+    {
+        "sl": 42,
+        "question": "Which error is caused by initializing a product accumulator variable to 0 (which mathematically forces the final answer to be 0)?",
+        "op1": "Syntax Error",
+        "op2": "Logical Error",
+        "op3": "Runtime Error",
+        "op4": "Memory Overflow Exception",
+        "answer": 2
+    },
+    {
+        "sl": 43,
+        "question": "What will happen if you attempt to read from a text file that has been deleted from the hard drive?",
+        "op1": "The compiler generates syntax errors",
+        "op2": "The interpreter throws a Runtime Error (File Not Found Exception)",
+        "op3": "The logic error produces an empty screen output without crash",
+        "op4": "The CPU automatically formats the memory registers",
+        "answer": 2
+    },
+    {
+        "sl": 44,
+        "question": "Which phase of problem-solving is most critical to ensure the correct problem domain is being handled?",
+        "op1": "Coding statement selection",
+        "op2": "Analysing the problem",
+        "op3": "Debugging exceptions",
+        "op4": "Tracing flowchart paths",
+        "answer": 2
+    },
+    {
+        "sl": 45,
+        "question": "Using logical operators like '<' instead of '<=' is an example of what error type?",
+        "op1": "Syntax Error",
+        "op2": "Logical Error",
+        "op3": "Runtime Error",
+        "op4": "Memory allocation warning",
+        "answer": 2
+    },
+    {
+        "sl": 46,
+        "question": "Which system component produces diagnostic stack trace displays during a runtime error?",
+        "op1": "The physical chassis ports",
+        "op2": "The execution environment / interpreter / runtime system",
+        "op3": "The mouse peripheral controller",
+        "op4": "The static flowchart editor",
+        "answer": 2
+    },
+    {
+        "sl": 47,
+        "question": "In the IPO cycle, 'P' stands for Processing. What happens in this phase?",
+        "op1": "Converting user outputs back to requirements",
+        "op2": "Applying computational or logical rules to transform inputs into outputs",
+        "op3": "Saving files into secondary tape backups",
+        "op4": "Formatting high-level keywords",
+        "answer": 2
+    },
+    {
+        "sl": 48,
+        "question": "When testing a software, we should execute it with:",
+        "op1": "Only positive normal numbers",
+        "op2": "A combination of normal, boundary, and invalid/erroneous test cases",
+        "op3": "No test data at all",
+        "op4": "Only blank characters",
+        "answer": 2
+    },
+    {
+        "sl": 49,
+        "question": "A programmer writes the line `x = 5 + \"apple\"` in a Python script. This will cause a:",
+        "op1": "Syntax Error",
+        "op2": "Runtime Error",
+        "op3": "Logical Error",
+        "op4": "File Access Error",
+        "answer": 2
+    },
+    {
+        "sl": 50,
+        "question": "Why is syntax debugging executed before testing begins?",
+        "op1": "Because a program with syntax errors cannot compile or execute, making testing impossible",
+        "op2": "Because testing deletes the syntax errors automatically",
+        "op3": "Because syntax errors are logical errors",
+        "op4": "Because debugging deletes the source code",
+        "answer": 1
+    },
+    {
+        "sl": 51,
+        "question": "The primary role of a programmer during the problem analysis phase is to act as a:",
+        "op1": "Typist of syntax",
+        "op2": "Problem investigator and requirement identifier",
+        "op3": "Linker of libraries",
+        "op4": "Defragmentation utility manager",
+        "answer": 2
+    },
+    {
+        "sl": 52,
+        "question": "In problem analysis, identifying output answers helps us determine:",
+        "op1": "The clock speed of the processor",
+        "op2": "What the user expects to see as the final result",
+        "op3": "How many bytes are inside the registers",
+        "op4": "The physical graphics port type",
+        "answer": 2
+    },
+    {
+        "sl": 53,
+        "question": "An algorithm must be designed such that it avoids:",
+        "op1": "Logical conditional branches",
+        "op2": "Infinite, non-terminating loop cycles",
+        "op3": "Multiple input values",
+        "op4": "English-like pseudocode keywords",
+        "answer": 2
+    },
+    {
+        "sl": 54,
+        "question": "If you write flowchart steps using plain language, you are maintaining which key characteristic of algorithms?",
+        "op1": "Syntax-specific compiler dependency",
+        "op2": "Language Independence",
+        "op3": "Zero input values",
+        "op4": "System register mapping",
+        "answer": 2
+    },
+    {
+        "sl": 55,
+        "question": "What is the primary product generated at the end of the Coding phase?",
+        "op1": "Visual geometric shape charts",
+        "op2": "High-level source code files",
+        "op3": "Requirements specification sheet",
+        "op4": "Physical memory circuit modules",
+        "answer": 2
+    },
+    {
+        "sl": 56,
+        "question": "The active execution of test cases belongs to which phase of the problem-solving cycle?",
+        "op1": "Analysing the problem",
+        "op2": "Testing",
+        "op3": "Debugging",
+        "op4": "Logic design",
+        "answer": 2
+    },
+    {
+        "sl": 57,
+        "question": "Which testing methodology focuses on testing extreme minimum and maximum values of arrays?",
+        "op1": "Standard normal testing",
+        "op2": "Boundary value analysis",
+        "op3": "Invalid parsing",
+        "op4": "Compiler diagnostics",
+        "answer": 2
+    },
+    {
+        "sl": 58,
+        "question": "An input data sequence designed deliberately to violate software inputs is called:",
+        "op1": "Normal input data",
+        "op2": "Invalid/Erroneous test data",
+        "op3": "Optimal trace inputs",
+        "op4": "System registry constants",
+        "answer": 2
+    },
+    {
+        "sl": 59,
+        "question": "If you are debugging a logical error, what parameter do you typically monitor?",
+        "op1": "Cabinet temperature",
+        "op2": "Dynamic values and states of active variables during runtime execution",
+        "op3": "Hard disk spindle frequency",
+        "op4": "Monitor screen refresh rate",
+        "answer": 2
+    },
+    {
+        "sl": 60,
+        "question": "Which of these is a classic tool used by programmers to locate semantic bugs during execution?",
+        "op1": "Standard geometric flowcharts",
+        "op2": "Breakpoints and variable inspection logs inside IDE debuggers",
+        "op3": "Word processing suites",
+        "op4": "Defragmentation systems",
+        "answer": 2
+    },
+    {
+        "sl": 61,
+        "question": "Missing an indentation block in Python code will result in which error type?",
+        "op1": "Runtime Error",
+        "op2": "Syntax Error",
+        "op3": "Logical Error",
+        "op4": "File Access Error",
+        "answer": 2
+    },
+    {
+        "sl": 62,
+        "question": "What happens if a runtime error is encountered in a script that has already run 50% of its lines?",
+        "op1": "The program completes running but prints blank values",
+        "op2": "The program crashes abruptly at the erroneous line, and the remaining 50% is not executed",
+        "op3": "The operating system ignores the error and continues",
+        "op4": "The execution environment deletes the script",
+        "answer": 2
+    },
+    {
+        "sl": 63,
+        "question": "A programmer attempts to load an integer value from a text input box without parsing it. This causes a:",
+        "op1": "Syntax compile-time blocker",
+        "op2": "Runtime Type Exception",
+        "op3": "Logical math error",
+        "op4": "None of the above",
+        "answer": 2
+    },
+    {
+        "sl": 64,
+        "question": "Which phase of problem-solving relies most heavily on user feedback and user manuals?",
+        "op1": "Analysing the problem",
+        "op2": "Testing and validation",
+        "op3": "Debugging low-level variables",
+        "op4": "Assembler link compilation",
+        "answer": 2
+    },
+    {
+        "sl": 65,
+        "question": "What type of error is caused by writing `Area = length + width` instead of `Area = length * width`?",
+        "op1": "Syntax Error",
+        "op2": "Logical Error",
+        "op3": "Runtime Error",
+        "op4": "Indentation Error",
+        "answer": 2
+    },
+    {
+        "sl": 66,
+        "question": "In coding, why is it recommended to use descriptive variable names like `total_price` instead of `x`?",
+        "op1": "Descriptive names run faster on computer processors",
+        "op2": "Descriptive names improve the logical readability of code, making debugging easier",
+        "op3": "They reduce compile-time size",
+        "op4": "They avoid physical hardware crashes",
+        "answer": 2
+    },
+    {
+        "sl": 67,
+        "question": "An exception trace shown on a terminal screen contains details about:",
+        "op1": "All logic flowchart parameters",
+        "op2": "The line number and error type that caused the runtime crash",
+        "op3": "The brand of the computer processor",
+        "op4": "The total file size of library packages",
+        "answer": 2
+    },
+    {
+        "sl": 68,
+        "question": "Which testing strategy involves verifying software execution with boundary values?",
+        "op1": "Stress Testing",
+        "op2": "Boundary Value Analysis",
+        "op3": "Random Fuzzing",
+        "op4": "Syntax Scanning",
+        "answer": 2
+    },
+    {
+        "sl": 69,
+        "question": "Which process involves actively tracking and documenting user bugs reported after software release?",
+        "op1": "Initial Problem Analysis",
+        "op2": "Maintenance and Bug Tracking (Debugging post-release)",
+        "op3": "Flowchart assembly",
+        "op4": "Assembler compilation",
+        "answer": 2
+    },
+    {
+        "sl": 70,
+        "question": "If a syntax error occurs in a compiled language like C++, what is generated by the compiler?",
+        "op1": "A fast executable binary file",
+        "op2": "No executable file is generated; compilation fails",
+        "op3": "A corrupted binary file",
+        "op4": "An automatic bug-fixing patch",
+        "answer": 2
+    },
+    {
+        "sl": 71,
+        "question": "The translation of an algorithm to a program code is also referred to as:",
+        "op1": "Compilation",
+        "op2": "Implementation / Coding",
+        "op3": "Testing",
+        "op4": "Debugging",
+        "answer": 2
+    },
+    {
+        "sl": 72,
+        "question": "What does a programmer do first in the 'Analysing the Problem' phase?",
+        "op1": "Write comment lines in the IDE",
+        "op2": "Read and understand the problem statement or client requirements",
+        "op3": "Trace memory variables using breakpoints",
+        "op4": "Draw diamond symbols",
+        "answer": 2
+    },
+    {
+        "sl": 73,
+        "question": "Which of the following is true regarding logical errors?",
+        "op1": "They cause the program to crash abruptly during compile-time",
+        "op2": "They allow execution to complete without crash, but produce incorrect answers",
+        "op3": "They are automatically corrected by Python interpreters",
+        "op4": "They represent syntax violations of loop statements",
+        "answer": 2
+    },
+    {
+        "sl": 74,
+        "question": "Which of the following is an example of an input parameter in a problem-solving system?",
+        "op1": "The calculated simple interest amount",
+        "op2": "The principal amount entered by the user",
+        "op3": "The printed output document",
+        "op4": "The debugger breakpoints list",
+        "answer": 2
+    },
+    {
+        "sl": 75,
+        "question": "If you misspell a variable name in a dynamically-typed script during execution, this typically causes a:",
+        "op1": "Syntax compile block",
+        "op2": "Runtime Name Error Exception",
+        "op3": "Logical arithmetic calculation offset",
+        "op4": "None of the above",
+        "answer": 2
+    },
+    {
+        "sl": 76,
+        "question": "The verification of code with normal inputs is designed to establish:",
+        "op1": "That the code handles garbage values cleanly",
+        "op2": "That the code functions correctly under typical, day-to-day scenarios",
+        "op3": "That the program executes in zero seconds",
+        "op4": "That there are no compiler units required",
+        "answer": 2
+    },
+    {
+        "sl": 77,
+        "question": "Which type of programming error is also referred to as a 'semantic error'?",
+        "op1": "Syntax Error",
+        "op2": "Logical Error",
+        "op3": "Runtime Error",
+        "op4": "Hardware access violation",
+        "answer": 2
+    },
+    {
+        "sl": 78,
+        "question": "Which problem-solving phase involves determining the system's storage and hardware platform limitations?",
+        "op1": "Coding statement planning",
+        "op2": "Problem Analysis (Defining Constraints)",
+        "op3": "Syntax compilation",
+        "op4": "System defragmentation",
+        "answer": 2
+    },
+    {
+        "sl": 79,
+        "question": "In flowcharts, processing calculations are represented in rectangles. If you write `x = y / 0` inside a rectangle, compiling it will cause a:",
+        "op1": "Flowchart geometric shape error",
+        "op2": "Runtime Division By Zero Error during execution",
+        "op3": "Logical addition offset",
+        "op4": "Zero file size exception",
+        "answer": 2
+    },
+    {
+        "sl": 80,
+        "question": "When debugging, if you want execution to pause at a specific line of code to inspect active variable values, you set a:",
+        "op1": "Syntax marker",
+        "op2": "Breakpoint",
+        "op3": "Loop label",
+        "op4": "Flow arrow",
+        "answer": 2
+    },
+    {
+        "sl": 81,
+        "question": "Which of the following is true about error tracking?",
+        "op1": "Testing locates errors, coding compiles them, and debugging designs them",
+        "op2": "Testing discovers errors, debugging locates and fixes them, and coding represents the syntax",
+        "op3": "Problem analysis codes errors, testing runs them, and debugging deletes them",
+        "op4": "All process stages do the same work",
+        "answer": 2
+    },
+    {
+        "sl": 82,
+        "question": "What is the typical output of the testing phase?",
+        "op1": "Flowchart schemas",
+        "op2": "Test reports detailing passed and failed test cases",
+        "op3": "User manuals",
+        "op4": "System backup files",
+        "answer": 2
+    },
+    {
+        "sl": 83,
+        "question": "The grammatical syntax rules of a programming language are defined by its:",
+        "op1": "Processor speed",
+        "op2": "Grammar / Syntax specifications",
+        "op3": "Flowchart logic structures",
+        "op4": "Standard input constraints",
+        "answer": 2
+    },
+    {
+        "sl": 84,
+        "question": "Attempting to perform mathematical calculations on non-numeric parameters inside execution loop cycles causes a:",
+        "op1": "Syntax Error",
+        "op2": "Runtime Type Exception",
+        "op3": "Logical calculation offset",
+        "op4": "File Access Error",
+        "answer": 2
+    },
+    {
+        "sl": 85,
+        "question": "An algorithm must be constructed as a finite sequence. This means:",
+        "op1": "The algorithm must use a finite number of variables",
+        "op2": "The algorithm must terminate and stop execution after a finite count of steps",
+        "op3": "The algorithm must be written in binary bits",
+        "op4": "The algorithm has zero outputs",
+        "answer": 2
+    },
+    {
+        "sl": 86,
+        "question": "Why is logical verification harder to automate than syntax checking?",
+        "op1": "Syntax check follows concrete, rigid rules, whereas logical correctness depends on the specific real-world problem goals",
+        "op2": "Logical checkers require more graphics memory",
+        "op3": "Logical errors only happen in Python scripts",
+        "op4": "Syntax checks are written in machine binary",
+        "answer": 1
+    },
+    {
+        "sl": 87,
+        "question": "If you write the instruction `print(\"Hello)` (missing the closing quotation mark), what error occurs?",
+        "op1": "Runtime Error",
+        "op2": "Syntax Error",
+        "op3": "Logical Error",
+        "op4": "Indentation Warning",
+        "answer": 2
+    },
+    {
+        "sl": 88,
+        "question": "A runtime exception like 'IndexError' inside arrays can be prevented by:",
+        "op1": "Upgrading the system RAM",
+        "op2": "Adding input range checks and validations in code before accessing indexes",
+        "op3": "Using compiler tools instead of interpreters",
+        "op4": "Deleting the array variables",
+        "answer": 2
+    },
+    {
+        "sl": 89,
+        "question": "In the IPO cycle model, raw facts and figures supplied to the system represent:",
+        "op1": "Processes",
+        "op2": "Input",
+        "op3": "Output",
+        "op4": "Exceptions",
+        "answer": 2
+    },
+    {
+        "sl": 90,
+        "question": "In the IPO cycle model, processed, organized, and useful results represent:",
+        "op1": "Inputs",
+        "op2": "Output",
+        "op3": "Processes",
+        "op4": "Exceptions",
+        "answer": 2
+    },
+    {
+        "sl": 91,
+        "question": "A programmer is writing code to calculate average marks of 5 students. He writes `Average = Sum / 6`. This results in a:",
+        "op1": "Syntax Error",
+        "op2": "Logical Error",
+        "op3": "Runtime Error",
+        "op4": "Indentation exception",
+        "answer": 2
+    },
+    {
+        "sl": 92,
+        "question": "Which of these errors will cause an active script execution to halt immediately?",
+        "op1": "Logical calculation offsets",
+        "op2": "Runtime DivisionByZero error",
+        "op3": "Unused variables warning",
+        "op4": "Excess comment lines",
+        "answer": 2
+    },
+    {
+        "sl": 93,
+        "question": "What process is designed to iteratively reduce the number of bugs in a software before release?",
+        "op1": "Initial planning",
+        "op2": "Testing and Debugging cycles",
+        "op3": "Assembler translation",
+        "op4": "Hardware backup scheduling",
+        "answer": 2
+    },
+    {
+        "sl": 94,
+        "question": "Syntax warnings and errors are displayed by compilers/interpreters with details about:",
+        "op1": "The logical solution flowchart",
+        "op2": "The specific line number where the grammatical violation was detected",
+        "op3": "The maximum data size of RAM",
+        "op4": "The physical monitor connector standards",
+        "answer": 2
+    },
+    {
+        "sl": 95,
+        "question": "Why are boundary value test cases highly effective at locating bugs?",
+        "op1": "They are easier to type into keyboards",
+        "op2": "Logical slips (such as using '<' instead of '<=') are most prominently exposed at these transition thresholds",
+        "op3": "Boundary values run faster",
+        "op4": "They do not consume dynamic RAM",
+        "answer": 2
+    },
+    {
+        "sl": 96,
+        "question": "Which phase of problem-solving involves translating logical flowcharts or pseudocode into programming languages?",
+        "op1": "Problem Identification",
+        "op2": "Coding",
+        "op3": "Testing",
+        "op4": "Debugging",
+        "answer": 2
+    },
+    {
+        "sl": 97,
+        "question": "An exception during execution is a clear indicator of which error type?",
+        "op1": "Syntax violation",
+        "op2": "Runtime Exception",
+        "op3": "Logical calculation offset",
+        "op4": "Assembler link failure",
+        "answer": 2
+    },
+    {
+        "sl": 98,
+        "question": "If a user reports that a calculator software calculates $2 * 3 = 5$, what error has occurred?",
+        "op1": "Syntax Error",
+        "op2": "Logical Error (addition logic used instead of multiplication)",
+        "op3": "Runtime Error",
+        "op4": "Type Error Exception",
+        "answer": 2
+    },
+    {
+        "sl": 99,
+        "question": "Which problem-solving activity focuses on fixing identified software bugs?",
+        "op1": "Requirements analysis",
+        "op2": "Debugging",
+        "op3": "Testing",
+        "op4": "Flowchart design",
+        "answer": 2
+    },
+    {
+        "sl": 100,
+        "question": "The ultimate goal of systematic computer-based problem-solving is to:",
+        "op1": "Compile software in zero seconds",
+        "op2": "Create a reliable, error-free, and effective programmatic solution for a given problem",
+        "op3": "Maximize memory usage of physical CPU cores",
+        "op4": "Generate complex flowchart schemas",
+        "answer": 2
+    }
+]
