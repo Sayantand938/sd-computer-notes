@@ -259,3 +259,34 @@ button:hover {
   min-height: 100vh;
   min-height: 100dvh;
 }
+
+/* KaTeX overrides for better integration */
+.katex {
+  font-size: 1.1em;
+  font-weight: 500 !important;
+}
+
+.katex-display {
+  margin: 1.5em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+}
+
+.katex-display>.katex {
+  font-size: 1.2em;
+}
+
+/* Ensure inline math has proper spacing */
+.katex-inline {
+  padding: 0 0.1em;
+}
+
+/* Dark/light mode compatibility for KaTeX */
+.katex .mathnormal {
+  font-style: italic;
+}
+
+.katex .mord {
+  font-weight: 500;
+}

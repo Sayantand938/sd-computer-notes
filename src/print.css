@@ -203,3 +203,13 @@
         height: auto !important;
     }
 }
+
+/* KaTeX print styles */
+.katex-display {
+    page-break-inside: avoid;
+    margin: 1.5rem 0 !important;
+}
+
+.katex {
+    color: black !important;
+}
